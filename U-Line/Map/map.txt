@@ -1,0 +1,75 @@
+BveTs Map 2.02:UTF-8
+
+// 神戸市営地下鉄 西神・山手線 西神中央→谷上
+
+// 名谷始点
+$MYODANI_START = 10000;
+
+0;	// 初期設定
+	Curve.SetGauge(1.435);
+	Curve.SetFunction(0);
+	Station.Load('..\LOCAL_S17-S01.csv');
+	Structure.Load('..\Structure\structure-list.csv');
+	Structure['rail-ballast'].Put0('0', 0, 1);
+
+$MYODANI_START - 1000;	// [S17] 西神中央停車場 中心
+$MYODANI_START - 1000;	// [S17] 6R 出発
+$MYODANI_START - 1000;	// 第4閉塞
+$MYODANI_START - 1000;	// 第3閉塞
+$MYODANI_START - 1000;	// 第2閉塞
+$MYODANI_START - 1000;	// 第1閉塞
+$MYODANI_START - 1000;	// [S16] 西神南 停留場中心
+$MYODANI_START - 1000;	// 第5閉塞
+$MYODANI_START - 1000;	// 第4閉塞
+$MYODANI_START - 1000;	// 第3閉塞
+$MYODANI_START - 1000;	// 第2閉塞
+$MYODANI_START - 1000;	// 第1閉塞
+$MYODANI_START - 1000;	// [S15] 伊川谷 停留場中心
+$MYODANI_START - 1000;	// 第4閉塞
+$MYODANI_START - 1000;	// 第3閉塞
+$MYODANI_START - 1000;	// 第2閉塞
+$MYODANI_START - 1000;	// 第1閉塞
+$MYODANI_START - 1000;	// [S14] 1R 場内
+$MYODANI_START - 1000;	// [S14] 学園都市 停車場中心
+$MYODANI_START - 1000;	// [S14] 3R 出発
+$MYODANI_START - 1000;	// 第4閉塞
+$MYODANI_START - 1000;	// 第3閉塞
+$MYODANI_START - 1000;	// 第2閉塞
+$MYODANI_START - 1000;	// 第1閉塞
+$MYODANI_START - 1000;	// [S13] 総合運動公園 停留場中心
+$MYODANI_START - 1000;	// 第4閉塞
+$MYODANI_START - 1000;	// 第3閉塞
+$MYODANI_START - 1000;	// 第2閉塞
+$MYODANI_START - 1000;	// 第1閉塞
+$MYODANI_START - 1000;	// [S12] 1R 場内
+$MYODANI_START;			// 名谷始点 ↑西神延伸線 ↓西神線
+$MYODANI_START + 100;	// [S12] 名谷 停車場中心
+$MYODANI_START + 1000;	// [S12] 5R 出発
+$MYODANI_START + 1000;	// 第4閉塞
+$MYODANI_START + 1000;	// 第3閉塞
+$MYODANI_START + 1000;	// 第2閉塞
+$MYODANI_START + 1000;	// 第1閉塞
+$MYODANI_START + 100;	// [S11] 妙法寺 停留場中心
+$MYODANI_START + 1000;	// 第9閉塞
+$MYODANI_START + 1000;	// 第8閉塞
+$MYODANI_START + 1000;	// 第7閉塞
+$MYODANI_START + 1000;	// 第6閉塞
+$MYODANI_START + 1000;	// 第5閉塞
+$MYODANI_START + 1000;	// 第4閉塞
+$MYODANI_START + 1000;	// 第3閉塞
+$MYODANI_START + 1000;	// 第2閉塞
+$MYODANI_START + 1000;	// 第1閉塞
+$MYODANI_START + 100;	// [S10] 板宿 停留場中心
+$MYODANI_START + 1000;	// 第3閉塞
+$MYODANI_START + 1000;	// 第2閉塞
+$MYODANI_START + 1000;	// 第1閉塞
+$MYODANI_START - 1000;	// [S09] 1R 場内
+$MYODANI_START + 100;	// [S09] 新長田 停車場中心 ↑西神線 ↓山手線
+$MYODANI_START + 100;	// [S08] 長田 停留場中心
+$MYODANI_START + 100;	// [S07] 上沢 停留場中心
+$MYODANI_START + 100;	// [S06] 湊川公園 停留場中心
+$MYODANI_START + 100;	// [S05] 大倉山 停車場中心
+$MYODANI_START + 100;	// [S04] 県庁前 停留場中心
+$MYODANI_START + 100;	// [S03] 三宮 停留場中心
+$MYODANI_START + 100;	// [S02] 新神戸 停車場中心 ↑山手線 ↓北神線
+$MYODANI_START + 100;	// [S01] 谷上 停車場中心
