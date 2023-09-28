@@ -51,24 +51,30 @@ $MYODANI_START - 1630;	// [S13] 総合運動公園 停止位置
 $MYODANI_START - 1610;	// [S13] 総合運動公園 ホーム終端
     Repeater['S13_Platform'].End();
     Repeater['S13_Platform_extra'].End();
-    Track['WestMainLine'].Position(12, 0);
+    Track['WestMainLine'].Position(11, 0);
     Curve.BeginTransition();
 $MYODANI_START - 1600;	// 第4閉塞
 $MYODANI_START - 1590;	// 市の子隧道終端
-    Repeater['ichinoko_tunnel'].Begin0(0, 3, 1, 4, 'ichinoko_tunnel');
+    Repeater['ichinoko_tunnel-e'].Begin0(0, 3, 1, 4, 'ichinoko_tunnel-e');
+    Repeater['ichinoko_tunnel-w'].Begin0('WestMainLine', 3, 1, 4, 'ichinoko_tunnel-w');
 $MYODANI_START - 1560;
     Curve.Begin(350);
 $MYODANI_START - 1512;	// 市の子隧道終端
-    Repeater['ichinoko_tunnel'].End();
+    Repeater['ichinoko_tunnel-e'].End();
+    Repeater['ichinoko_tunnel-w'].End();
     Track['WestMainLine'].Position(6.5, 0);
 $MYODANI_START - 1510;
     Curve.BeginTransition();
 $MYODANI_START - 1505; // 橋梁終端
-    Repeater['ichinoko_bridge'].Begin0(0, 3, 1, 2, 'ichinoko_bridge');
+    Repeater['ichinoko_bridge-e'].Begin0(0, 3, 1, 2, 'ichinoko_bridge-e');
+    Repeater['ichinoko_bridge-w'].Begin0('WestMainLine', 3, 1, 2, 'ichinoko_bridge-w');
+$MYODANI_START - 1450;
+    Track['WestMainLine'].Position(3.5, 0);
 $MYODANI_START - 1310;
     Curve.Begin(-400);
 $MYODANI_START - 1280; // 橋梁終端
-    Repeater['ichinoko_bridge'].End();
+    Repeater['ichinoko_bridge-e'].End();
+    Repeater['ichinoko_bridge-w'].End();
 $MYODANI_START - 1210;
     Curve.BeginTransition();
 $MYODANI_START - 1160;
