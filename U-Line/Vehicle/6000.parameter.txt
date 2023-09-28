@@ -1,0 +1,21 @@
+BveTs Vehicle Parameters 2.01:UTF-8
+
+[Cab]
+BrakeNotchCount=7
+PowerNotchCount=4
+HoldingSpeedNotchCount=3
+HoldingSpeedBrake=false
+
+[PowerReAdhesion]
+
+[Ecb]
+
+[Dynamics]
+MotorcarWeight=33.0
+TrailerWeight=28.1
+MotorcarCount=3
+TrailerCount=3
+CarLength=19
+
+[Passengers]
+Capacity=134

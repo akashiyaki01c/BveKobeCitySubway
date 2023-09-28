@@ -1,7 +1,7 @@
 BveTs Vehicle 2.00:UTF-8
 
 PerformanceCurve = 
-Parameters =
+Parameters = ./6000.parameter.txt
 Panel = 
 Sound =
 Ats64 =
