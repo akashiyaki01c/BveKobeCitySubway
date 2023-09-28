@@ -1,6 +1,6 @@
 BveTs Vehicle 2.00:UTF-8
 
-PerformanceCurve = ./curve.txt
+PerformanceCurve = 
 Parameters = ./parameter.txt
 Panel = 
 Sound =

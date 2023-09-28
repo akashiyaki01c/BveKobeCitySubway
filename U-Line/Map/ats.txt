@@ -1,69 +1,104 @@
 BveTs Map 2.02:UTF-8
 
-// 神戸市営地下鉄 西神・山手線 西神中央→谷上
-
-// 名谷始点
-$MYODANI_START = 10000;
-
 0;	// 初期設定
-	Curve.SetGauge(1.435);
-	Curve.SetFunction(0);
-	Station.Load('..\Station\LOCAL_S17_S01.csv');
-	Structure.Load('..\Structure\structure-list.csv');
-    Repeater['ForEastMainLine'].Begin0(0, 3, 1, 2, 'rail-ballast');
+	// 0:0km/h	1:15km/h	2:25km/h	3:45km/h	4:60km/h	5:75km/h	6:90km/h
+	Section.SetSpeedLimit(0,15,25,45,60,75,90);
 
 $MYODANI_START - 1000;	// [S17] 西神中央停車場 中心
 $MYODANI_START - 1000;	// [S17] 6R 出発
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第4閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第3閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第2閉塞
-$MYODANI_START - 1000;	// 第1閉塞
+	Section.Begin(0,2,3,5,6);
+$MYODANI_START - 6800;	// 第1閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// [S16] 西神南 停留場中心
 $MYODANI_START - 1000;	// 第5閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第4閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第3閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第2閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第1閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// [S15] 伊川谷 停留場中心
 $MYODANI_START - 1000;	// 第4閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第3閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第2閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第1閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START - 1000;	// [S14] 1R 場内
+	Section.Begin(0,2,3,4);
 $MYODANI_START - 1000;	// [S14] 学園都市 停車場中心
 $MYODANI_START - 1000;	// [S14] 3R 出発
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第4閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第3閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第2閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第1閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START - 1000;	// [S13] 総合運動公園 停留場中心
 $MYODANI_START - 1000;	// 第4閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START - 1000;	// 第3閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第2閉塞
+	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 1000;	// 第1閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START - 1000;	// [S12] 1R 場内
+	Section.Begin(0,2,3,5);
 $MYODANI_START;			// 名谷始点 ↑西神延伸線 ↓西神線
 $MYODANI_START + 100;	// [S12] 名谷 停車場中心
 $MYODANI_START + 1000;	// [S12] 5R 出発
+	Section.Begin(0,2,3);
 $MYODANI_START + 1000;	// 第4閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START + 1000;	// 第3閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START + 1000;	// 第2閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START + 1000;	// 第1閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START + 100;	// [S11] 妙法寺 停留場中心
 $MYODANI_START + 1000;	// 第9閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START + 1000;	// 第8閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START + 1000;	// 第7閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START + 1000;	// 第6閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START + 1000;	// 第5閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START + 1000;	// 第4閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START + 1000;	// 第3閉塞
+	Section.Begin(0,2,3,5);
 $MYODANI_START + 1000;	// 第2閉塞
+	Section.Begin(0,2,3,4);
 $MYODANI_START + 1000;	// 第1閉塞
+	Section.Begin(0,2,3,4);
 $MYODANI_START + 100;	// [S10] 板宿 停留場中心
 $MYODANI_START + 1000;	// 第3閉塞
+	Section.Begin(0,2,3,4);
 $MYODANI_START + 1000;	// 第2閉塞
+	Section.Begin(0,2,3,4);
 $MYODANI_START + 1000;	// 第1閉塞
+	Section.Begin(0,2,3,4);
 $MYODANI_START - 1000;	// [S09] 1R 場内
+	Section.Begin(0,2,3,4);
 $MYODANI_START + 100;	// [S09] 新長田 停車場中心 ↑西神線 ↓山手線
 $MYODANI_START + 100;	// [S08] 長田 停留場中心
 $MYODANI_START + 100;	// [S07] 上沢 停留場中心

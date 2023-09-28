@@ -2,8 +2,8 @@ BveTs Scenario 2.00:UTF-8
 Title = 西神・山手線 西神中央→谷上
 Route = ./U-Line/Map/map.txt
 RouteTitle = 神戸市営地下鉄西神・山手線
-Vehicle = ./U-Line/Vehicle/6000/vehicle.txt
-VehicleTitle = 神戸市営地下鉄 6000形
-Author = Xifire
+Vehicle = ./FWCH/hankyu8000_8300/Vehicle/8003F_K1104A.txt
+VehicleTitle = 阪急 8000系 (仮)
+Author = Xifire / FWCHさん
 Image =
 Comment = 運用番号01 西神中央12:08発
