@@ -1,0 +1,15 @@
+[Power]
+Force=./powerForce.csv
+MaxForce=./powerForce.csv
+Current=./powerForce.csv
+MaxCurrent=./powerForce.csv
+NoLoadCurrent=./powerForce.csv
+Params=./powerForce.csv
+
+[Brake]
+Force=./powerForce.csv
+MaxForce=./powerForce.csv
+Current=./powerForce.csv
+MaxCurrent=./powerForce.csv
+NoLoadCurrent=./powerForce.csv
+Params=./powerForce.csv

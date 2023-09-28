@@ -1,8 +1,8 @@
 BveTs Scenario 2.00:UTF-8
 Title = 西神・山手線 西神中央→谷上
-Route = 
+Route = ./U-Line/Map/map.txt
 RouteTitle = 神戸市営地下鉄西神・山手線
-Vehicle = 
+Vehicle = ./U-Line/Vehicle/6000/vehicle.txt
 VehicleTitle = 神戸市営地下鉄 6000形
 Author = Xifire
 Image =
