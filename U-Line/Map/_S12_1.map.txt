@@ -2,7 +2,7 @@ BveTs Map 2.02:UTF-8
 
 // 名谷①発着シナリオ
 
-$MYODANI_START - 300;
+$MYODANI_START - 630;
     Track['S12_Track2'].X.Interpolate(4.5, 0); // 名谷2番線
     Repeater['S12_Track2'].Begin('S12_Track2', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
 

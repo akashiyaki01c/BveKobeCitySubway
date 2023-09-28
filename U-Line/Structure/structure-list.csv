@@ -4,3 +4,6 @@ rail-ballast,	./ballast.x
 S13_platform,   ./S13_platform.x
 S13_platform_extra,   ./S13_platform_Extra.x
 S12_platform,   ./S12_platform.x
+
+ichinoko_tunnel,   ./ichinoko_tunnel.x
+ichinoko_bridge,   ./ichinoko_bridge.x
