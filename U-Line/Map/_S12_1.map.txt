@@ -25,7 +25,7 @@ $MYODANI_START - 110;
 $MYODANI_START - 100;
 	Track['S12_Track2'].X.Interpolate(6.5, 0);
 	Track['S12_Track3'].X.Interpolate(10, 0);
-$MYODANI_START + 155
+$MYODANI_START + 155;
 $MYODANI_START + 240;
 	Curve.BeginTransition();
 $MYODANI_START + 290;
