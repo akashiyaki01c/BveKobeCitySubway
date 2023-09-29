@@ -54,6 +54,7 @@ $MYODANI_START - 1610;	// [S13] 総合運動公園 ホーム終端
     Track['WestMainLine'].Position(11, 0);
     Curve.BeginTransition();
 $MYODANI_START - 1600;	// 第4閉塞
+	Structure['section_4'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 1590;	// 市の子隧道始端
     Repeater['ichinoko_tunnel-e'].Begin0(0, 3, 1, 4, 'ichinoko_tunnel-e');
     Repeater['ichinoko_tunnel-w'].Begin0('WestMainLine', 3, 1, 4, 'ichinoko_tunnel-w');
@@ -80,10 +81,13 @@ $MYODANI_START - 1210;
 $MYODANI_START - 1160;
     Curve.End();
 $MYODANI_START - 1260;	// 第3閉塞
+	Structure['section_3'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 930;	// 第2閉塞
+	Structure['section_2'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 735;	// 名谷陸橋始端
 $MYODANI_START - 680;	// 名谷陸橋終端
 $MYODANI_START - 630;	// 第1閉塞
+	Structure['section_1'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 380;	// [S12] 1R 場内
 $MYODANI_START;			// 名谷始点
 $MYODANI_START + 18;	// [S12] ホーム始端
