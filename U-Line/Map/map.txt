@@ -81,6 +81,8 @@ $MYODANI_START - 1280; // 市の子橋梁終端
 $MYODANI_START - 1210; // 上下分離点
     Curve.BeginTransition();
     Track['WestMainLine'].Y.Interpolate(0);
+$MYODANI_START - 1210 + 12.5;
+	Repeater['myodani_bridge'].Begin0('WestMainLine',1,0,25,'myodani_bridge');
 $MYODANI_START - 1160;
     Curve.End();
     Track['WestMainLine'].X.Interpolate(7.5);

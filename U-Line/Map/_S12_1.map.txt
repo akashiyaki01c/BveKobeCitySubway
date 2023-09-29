@@ -12,6 +12,8 @@ $MYODANI_START - 630;
 	Track['WestMainLine'].X.Interpolate(14.5); // 名谷④
 $MYODANI_START - 272;
     Track['WestMainLine'].Y.Interpolate(0);
+$MYODANI_START - 272 - 12.5;
+	Repeater['myodani_bridge'].End();
 $MYODANI_START - 180;
 	Track['S12_Track2'].X.Interpolate(6, 0);
 	Track['S12_Track3'].X.Interpolate(10, 0);
