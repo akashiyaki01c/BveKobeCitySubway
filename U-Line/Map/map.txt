@@ -41,6 +41,7 @@ $MYODANI_START - 1000;	// 第4閉塞
 $MYODANI_START - 1000;	// 第3閉塞
 $MYODANI_START - 1000;	// 第2閉塞
 $MYODANI_START - 1000;	// 第1閉塞
+$MYODANI_START - 1800;	// 湯屋谷隧道 終端
 $MYODANI_START - 1780;	// [S13] 総合運動公園 ホーム始端
     Track['WestMainLine'].Position(12, 0);
     Repeater['S13_Platform'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 1, 'S13_platform');
@@ -125,11 +126,39 @@ $MYODANI_START + 1000;	// 第2閉塞
 $MYODANI_START + 1000;	// 第1閉塞
 $MYODANI_START + 1000;	// [S09] 1R 場内
 $MYODANI_START + 100;	// [S09] 新長田 停車場中心 ↑西神線 ↓山手線
+$MYODANI_START + 1000;	// 第4閉塞
+$MYODANI_START + 1000;	// 第3閉塞
+$MYODANI_START + 1000;	// 第2閉塞
+$MYODANI_START + 1000;	// 第1閉塞
 $MYODANI_START + 100;	// [S08] 長田 停留場中心
+$MYODANI_START + 1000;	// 第3閉塞
+$MYODANI_START + 1000;	// 第2閉塞
+$MYODANI_START + 1000;	// 第1閉塞
 $MYODANI_START + 100;	// [S07] 上沢 停留場中心
+$MYODANI_START + 1000;	// 第4閉塞
+$MYODANI_START + 1000;	// 第3閉塞
+$MYODANI_START + 1000;	// 第2閉塞
+$MYODANI_START + 1000;	// 第1閉塞
 $MYODANI_START + 100;	// [S06] 湊川公園 停留場中心
+$MYODANI_START + 1000;	// 第2閉塞
+$MYODANI_START + 1000;	// 第1閉塞
+$MYODANI_START + 1000;	// [S05] 1R 場内
 $MYODANI_START + 100;	// [S05] 大倉山 停車場中心
+$MYODANI_START + 1000;	// [S05] 3R 出発
+$MYODANI_START + 1000;	// 第4閉塞
+$MYODANI_START + 1000;	// 第3閉塞
+$MYODANI_START + 1000;	// 第2閉塞
+$MYODANI_START + 1000;	// 第1閉塞
 $MYODANI_START + 100;	// [S04] 県庁前 停留場中心
+$MYODANI_START + 1000;	// 第4閉塞
+$MYODANI_START + 1000;	// 第3閉塞
+$MYODANI_START + 1000;	// 第2閉塞
+$MYODANI_START + 1000;	// 第1閉塞
 $MYODANI_START + 100;	// [S03] 三宮 停留場中心
+$MYODANI_START + 1000;	// 第4閉塞
+$MYODANI_START + 1000;	// 第3閉塞
+$MYODANI_START + 1000;	// 第2閉塞
+$MYODANI_START + 1000;	// 第1閉塞
+$MYODANI_START + 1000;	// [S02] 3R 場内
 $MYODANI_START + 100;	// [S02] 新神戸 停車場中心 ↑山手線 ↓北神線
 $MYODANI_START + 100;	// [S01] 谷上 停車場中心
