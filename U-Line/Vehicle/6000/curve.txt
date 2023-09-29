@@ -1,15 +1,9 @@
 [Power]
-Force=./powerForce.csv
-MaxForce=./powerForce.csv
-Current=./powerForce.csv
-MaxCurrent=./powerForce.csv
-NoLoadCurrent=./powerForce.csv
-Params=./powerForce.csv
+Force=./PerformanceCurve/powerForce.csv
+MaxForce=./PerformanceCurve/poewrMaxForce.csv
+Current=./PerformanceCurve/powerCurrent.csv
+MaxCurrent=./PerformanceCurve/powerMaxCurrent.csv
+NoLoadCurrent=./PerformanceCurve/poewrNoLoadCurrent.csv
+Params=./PerformanceCurve/powerParams.csv
 
 [Brake]
-Force=./powerForce.csv
-MaxForce=./powerForce.csv
-Current=./powerForce.csv
-MaxCurrent=./powerForce.csv
-NoLoadCurrent=./powerForce.csv
-Params=./powerForce.csv
