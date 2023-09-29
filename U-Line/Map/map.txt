@@ -80,6 +80,7 @@ $MYODANI_START - 1280; // 市の子橋梁終端
     Track['WestMainLine'].Position(3.5, 0);
     Repeater['ichinoko_bridge-e'].End();
     Repeater['ichinoko_bridge-w'].End();
+	Repeater['floor2'].Begin0('0',3,0,1,'floor');
 $MYODANI_START - 1210; // 上下分離点
     Curve.BeginTransition();
     Track['WestMainLine'].Y.Interpolate(0);
@@ -93,9 +94,11 @@ $MYODANI_START - 1260;	// 第3閉塞
 $MYODANI_START - 930;	// 第2閉塞
 	Structure['section_2'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 735;	// 名谷陸橋始端
+	Repeater['floor2'].End();
 $MYODANI_START - 680;	// 名谷陸橋終端
     Track['WestMainLine'].X.Interpolate(14.5);
     Curve.BeginTransition();
+	Repeater['floor3'].Begin0('0',3,0,1,'floor');
 $MYODANI_START - 640;
     Curve.Begin(-2000);
     Curve.BeginTransition();
@@ -115,6 +118,7 @@ $MYODANI_START + 155;	// [S12] 名谷 停止位置
     Station['S12'].Put(1, -0.7, 0.7);
 $MYODANI_START + 180;	// [S12] ホーム終端
 $MYODANI_START + 300;	// 落合隧道 始端
+	Repeater['floor3'].End();
 	Repeater['ochiai_tunnel'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 5, 'sangaku_tunnel');
 $MYODANI_START + 1000;	// [S12] 5R 出発
 $MYODANI_START + 1000;	// 第4閉塞
