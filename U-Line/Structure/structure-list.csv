@@ -1,13 +1,13 @@
 BveTs Structure List 2.00:UTF-8
 rail-ballast,	./ballast.x
 
-S13_platform,   ./S13_platform.x
-S13_platform_extra,   ./S13_platform_Extra.x
-S12_platform,   ./S12_platform.x
+S13_platform,	./S13_platform.x
+S13_platform_extra,	./S13_platform_Extra.x
+S12_platform,	./S12_platform.x
 
 sangaku_tunnel,	sangaku_tunnel.x
 
-ichinoko_tunnel-e, ./ichinoko_tunnel-e.x
-ichinoko_tunnel-w, ./ichinoko_tunnel-w.x
-ichinoko_bridge-e,   ./ichinoko_bridge.x
-ichinoko_bridge-w,   ./ichinoko_bridge-w.x
+ichinoko_tunnel-e,	./ichinoko_tunnel-e.x
+ichinoko_tunnel-w,	./ichinoko_tunnel-w.x
+ichinoko_bridge-e,	./ichinoko_bridge.x
+ichinoko_bridge-w,	./ichinoko_bridge-w.x
