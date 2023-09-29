@@ -11,6 +11,7 @@ ichinoko_tunnel-e,	./ichinoko_tunnel-e.x
 ichinoko_tunnel-w,	./ichinoko_tunnel-w.x
 ichinoko_bridge-e,	./ichinoko_bridge.x
 ichinoko_bridge-w,	./ichinoko_bridge-w.x
+myodani_bridge,	./myodani_bridge.x
 
 section_0,	./section_0.x
 section_1,	./section_1.x
