@@ -11,3 +11,14 @@ ichinoko_tunnel-e,	./ichinoko_tunnel-e.x
 ichinoko_tunnel-w,	./ichinoko_tunnel-w.x
 ichinoko_bridge-e,	./ichinoko_bridge.x
 ichinoko_bridge-w,	./ichinoko_bridge-w.x
+
+section_0,	./section_0.x
+section_1,	./section_1.x
+section_2,	./section_2.x
+section_3,	./section_3.x
+section_4,	./section_4.x
+section_5,	./section_5.x
+section_6,	./section_6.x
+section_7,	./section_7.x
+section_8,	./section_8.x
+section_9,	./section_9.x
