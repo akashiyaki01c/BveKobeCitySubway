@@ -89,6 +89,7 @@ $MYODANI_START - 680;	// 名谷陸橋終端
 $MYODANI_START - 630;	// 第1閉塞
 	Structure['section_1'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 380;	// [S12] 1R 場内
+	Structure['section_1R'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START;			// 名谷始点
 $MYODANI_START + 18;	// [S12] ホーム始端
 $MYODANI_START + 100;	// [S12] 名谷 停車場中心
@@ -103,9 +104,12 @@ $MYODANI_START + 1000;	// 第3閉塞
 $MYODANI_START + 1000;	// 第2閉塞
 $MYODANI_START + 1000;	// 第1閉塞
 $MYODANI_START + 1560;	// 落合隧道 終端
+	Repeater['ochiai_tunnel'].End();
 $MYODANI_START + 1590;	// [S11] ホーム始端
 $MYODANI_START + 1650;	// [S11] 妙法寺 停留場中心
 $MYODANI_START + 1710;	// [S11] ホーム終端
+$MYODANI_START + 1730;	// 横尾隧道 始端
+	Repeater['yokoo_tunnel'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 2, 'sangaku_tunnel');
 $MYODANI_START + 1000;	// 第9閉塞
 $MYODANI_START + 1000;	// 第8閉塞
 $MYODANI_START + 1000;	// 第7閉塞
@@ -119,7 +123,7 @@ $MYODANI_START + 100;	// [S10] 板宿 停留場中心
 $MYODANI_START + 1000;	// 第3閉塞
 $MYODANI_START + 1000;	// 第2閉塞
 $MYODANI_START + 1000;	// 第1閉塞
-$MYODANI_START - 1000;	// [S09] 1R 場内
+$MYODANI_START + 1000;	// [S09] 1R 場内
 $MYODANI_START + 100;	// [S09] 新長田 停車場中心 ↑西神線 ↓山手線
 $MYODANI_START + 100;	// [S08] 長田 停留場中心
 $MYODANI_START + 100;	// [S07] 上沢 停留場中心
