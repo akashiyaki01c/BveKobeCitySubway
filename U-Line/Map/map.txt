@@ -47,7 +47,8 @@ $MYODANI_START - 1780;	// [S13] 総合運動公園 ホーム始端
     Track['WestMainLine'].Position(12, 0);
     Repeater['S13_Platform'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 1, 'S13_platform');
     Repeater['S13_Platform_extra'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 1, 'S13_platform_extra');
-$MYODANI_START - 1695;	// [S13] 総合運動公園 停留場中心
+$MYODANI_START - 1690;	// [S13] 総合運動公園 停留場中心
+	Structure['S13'].Put0('0',0,0);
 $MYODANI_START - 1630;	// [S13] 総合運動公園 停止位置
     Station['S13'].Put(1, -0.7, 0.7);
 $MYODANI_START - 1610;	// [S13] 総合運動公園 ホーム終端
