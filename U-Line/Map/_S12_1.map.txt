@@ -3,23 +3,40 @@ BveTs Map 2.02:UTF-8
 // 名谷①発着シナリオ
 
 $MYODANI_START - 630;
-	Track['S12_Track2'].X.Interpolate(4.5, 0); // 名谷2番線
+	Track['S12_Track2'].X.Interpolate(4.5, 0); // 名谷②
 	Repeater['S12_Track2'].Begin('S12_Track2', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
 
-	Track['S12_Track3'].X.Interpolate(8, 0); // 名谷3番線
+	Track['S12_Track3'].X.Interpolate(8, 0); // 名谷③
 	Repeater['S12_Track3'].Begin('S12_Track3', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
 
-	Track['WestMainLine'].X.Interpolate(14.5); // 名谷4番線
+	Track['WestMainLine'].X.Interpolate(14.5); // 名谷④
 
 $MYODANI_START - 240;
 	Track['WestMainLine'].X.Interpolate(4.5, 0);
-
+$MYODANI_START - 180;
+	Track['S12_Track2'].X.Interpolate(6, 0);
+	Track['S12_Track3'].X.Interpolate(10, 0);
+$MYODANI_START - 130;
+	Track['S12_Track2'].X.Interpolate(6.5, 0);
+	Track['S12_Track3'].X.Interpolate(10.5, 0);
 $MYODANI_START - 110;
 	Track['WestMainLine'].X.Interpolate(17, 0);
 
 $MYODANI_START - 100;
 	Track['S12_Track2'].X.Interpolate(6.5, 0);
 	Track['S12_Track3'].X.Interpolate(10, 0);
+$MYODANI_START + 155
+$MYODANI_START + 240;
+	Curve.BeginTransition();
+$MYODANI_START + 290;
+	Curve.Begin(-287.0);
+$MYODANI_START + 310;
+	Curve.End();
+	Track['S12_Track2'].Position(0, 0);
+	Repeater['S12_Track2'].End();
+	Track['S12_Track3'].Position(3.5, 0);
+	Repeater['S12_Track3'].End();
+	Track['WestMainLine'].Position(3.5, 0);
 
 // ②→①渡り線
 $MYODANI_START - 340;
@@ -33,8 +50,6 @@ $MYODANI_START - 272;
 
 // ②←→③渡り線
 $MYODANI_START - 180;
-	Track['S12_Track2'].X.Interpolate(6, 0);
-	Track['S12_Track3'].X.Interpolate(10, 0);
 	Track['S12_Point3'].X.Interpolate(6, 200);
 	Repeater['S12_Point3'].Begin('S12_Point3', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
 	Track['S12_Point4'].X.Interpolate(10, -200);
@@ -43,8 +58,6 @@ $MYODANI_START - 155;
 	Track['S12_Point3'].X.Interpolate(8.25, -200);
 	Track['S12_Point4'].X.Interpolate(8.25, 200);
 $MYODANI_START - 130;
-	Track['S12_Track2'].X.Interpolate(6.5, 0);
-	Track['S12_Track3'].X.Interpolate(10.5, 0);
 	Track['S12_Point3'].X.Interpolate(10.5);
 	Repeater['S12_Point3'].End();
 	Track['S12_Point4'].X.Interpolate(6.5);
@@ -70,7 +83,7 @@ $MYODANI_START - 20;
 	Track['S12_Point2'].X.Interpolate(17);
 	Repeater['S12_Point2'].End();
 
-// プラットホーム
+// 駅プラットホーム
 $MYODANI_START + 18;
 	Repeater['S12_Platform'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 1, 'S12_platform');
 $MYODANI_START + 180;
@@ -95,6 +108,4 @@ $MYODANI_START + 265;
 	Repeater['S12_Point5'].End();
 	Track['S12_Point6'].X.Interpolate(3.5);
 	Repeater['S12_Point6'].End();
-
-$MYODANI_START + 310;
-	Track['S12_Track2'].Position(0, 0);
+	
