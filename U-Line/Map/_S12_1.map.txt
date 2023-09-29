@@ -10,29 +10,44 @@ $MYODANI_START - 630;
 	Repeater['S12_Track3'].Begin('S12_Track3', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
 
 	Track['WestMainLine'].X.Interpolate(14.5); // 名谷④
-
-$MYODANI_START - 240;
-	Track['WestMainLine'].X.Interpolate(4.5, 0);
+$MYODANI_START - 272;
+    Track['WestMainLine'].Y.Interpolate(0);
 $MYODANI_START - 180;
 	Track['S12_Track2'].X.Interpolate(6, 0);
 	Track['S12_Track3'].X.Interpolate(10, 0);
 $MYODANI_START - 130;
 	Track['S12_Track2'].X.Interpolate(6.5, 0);
 	Track['S12_Track3'].X.Interpolate(10.5, 0);
-$MYODANI_START - 110;
-	Track['WestMainLine'].X.Interpolate(17, 0);
-
 $MYODANI_START - 100;
 	Track['S12_Track2'].X.Interpolate(6.5, 0);
 	Track['S12_Track3'].X.Interpolate(10, 0);
+    Track['WestMainLine'].Position(17, 0);
+$MYODANI_START - 20;
+    Track['WestMainLine'].Position(20, 0);
+$MYODANI_START + 18;	// [S12] ホーム始端
+    Track['WestMainLine'].Position(24, 0);
 $MYODANI_START + 155;
+    Curve.Begin(500);
+    Track['S12_Track2'].X.Interpolate(11.5, -500);
+    Track['S12_Track3'].X.Interpolate(15.5, -500);
+$MYODANI_START + 180;	// [S12] ホーム終端
+    Track['WestMainLine'].Position(25.5, 0);
+    Track['S12_Track2'].X.Interpolate(10.5, 0);
+    Track['S12_Track3'].X.Interpolate(14.5, 0);
+$MYODANI_START + 208;
+	Track['S12_Track2'].X.Interpolate(9, 0);
+	Track['S12_Track3'].X.Interpolate(13, 0);
 $MYODANI_START + 240;
 	Curve.BeginTransition();
+$MYODANI_START + 265;
+	Track['S12_Track2'].X.Interpolate(3.5, 0);
+	Track['S12_Track3'].X.Interpolate(7, 0);
 $MYODANI_START + 290;
 	Curve.Begin(-287.0);
+    Track['S12_Track2'].X.Interpolate(1, 287.0);
 $MYODANI_START + 310;
 	Curve.End();
-	Track['S12_Track2'].Position(0, 0);
+	Track['S12_Track2'].X.Interpolate(0);
 	Repeater['S12_Track2'].End();
 	Track['S12_Track3'].Position(3.5, 0);
 	Repeater['S12_Track3'].End();
@@ -80,30 +95,27 @@ $MYODANI_START - 110;
 $MYODANI_START - 65;
 	Track['S12_Point2'].X.Interpolate(13.5, -300);
 $MYODANI_START - 20;	
-	Track['S12_Point2'].X.Interpolate(17);
+	Track['S12_Point2'].X.Interpolate(20);
 	Repeater['S12_Point2'].End();
 
 // 駅プラットホーム
 $MYODANI_START + 18;
-	Repeater['S12_Platform'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 1, 'S12_platform');
+	Repeater['S12_Platform1'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 1, 'S12_platform');
+    Repeater['S12_Platform2'].Begin('S12_Track3', 0, 0, 0, 0, 0, 0, 3, 1, 1, 'S12_platform');
 $MYODANI_START + 180;
-	Repeater['S12_Platform'].End();
-	Track['S12_Track2'].X.Interpolate(10.5, 0);
+	Repeater['S12_Platform1'].End();
+    Repeater['S12_Platform2'].End();
 
 // ②←→③渡り線
 $MYODANI_START + 208;
-	Track['S12_Track2'].X.Interpolate(9, 0);
-	Track['S12_Track3'].X.Interpolate(13, 0);
-	Track['S12_Point5'].X.Interpolate(9, -200);
+	Track['S12_Point5'].X.Interpolate(9, 200);
 	Repeater['S12_Point5'].Begin('S12_Point5', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
-	Track['S12_Point6'].X.Interpolate(13, 200);
+	Track['S12_Point6'].X.Interpolate(13, -200);
 	Repeater['S12_Point6'].Begin('S12_Point6', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
-$MYODANI_START + 155;
-	Track['S12_Point5'].X.Interpolate(8, 200);
-	Track['S12_Point6'].X.Interpolate(7.25, -200);
+$MYODANI_START + 236.5;
+	Track['S12_Point5'].X.Interpolate(8, -200);
+	Track['S12_Point6'].X.Interpolate(7.25, 200);
 $MYODANI_START + 265;
-	Track['S12_Track2'].X.Interpolate(3.5, 0);
-	Track['S12_Track3'].X.Interpolate(7, 0);
 	Track['S12_Point5'].X.Interpolate(7);
 	Repeater['S12_Point5'].End();
 	Track['S12_Point6'].X.Interpolate(3.5);
