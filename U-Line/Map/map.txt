@@ -98,7 +98,7 @@ $MYODANI_START + 155;	// [S12] 名谷 停止位置
     Station['S12'].Put(1, -0.7, 0.7);
 $MYODANI_START + 180;	// [S12] ホーム終端
 $MYODANI_START + 300;	// 落合隧道 始端
-	Repeater['ochiai_tunnel'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 2, 'sangaku_tunnel');
+	Repeater['ochiai_tunnel'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 5, 'sangaku_tunnel');
 $MYODANI_START + 1000;	// [S12] 5R 出発
 $MYODANI_START + 1000;	// 第4閉塞
 $MYODANI_START + 1000;	// 第3閉塞
@@ -110,7 +110,7 @@ $MYODANI_START + 1590;	// [S11] ホーム始端
 $MYODANI_START + 1650;	// [S11] 妙法寺 停留場中心
 $MYODANI_START + 1710;	// [S11] ホーム終端
 $MYODANI_START + 1730;	// 横尾隧道 始端
-	Repeater['yokoo_tunnel'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 2, 'sangaku_tunnel');
+	Repeater['yokoo_tunnel'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 5, 'sangaku_tunnel');
 $MYODANI_START + 1000;	// 第9閉塞
 $MYODANI_START + 1000;	// 第8閉塞
 $MYODANI_START + 1000;	// 第7閉塞
