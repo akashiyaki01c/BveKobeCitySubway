@@ -100,9 +100,9 @@ $MYODANI_START - 640;
 $MYODANI_START - 630;	// 第1閉塞
 	Structure['section_1'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 610;
-    Track['WestMainLine'].Y.Interpolate(5.5);
+    Track['WestMainLine'].Y.Interpolate(7.5);
 $MYODANI_START - 600;
-    Track['WestMainLine'].Y.Interpolate(5.5);
+    Track['WestMainLine'].Y.Interpolate(7.5);
     Curve.End();
 $MYODANI_START - 380;	// [S12] 1R 場内
 	Structure['section_1R'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
