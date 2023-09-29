@@ -13,6 +13,7 @@ $MYODANI_START = 10000;
 	Repeater['ForEastMainLine'].Begin0(0, 3, 1, 2, 'rail-ballast');
 	Track['WestMainLine'].Position(3, 0); // 西行本線
 	Repeater['ForWestMainLine'].Begin('WestMainLine', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
+	Repeater['floor1'].Begin0('0',3,0,1,'floor');
 	
     include '_S17_2.map.txt';
     include '_S12_1.map.txt';
@@ -70,6 +71,7 @@ $MYODANI_START - 1510;
 $MYODANI_START - 1505; // 市の子橋梁始端
     Repeater['ichinoko_bridge-e'].Begin0(0, 3, 1, 2, 'ichinoko_bridge-e');
     Repeater['ichinoko_bridge-w'].Begin0('WestMainLine', 3, 1, 2, 'ichinoko_bridge-w');
+	Repeater['floor1'].End();
 $MYODANI_START - 1450;
     Track['WestMainLine'].Position(3.5, 0);
 $MYODANI_START - 1310;
