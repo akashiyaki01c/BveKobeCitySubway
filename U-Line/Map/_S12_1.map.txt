@@ -35,6 +35,7 @@ $MYODANI_START - 155;
 $MYODANI_START - 130;
 	Track['S12_Track2'].X.Interpolate(6.5, 0);
 	Track['S12_Track3'].X.Interpolate(10.5, 0);
+	Repeater['kasen_myodani_west'].Begin0('0',0,0,30,'kasen_myodani_west');
 $MYODANI_START - 100;
 	Track['S12_Track2'].X.Interpolate(6.5, 0);
 	Track['S12_Track3'].X.Interpolate(10, 0);
