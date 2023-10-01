@@ -121,10 +121,12 @@ $MYODANI_START - 860;
     Curve.End();
 $MYODANI_START - 735;	// 名谷陸橋始端
 	Repeater['floor2'].End();
+    Repeater['myodani_small_bridge'].Begin0('0',0,0,2,'myodani_small_bridge');
 $MYODANI_START - 680;	// 名谷陸橋終端
     Track['WestMainLine'].X.Interpolate(14.5);
     Curve.BeginTransition();
 	Repeater['floor3'].Begin0('0',3,0,1,'floor');
+    Repeater['myodani_small_bridge'].End();
 $MYODANI_START - 640;
     Curve.Begin(-2000);
     Curve.BeginTransition();
