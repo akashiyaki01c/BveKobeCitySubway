@@ -99,6 +99,7 @@ $MYODANI_START - 1310;
 $MYODANI_START - 1280; // 市の子橋梁終端
     Track['WestMainLine'].Position(3.5, 0);
     Repeater['kasen_ichinoko_bridge'].End();
+    Repeater['kasen_tansen_S13-12'].Begin0('0',0,0,30,'kasen_tansen');
 $MYODANI_START - 1210; // 上下分離点
     Curve.BeginTransition();
     Track['WestMainLine'].Y.Interpolate(0);
@@ -122,6 +123,8 @@ $MYODANI_START - 930;	// 第2閉塞
 $MYODANI_START - 860;
     Track['WestMainLine'].X.Interpolate(3.5+3.8293 , 0);
     Curve.End();
+$MYODANI_START - 740;   // なんかデカ目の架線柱
+    Structure['kasen_myodani_kodo'].Put0(0, 0, 0);
 $MYODANI_START - 735;	// 名谷陸橋始端
 	Repeater['floor2'].End();
     Repeater['myodani_small_bridge'].Begin0('0',0,0,2,'myodani_small_bridge');
