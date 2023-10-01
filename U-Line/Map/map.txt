@@ -82,6 +82,8 @@ $MYODANI_START - 1512;	// 市の子隧道終端
 $MYODANI_START - 1510;
     Curve.BeginTransition();
     Track['WestMainLine'].Position(4.7, 0);
+$MYODANI_START - 1504;
+    Repeater['kasen1'].Begin0('0',0,0,25,'kasen_ichinoko_bridge');
 $MYODANI_START - 1500;
     Track['WestMainLine'].Position(4.2, 0);
 $MYODANI_START - 1490;
