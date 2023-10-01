@@ -32,6 +32,8 @@ $MYODANI_START - 200;
 $MYODANI_START - 180;
 	Track['S12_Track2'].X.Interpolate(6, 0);
 	Track['S12_Track3'].X.Interpolate(10, 0);
+$MYODANI_START - 155;
+	Structure['kasen_myodani1'].Put0('0',0,0);
 $MYODANI_START - 130;
 	Track['S12_Track2'].X.Interpolate(6.5, 0);
 	Track['S12_Track3'].X.Interpolate(10.5, 0);
