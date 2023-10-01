@@ -7,6 +7,7 @@ S13_platform_extra,	./S13_platform_Extra.x
 S12_platform,	./S12_platform.x
 
 sangaku_tunnel,	sangaku_tunnel.x
+sangaku_tunnel_exit,	sangaku_tunnel_exit.x
 
 ichinoko_tunnel-e,	./ichinoko_tunnel-e.x
 ichinoko_tunnel-w,	./ichinoko_tunnel-w.x
