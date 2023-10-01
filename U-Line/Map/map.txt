@@ -78,9 +78,18 @@ $MYODANI_START - 1600;	// 第4閉塞
 $MYODANI_START - 1560;
     Curve.Begin(400);
 $MYODANI_START - 1512;	// 市の子隧道終端
-    Track['WestMainLine'].Position(6.5, 0);
+    Track['WestMainLine'].Position(5.5, 0);
 $MYODANI_START - 1510;
     Curve.BeginTransition();
+    Track['WestMainLine'].Position(4.7, 0);
+$MYODANI_START - 1500;
+    Track['WestMainLine'].Position(4.2, 0);
+$MYODANI_START - 1490;
+    Track['WestMainLine'].Position(3.9, 0);
+$MYODANI_START - 1480;
+    Track['WestMainLine'].Position(3.7, 0);
+$MYODANI_START - 1470;
+    Track['WestMainLine'].Position(3.6, 0);
 $MYODANI_START - 1450;
     Track['WestMainLine'].Position(3.5, 0);
 $MYODANI_START - 1310;
@@ -90,7 +99,7 @@ $MYODANI_START - 1280; // 市の子橋梁終端
 $MYODANI_START - 1210; // 上下分離点
     Curve.BeginTransition();
     Track['WestMainLine'].Y.Interpolate(0);
-$MYODANI_START - 1210 + 12.5;
+$MYODANI_START - 1150 + 12.5;
 	Repeater['myodani_bridge'].Begin0('WestMainLine',1,0,25,'myodani_bridge');
 $MYODANI_START - 1260;	// 第3閉塞
 	Structure['section_3'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
