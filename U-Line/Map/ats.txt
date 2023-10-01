@@ -59,7 +59,7 @@ $MYODANI_START - 630;	// 第1閉塞
 	Section.Begin(0,2,3,5);
 $MYODANI_START - 380;	// [S12] 1R 場内
 	Section.Begin(0,2,3,5);
-$MYODANI_START - 340;
+$MYODANI_START - 180;
 	Section.Begin(0,2,3);
 $MYODANI_START;			// 名谷始点 ↑西神延伸線 ↓西神線
 $MYODANI_START + 18;
@@ -101,7 +101,7 @@ $MYODANI_START + 1000;	// 第2閉塞
 	Section.Begin(0,2,3,4);
 $MYODANI_START + 1000;	// 第1閉塞
 	Section.Begin(0,2,3,4);
-$MYODANI_START - 1000;	// [S09] 1R 場内
+$MYODANI_START + 1000;	// [S09] 1R 場内
 	Section.Begin(0,2,3,4);
 $MYODANI_START + 100;	// [S09] 新長田 停車場中心 ↑西神線 ↓山手線
 $MYODANI_START + 100;	// [S08] 長田 停留場中心
