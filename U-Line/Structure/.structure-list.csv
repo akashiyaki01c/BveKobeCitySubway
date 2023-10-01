@@ -17,19 +17,23 @@ myodani_bridge,	./myodani_bridge.x
 myodani_small_bridge,   ./myodani_small_bridge.x
 
 section_0,	./section_0.x
-section_1,	./section_1.x
-section_2,	./section_2.x
-section_3,	./section_3.x
-section_4,	./section_4.x
+section_1,	./sign/section_1.x
+section_2,	./sign/section_2.x
+section_3,	./sign/section_3.x
+section_4,	./sign/section_4.x
 section_5,	./section_5.x
 section_6,	./section_6.x
 section_7,	./section_7.x
 section_8,	./section_8.x
 section_9,	./section_9.x
-section_1R,	./section_1R.x
+section_1R,	./sign/section_1R.x
+section_2R,	./sign/section_2R.x
 chijoshi,	./chijoshi.x
 
-limit_75,	./sign/limit75.x
+limit_75,	./sign/limit_75.x
+limit_end,	./sign/limit_end.x
+brake,	./sign/brake.x
+notch_off,	./sign/notchoff.x
 horn,	./sign/horn.x
 
 floor,	./floor.x

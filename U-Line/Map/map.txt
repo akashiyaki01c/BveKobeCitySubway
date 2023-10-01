@@ -80,7 +80,8 @@ $MYODANI_START - 1610;	// [S13] 総合運動公園 ホーム終端
     Track['WestMainLine'].Position(11, 0);
     Curve.BeginTransition();
 $MYODANI_START - 1604;
-    Structure['horn'].Put('0',-2,2.5,0,0,0,0,0,0);
+    Structure['limit_75'].Put('0',-2,2.5,0,0,0,0,0,0);
+    SpeedLimit.Begin(75);
 $MYODANI_START - 1600;	// 第4閉塞
 	Structure['section_4'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
     Sound['S13dep'].Play();
@@ -110,6 +111,11 @@ $MYODANI_START - 1280; // 市の子橋梁終端
     Repeater['kasen_ichinoko_bridge'].End();
     Repeater['kasen_tansen_S13-12'].Begin0('0',0,0,30,'kasen_tansen');
     Structure['chijoshi'].Put(0, 0, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 1260;	// 第3閉塞
+	Structure['section_3'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+$MYODANI_START - 1255;
+    Structure['limit_end'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+    SpeedLimit.End();
 $MYODANI_START - 1210; // 上下分離点
     Curve.BeginTransition();
     Track['WestMainLine'].Y.Interpolate(0);
@@ -118,8 +124,6 @@ $MYODANI_START - 1190;
     Gradient.Begin(-20);
 $MYODANI_START - 1150 + 12.5;
 	Repeater['myodani_bridge'].Begin0('WestMainLine',1,0,25,'myodani_bridge');
-$MYODANI_START - 1260;	// 第3閉塞
-	Structure['section_3'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 1160;
     Track['WestMainLine'].X.Interpolate(5);
 $MYODANI_START - 1110;
@@ -127,7 +131,10 @@ $MYODANI_START - 1110;
 $MYODANI_START - 1035;
     Curve.BeginTransition();
     Track['WestMainLine'].X.Interpolate(5, 0);
-$MYODANI_START - 1035 + 43.75;
+$MYODANI_START - 975;
+    Structure['notch_off'].Put(0, -2, 2, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 970;
+    Structure['brake'].Put(0, -2, 2, 0, 0, 0, 0, 0, 0);
 $MYODANI_START - 1035 + 87.5;
     Curve.Begin(-2000);
     Curve.End();
@@ -164,6 +171,7 @@ $MYODANI_START - 600;
     Curve.End();
 $MYODANI_START - 380;	// [S12] 1R 場内
 	Structure['section_1R'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+    Structure['section_2R'].Put(0, -2, 1.7, 0, 0, 0, 0, 0, 1);
 $MYODANI_START;			// 名谷始点
 $MYODANI_START + 18;	// [S12] ホーム始端
     Repeater['kasen_myodani_west'].End();
