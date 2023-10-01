@@ -10,7 +10,7 @@ $MYODANI_START = 10000;
 	Curve.SetGauge(1.435);
 	Curve.SetFunction(0);
 	Station.Load('..\Station\LOCAL_S17_S01.csv');
-	Structure.Load('..\Structure\structure-list.csv');
+	Structure.Load('..\Structure\.structure-list.csv');
     Sound.Load('../Sound/sound-list.txt');
 	Repeater['ForEastMainLine'].Begin0(0, 3, 1, 2, 'rail-ballast');
 	Track['WestMainLine'].Position(3, 0); // 西行本線
@@ -58,11 +58,13 @@ $MYODANI_START - 1000;	// 第2閉塞
 $MYODANI_START - 1000;	// 第1閉塞
 $MYODANI_START - 1000;	// [S14] 1R 場内
 $MYODANI_START - 1000;	// [S14] 学園都市 停車場中心
+$MYODANI_START - 3310;	// [S14] 学園都市 ホーム終端
 $MYODANI_START - 1000;	// [S14] 3R 出発
 $MYODANI_START - 1000;	// 第4閉塞
 $MYODANI_START - 1000;	// 第3閉塞
 $MYODANI_START - 1000;	// 第2閉塞
 $MYODANI_START - 1000;	// 第1閉塞
+$MYODANI_START - 2340;	// 湯屋谷隧道 始端
 $MYODANI_START - 1800;	// 湯屋谷隧道 終端
 $MYODANI_START - 1780;	// [S13] 総合運動公園 ホーム始端
     Track['WestMainLine'].Position(12, 0);
@@ -71,6 +73,8 @@ $MYODANI_START - 1690;	// [S13] 総合運動公園 停留場中心
 	// Structure['S13'].Put0('0',0,0);
 $MYODANI_START - 1630;	// [S13] 総合運動公園 停止位置
     Station['S13'].Put(1, -0.7, 0.7);
+    Repeater['ForEastMainLine'].End();
+    Repeater['ForEastMainLine'].Begin0(0, 3, 1, 2, 'rail-ballast-dassenboushivv');
 $MYODANI_START - 1610;	// [S13] 総合運動公園 ホーム終端
     Repeater['S13_Platform_extra'].End();
     Track['WestMainLine'].Position(11, 0);
@@ -162,6 +166,7 @@ $MYODANI_START - 380;	// [S12] 1R 場内
 	Structure['section_1R'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START;			// 名谷始点
 $MYODANI_START + 18;	// [S12] ホーム始端
+    Repeater['kasen_myodani_west'].End();
 $MYODANI_START + 100;	// [S12] 名谷 停車場中心
 $MYODANI_START + 155;	// [S12] 名谷 停止位置
     Station['S12'].Put(1, -0.7, 0.7);

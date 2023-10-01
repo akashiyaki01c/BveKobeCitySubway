@@ -56,7 +56,7 @@ $MYODANI_START - 1260;	// 第3閉塞
 $MYODANI_START - 930;	// 第2閉塞
 	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 630;	// 第1閉塞
-	Section.Begin(0,2,3,5);
+	Section.Begin(0,2,3,4,5);
 $MYODANI_START - 380;	// [S12] 1R 場内
 	Section.Begin(0,2,3,5);
 $MYODANI_START - 180;
