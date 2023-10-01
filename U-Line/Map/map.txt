@@ -82,6 +82,7 @@ $MYODANI_START - 1512;	// 市の子隧道終端
 $MYODANI_START - 1510;
     Curve.BeginTransition();
     Track['WestMainLine'].Position(4.7, 0);
+    Structure['chjoshi'].Put0('0',0,0);
 $MYODANI_START - 1504;
     Repeater['kasen_ichinoko_bridge'].Begin0('0',0,0,25,'kasen_ichinoko_bridge');
 $MYODANI_START - 1500;
@@ -125,6 +126,7 @@ $MYODANI_START - 860;
     Curve.End();
 $MYODANI_START - 740;   // なんかデカ目の架線柱
     Structure['kasen_myodani_kodo'].Put0(0, 0, 0);
+    Repeater['kasen_tansen_S13-12'].End();
 $MYODANI_START - 735;	// 名谷陸橋始端
 	Repeater['floor2'].End();
     Repeater['myodani_small_bridge'].Begin0('0',0,0,2,'myodani_small_bridge');
@@ -133,6 +135,7 @@ $MYODANI_START - 680;	// 名谷陸橋終端
     Curve.BeginTransition();
 	Repeater['floor3'].Begin0('0',3,0,1,'floor');
     Repeater['myodani_small_bridge'].End();
+    Repeater['kasen_myodani_west'].Begin0('0',0,0,30,'kasen_myodani_west');
 $MYODANI_START - 640;
     Curve.Begin(-2000);
     Curve.BeginTransition();
