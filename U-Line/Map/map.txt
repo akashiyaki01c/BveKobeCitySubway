@@ -23,13 +23,13 @@ $MYODANI_START = 10000;
 
     // 隧道高架橋定義
 $MYODANI_START - 1590;	// 市の子隧道始端
-    Repeater['ichinoko_tunnel-e'].Begin0(0, 3, 1, 4, 'ichinoko_tunnel-e');
+    Repeater['ichinoko_tunnel-e'].Begin0(0, 0, 1, 4, 'ichinoko_tunnel-e');
     Repeater['ichinoko_tunnel-w'].Begin0('WestMainLine', 3, 1, 4, 'ichinoko_tunnel-w');
 $MYODANI_START - 1512;	// 市の子隧道終端
     Repeater['ichinoko_tunnel-e'].End();
     Repeater['ichinoko_tunnel-w'].End();
 $MYODANI_START - 1505; // 市の子橋梁始端
-    Repeater['ichinoko_bridge-e'].Begin0(0, 3, 1, 2, 'ichinoko_bridge-e');
+    Repeater['ichinoko_bridge-e'].Begin0(0, 0, 1, 2, 'ichinoko_bridge-e');
     Repeater['ichinoko_bridge-w'].Begin0('WestMainLine', 3, 1, 2, 'ichinoko_bridge-w');
 	Repeater['floor1'].End();
 $MYODANI_START - 1280; // 市の子橋梁終端
