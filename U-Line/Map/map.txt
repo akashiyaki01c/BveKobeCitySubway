@@ -81,7 +81,7 @@ $MYODANI_START - 1600;	// 第4閉塞
 	Structure['section_4'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
     Sound['S13dep'].Play();
 $MYODANI_START - 1560;
-    Curve.Begin(400);
+    Curve.Begin(400, 0.1);
 $MYODANI_START - 1512;	// 市の子隧道終端
     Track['WestMainLine'].Position(5.5, 0);
 $MYODANI_START - 1510;
@@ -100,7 +100,7 @@ $MYODANI_START - 1470;
 $MYODANI_START - 1450;
     Track['WestMainLine'].Position(3.5, 0);
 $MYODANI_START - 1310;
-    Curve.Begin(-350);
+    Curve.Begin(-350, 0.1);
 $MYODANI_START - 1280; // 市の子橋梁終端
     Track['WestMainLine'].Position(3.5, 0);
     Repeater['kasen_ichinoko_bridge'].End();
@@ -133,6 +133,7 @@ $MYODANI_START - 950;
 $MYODANI_START - 930;	// 第2閉塞
 	Structure['section_2'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
     Gradient.End();
+    Track['WestMainLine'].Y.Interpolate(7.5);
 $MYODANI_START - 860;
     Track['WestMainLine'].X.Interpolate(3.5+3.8293 , 0);
     Curve.End();
@@ -154,8 +155,6 @@ $MYODANI_START - 640;
 $MYODANI_START - 630;	// 第1閉塞
     Sound['S12arr'].Play();
 	Structure['section_1'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
-$MYODANI_START - 610;
-    Track['WestMainLine'].Y.Interpolate(7.5);
 $MYODANI_START - 600;
     Track['WestMainLine'].Y.Interpolate(7.5);
     Curve.End();
