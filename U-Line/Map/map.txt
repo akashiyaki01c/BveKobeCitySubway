@@ -73,6 +73,8 @@ $MYODANI_START - 1610;	// [S13] 総合運動公園 ホーム終端
     Repeater['S13_Platform_extra'].End();
     Track['WestMainLine'].Position(11, 0);
     Curve.BeginTransition();
+$MYODANI_START - 1604;
+    Structure['limit_75'].Put('0',-2,2.5,0,0,0,0,0,0);
 $MYODANI_START - 1600;	// 第4閉塞
 	Structure['section_4'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 1560;
