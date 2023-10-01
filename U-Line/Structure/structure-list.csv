@@ -1,5 +1,6 @@
 BveTs Structure List 2.00:UTF-8
 rail-ballast,	./ballast.x
+rail-ballast-dassenboushi,	./ballast_dassenboushi.x
 
 S13_platform,	./S13_platform.x
 S13_platform_extra,	./S13_platform_Extra.x

@@ -76,7 +76,7 @@ $MYODANI_START - 1610;	// [S13] 総合運動公園 ホーム終端
 $MYODANI_START - 1600;	// 第4閉塞
 	Structure['section_4'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 1560;
-    Curve.Begin(350);
+    Curve.Begin(400);
 $MYODANI_START - 1512;	// 市の子隧道終端
     Track['WestMainLine'].Position(6.5, 0);
 $MYODANI_START - 1510;
@@ -84,7 +84,7 @@ $MYODANI_START - 1510;
 $MYODANI_START - 1450;
     Track['WestMainLine'].Position(3.5, 0);
 $MYODANI_START - 1310;
-    Curve.Begin(-400);
+    Curve.Begin(-350);
 $MYODANI_START - 1280; // 市の子橋梁終端
     Track['WestMainLine'].Position(3.5, 0);
 $MYODANI_START - 1210; // 上下分離点
@@ -92,11 +92,12 @@ $MYODANI_START - 1210; // 上下分離点
     Track['WestMainLine'].Y.Interpolate(0);
 $MYODANI_START - 1210 + 12.5;
 	Repeater['myodani_bridge'].Begin0('WestMainLine',1,0,25,'myodani_bridge');
-$MYODANI_START - 1160;
-    Curve.End();
-    Track['WestMainLine'].X.Interpolate(5);
 $MYODANI_START - 1260;	// 第3閉塞
 	Structure['section_3'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+$MYODANI_START - 1160;
+    Track['WestMainLine'].X.Interpolate(5);
+$MYODANI_START - 1110;
+    Curve.End();
 $MYODANI_START - 1035;
     Curve.BeginTransition();
     Track['WestMainLine'].X.Interpolate(5, 0);
