@@ -4,13 +4,13 @@ BveTs Map 2.02:UTF-8
 $MYODANI_START - 800;
     Repeater['S12_Track3'].Begin('S12_Track3', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
     Repeater['S12_Track2'].Begin('S12_Track2', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
-$MYODANI_START - 810;
+$MYODANI_START - 830;
 	Track['S12_Track2'].X.Interpolate(19.5, 0); // 名谷②
 	Track['S12_Track3'].X.Interpolate(25.5, 0); // 名谷③
-$MYODANI_START - 760;
+$MYODANI_START - 780;
 	Track['S12_Track2'].X.Interpolate(4.5+4.1960, 300); // 名谷②
 	Track['S12_Track3'].X.Interpolate(8+4.1960, 300); // 名谷③
-$MYODANI_START - 710;
+$MYODANI_START - 730;
 	Track['S12_Track2'].X.Interpolate(4.5, 0); // 名谷②
 	Track['S12_Track3'].X.Interpolate(8, 0); // 名谷③
 $MYODANI_START - 630;
