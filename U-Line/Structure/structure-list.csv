@@ -33,4 +33,5 @@ floor,	./floor.x
 
 kasen_ichinoko_bridge,  ./kasen_ichinoko_bridge.x
 kasen_tansen,   ./kasen_tansen.x
-kasen_myodani_kodo. ./kasen_myodani_kodo.x
+kasen_myodani_kodo, ./kasen_myodani_kodo.x
+kasen_myodani_west, ./kasen_myodani_west.x
