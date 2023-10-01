@@ -126,7 +126,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "sign/limit75.png";
+    "sign/horn.png";
    }
   }
  }
