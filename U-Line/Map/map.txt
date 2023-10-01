@@ -74,7 +74,7 @@ $MYODANI_START - 1690;	// [S13] 総合運動公園 停留場中心
 $MYODANI_START - 1630;	// [S13] 総合運動公園 停止位置
     Station['S13'].Put(1, -0.7, 0.7);
     Repeater['ForEastMainLine'].End();
-    Repeater['ForEastMainLine'].Begin0(0, 3, 1, 2, 'rail-ballast-dassenboushivv');
+    Repeater['ForEastMainLine'].Begin0(0, 3, 1, 2, 'rail-ballast-dassenboushi');
 $MYODANI_START - 1610;	// [S13] 総合運動公園 ホーム終端
     Repeater['S13_Platform_extra'].End();
     Track['WestMainLine'].Position(11, 0);
