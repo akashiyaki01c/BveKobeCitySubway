@@ -11,6 +11,7 @@ $MYODANI_START = 10000;
 	Curve.SetFunction(0);
 	Station.Load('..\Station\LOCAL_S17_S01.csv');
 	Structure.Load('..\Structure\structure-list.csv');
+    Sound.Load('../Sound/sound-list.txt');
 	Repeater['ForEastMainLine'].Begin0(0, 3, 1, 2, 'rail-ballast');
 	Track['WestMainLine'].Position(3, 0); // 西行本線
 	Repeater['ForWestMainLine'].Begin('WestMainLine', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
@@ -18,6 +19,7 @@ $MYODANI_START = 10000;
 	
     include '_S17_2.map.txt';
     include '_S12_1.map.txt';
+    include 'ats.txt';
 
     // 隧道高架橋定義
 $MYODANI_START - 1590;	// 市の子隧道始端
@@ -77,6 +79,7 @@ $MYODANI_START - 1604;
     Structure['limit_75'].Put('0',-2,2.5,0,0,0,0,0,0);
 $MYODANI_START - 1600;	// 第4閉塞
 	Structure['section_4'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+    Sound['S13dep'].Play();
 $MYODANI_START - 1560;
     Curve.Begin(400);
 $MYODANI_START - 1512;	// 市の子隧道終端
@@ -106,6 +109,9 @@ $MYODANI_START - 1280; // 市の子橋梁終端
 $MYODANI_START - 1210; // 上下分離点
     Curve.BeginTransition();
     Track['WestMainLine'].Y.Interpolate(0);
+    Gradient.BeginTransition();
+$MYODANI_START - 1190;
+    Gradient.Begin(-20);
 $MYODANI_START - 1150 + 12.5;
 	Repeater['myodani_bridge'].Begin0('WestMainLine',1,0,25,'myodani_bridge');
 $MYODANI_START - 1260;	// 第3閉塞
@@ -121,10 +127,12 @@ $MYODANI_START - 1035 + 43.75;
 $MYODANI_START - 1035 + 87.5;
     Curve.Begin(-2000);
     Curve.End();
-$MYODANI_START - 910;
+$MYODANI_START - 950;
     Structure['chijoshi'].Put(0, 0, 0, 0, 0, 0, 0, 0, 0);
+    Gradient.BeginTransition();
 $MYODANI_START - 930;	// 第2閉塞
 	Structure['section_2'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+    Gradient.End();
 $MYODANI_START - 860;
     Track['WestMainLine'].X.Interpolate(3.5+3.8293 , 0);
     Curve.End();
@@ -144,6 +152,7 @@ $MYODANI_START - 640;
     Curve.Begin(-2000);
     Curve.BeginTransition();
 $MYODANI_START - 630;	// 第1閉塞
+    Sound['S12arr'].Play();
 	Structure['section_1'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 610;
     Track['WestMainLine'].Y.Interpolate(7.5);
@@ -160,8 +169,6 @@ $MYODANI_START + 155;	// [S12] 名谷 停止位置
 $MYODANI_START + 180;	// [S12] ホーム終端
 $MYODANI_START + 300;	// 落合隧道 始端
 	Repeater['floor3'].End();
-$MYODANI_START + 302.5;
-    Structure['sangaku_tunnel_exit'].Put0('0',0,0);
 $MYODANI_START + 305;
 	Repeater['ochiai_tunnel'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 5, 'sangaku_tunnel');
 $MYODANI_START + 1000;	// [S12] 5R 出発
