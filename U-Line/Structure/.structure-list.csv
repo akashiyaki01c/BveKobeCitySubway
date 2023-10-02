@@ -53,6 +53,14 @@ kasen_myodani1,	./kasen_myodani1.x
 myodani_west_ishigaki,  ./myodani_west_ishigaki.x
 
 road_ochiaicenter,	./road_ochiaicenter.x
+road_ochiaicenter_norimen,  ./road_ochiaicenter_norimen.x
+road_ochiaicenter_norimen_1,  ./road_ochiaicenter_norimen_1.x
+
+pole_1.5m,    ./pole_1.5m.x
+pole_2m,    ./pole_2m.x
+pole_2.3m,    ./pole_2.3m.x
+
+kilopost_1km,   ./kilopost_1km.x
 
 # Bg, ../../Nagoya_Common/Nature/Sky/Back_0.x
 Bg,	./sky/sky.x
