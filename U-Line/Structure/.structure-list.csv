@@ -52,4 +52,5 @@ kasen_myodani1,	./kasen_myodani1.x
 
 myodani_west_ishigaki,  ./myodani_west_ishigaki.x
 
-Bg, ../../Nagoya_Common/Nature/Sky/Back_0.x
+# Bg, ../../Nagoya_Common/Nature/Sky/Back_0.x
+Bg,	./sky/sky.x
