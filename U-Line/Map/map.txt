@@ -68,10 +68,14 @@ $MYODANI_START - 1000;	// 第2閉塞
 $MYODANI_START - 1000;	// 第1閉塞
 $MYODANI_START - 2340;	// 湯屋谷隧道 始端
 $MYODANI_START - 1800;	// 湯屋谷隧道 終端
+$MYODANI_START - 1790;
+    Structure['station_edge'].Put('0',6,0,0,0,-90,0,0,0);
 $MYODANI_START - 1780;	// [S13] 総合運動公園 ホーム始端
     Track['WestMainLine'].Position(12, 0);
     Repeater['S13_Platform_extra'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 1, 'S13_platform_extra');
     Repeater['S13_Platform'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 1, 'S13_platform');
+$MYODANI_START - 1700;
+    Structure['kp_7'].Put('0',-2.5,0,0,0,0,0,0,0);
 $MYODANI_START - 1690;	// [S13] 総合運動公園 停留場中心
 	// Structure['S13'].Put0('0',0,0);
 $MYODANI_START - 1630;	// [S13] 総合運動公園 停止位置
