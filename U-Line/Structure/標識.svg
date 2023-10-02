@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="793.70081"
+   height="1122.5197"
+   viewBox="0 0 210 296.99999"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
@@ -22,20 +22,23 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
+     inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="7.8667378"
-     inkscape:cx="20.529475"
-     inkscape:cy="48.876677"
+     inkscape:zoom="2.1541827"
+     inkscape:cx="24.139085"
+     inkscape:cy="29.941749"
      inkscape:window-width="1367"
      inkscape:window-height="847"
      inkscape:window-x="73"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer1"
+     showguides="true">
     <inkscape:grid
        type="xygrid"
-       id="grid182" />
+       id="grid182"
+       originx="0"
+       originy="0" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
@@ -46,1085 +49,992 @@
     <circle
        style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
        id="path236"
-       cx="1.3229166"
-       cy="1.3229166"
-       r="1.3229166" />
+       cx="3.968749"
+       cy="3.968749"
+       r="1.3229166"
+       inkscape:export-filename="sign/section1R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
        id="path238"
-       cx="1.3229166"
-       cy="1.3229166"
-       r="1.0583333" />
+       cx="3.968749"
+       cy="3.968749"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="1.285875"
-       y="1.9711447"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="3.9263744"
+       y="4.721159"
        id="text558"><tspan
          sodipodi:role="line"
          id="tspan556"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="1.285875"
-         y="1.9711447">1R</tspan></text>
-    <circle
-       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-5"
-       cx="1.3229166"
-       cy="3.96875"
-       r="1.3229166" />
-    <circle
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="3.8602283"
+         y="4.721159">1R</tspan></text>
+    <rect
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-8"
-       cx="1.3229166"
-       cy="3.96875"
-       r="1.0583333" />
+       id="rect1347"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="-7.5199102e-15"
+       inkscape:export-filename="sign/limit15.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="1.285875"
-       y="4.6169782"
-       id="text558-1"><tspan
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.499501"
+       y="2.3482416"
+       id="text558-18-0-44"><tspan
          sodipodi:role="line"
-         id="tspan556-4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="1.285875"
-         y="4.6169782">2R</tspan></text>
-    <circle
-       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7"
-       cx="1.3229166"
-       cy="6.6145835"
-       r="1.3229166" />
-    <circle
+         id="tspan556-7-5-59"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.433355"
+         y="2.3482416">15</tspan></text>
+    <rect
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1"
-       cx="1.3229166"
-       cy="6.6145835"
-       r="1.0583333" />
+       id="rect1347-90-1-6-9"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="-9.5367432e-07"
+       inkscape:export-filename="sign/limit15R.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="1.285875"
-       y="7.2628112"
-       id="text558-3"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.146175"
+       y="1.8972355"
+       id="text558-18-0-44-9-8-1-0"><tspan
          sodipodi:role="line"
-         id="tspan556-8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="1.285875"
-         y="7.2628112">3R</tspan></text>
+         id="tspan556-7-5-59-3-5-8-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.080029"
+         y="1.8972355">15</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,2.248958 v 0.264584 h 2.38125 L 17.859373,1.984375 v 0.264583 z"
+       id="path2731-9"
+       sodipodi:nodetypes="cccccc" />
     <circle
        style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-6"
-       cx="1.3229166"
-       cy="9.260417"
-       r="1.3229166" />
+       id="path236-9"
+       cx="6.6145825"
+       cy="3.968749"
+       r="1.3229166"
+       inkscape:export-filename="sign/section1L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-0"
-       cx="1.3229166"
-       cy="9.260417"
-       r="1.0583333" />
+       id="path238-4"
+       cx="6.6145825"
+       cy="3.968749"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="1.285875"
-       y="9.9086447"
-       id="text558-3-3"><tspan
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="6.5722075"
+       y="4.721159"
+       id="text558-34"><tspan
          sodipodi:role="line"
-         id="tspan556-8-2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="1.285875"
-         y="9.9086447">4R</tspan></text>
+         id="tspan556-44"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="6.5060616"
+         y="4.721159">1L</tspan></text>
     <circle
        style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-69"
-       cx="1.3229166"
-       cy="11.90625"
-       r="1.3229166" />
+       id="path236-88"
+       cx="3.968749"
+       cy="1.3229158"
+       r="1.3229166"
+       inkscape:export-filename="sign/section0R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159;fill-opacity:1"
+       id="path236-88-1"
+       cx="1.3229158"
+       cy="3.968749"
+       r="1.3229166"
+       inkscape:export-filename="sign/slow_start.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-4"
-       cx="1.3229166"
-       cy="11.90625"
-       r="1.0583333" />
+       id="path238-55"
+       cx="3.968749"
+       cy="1.3229158"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="1.285875"
-       y="12.554478"
-       id="text558-3-1"><tspan
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="3.926892"
+       y="2.0753267"
+       id="text558-7"><tspan
          sodipodi:role="line"
-         id="tspan556-8-3"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="1.285875"
-         y="12.554478">5R</tspan></text>
+         id="tspan556-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="3.8607459"
+         y="2.0753267">0R</tspan></text>
     <circle
        style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-7"
-       cx="1.3229166"
-       cy="14.552083"
-       r="1.3229166" />
+       id="path236-9-9"
+       cx="6.6145825"
+       cy="1.3229158"
+       r="1.3229166"
+       inkscape:export-filename="sign/section0L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-8"
-       cx="1.3229166"
-       cy="14.552083"
-       r="1.0583333" />
+       id="path238-4-45"
+       cx="6.6145825"
+       cy="1.3229158"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="1.285875"
-       y="15.200311"
-       id="text558-3-8"><tspan
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="6.586678"
+       y="2.0753267"
+       id="text558-34-6"><tspan
          sodipodi:role="line"
-         id="tspan556-8-38"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="1.285875"
-         y="15.200311">6R</tspan></text>
+         id="tspan556-44-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="6.5205321"
+         y="2.0753267">0L</tspan></text>
     <circle
        style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-1"
-       cx="1.3229166"
-       cy="17.197916"
-       r="1.3229166" />
+       id="path236-2"
+       cx="3.968749"
+       cy="6.6145825"
+       r="1.3229166"
+       inkscape:export-filename="sign/section2R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-5"
-       cx="1.3229166"
-       cy="17.197916"
-       r="1.0583333" />
+       id="path238-5"
+       cx="3.968749"
+       cy="6.6145825"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="1.285875"
-       y="17.846144"
-       id="text558-3-35"><tspan
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="3.9263744"
+       y="7.3669925"
+       id="text558-8"><tspan
          sodipodi:role="line"
-         id="tspan556-8-4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="1.285875"
-         y="17.846144">7R</tspan></text>
+         id="tspan556-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="3.8602283"
+         y="7.3669925">2R</tspan></text>
     <circle
        style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-3"
-       cx="1.3229166"
-       cy="19.84375"
-       r="1.3229166" />
+       id="path236-9-1"
+       cx="6.6145825"
+       cy="6.6145825"
+       r="1.3229166"
+       inkscape:export-filename="sign/section2L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-6"
-       cx="1.3229166"
-       cy="19.84375"
-       r="1.0583333" />
+       id="path238-4-4"
+       cx="6.6145825"
+       cy="6.6145825"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="1.285875"
-       y="20.491978"
-       id="text558-3-5"><tspan
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="6.5722075"
+       y="7.3669925"
+       id="text558-34-7"><tspan
          sodipodi:role="line"
-         id="tspan556-8-9"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="1.285875"
-         y="20.491978">8R</tspan></text>
+         id="tspan556-44-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="6.5060616"
+         y="7.3669925">2L</tspan></text>
     <circle
        style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-5"
-       cx="1.3229166"
-       cy="22.489584"
-       r="1.3229166" />
+       id="path236-8"
+       cx="3.968749"
+       cy="9.2604151"
+       r="1.3229166"
+       inkscape:export-filename="sign/section3R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-49"
-       cx="1.3229166"
-       cy="22.489584"
-       r="1.0583333" />
+       id="path238-9"
+       cx="3.968749"
+       cy="9.2604151"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="1.285875"
-       y="23.137812"
-       id="text558-3-17"><tspan
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="3.9263744"
+       y="10.012826"
+       id="text558-2"><tspan
          sodipodi:role="line"
-         id="tspan556-8-5"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="1.285875"
-         y="23.137812">9R</tspan></text>
+         id="tspan556-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="3.8602283"
+         y="10.012826">3R</tspan></text>
+    <circle
+       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-2"
+       cx="6.6145825"
+       cy="9.2604151"
+       r="1.3229166"
+       inkscape:export-filename="sign/section3L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-4-6"
+       cx="6.6145825"
+       cy="9.2604151"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="6.5722075"
+       y="10.012826"
+       id="text558-34-8"><tspan
+         sodipodi:role="line"
+         id="tspan556-44-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="6.5060616"
+         y="10.012826">3L</tspan></text>
+    <circle
+       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-2-6"
+       cx="3.968749"
+       cy="11.906249"
+       r="1.3229166"
+       inkscape:export-filename="sign/section4R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-5-6"
+       cx="3.968749"
+       cy="11.906249"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="3.9263744"
+       y="12.658659"
+       id="text558-8-6"><tspan
+         sodipodi:role="line"
+         id="tspan556-6-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="3.8602283"
+         y="12.658659">4R</tspan></text>
+    <circle
+       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-1-1"
+       cx="6.6145825"
+       cy="11.906249"
+       r="1.3229166"
+       inkscape:export-filename="sign/section4L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-4-4-6"
+       cx="6.6145825"
+       cy="11.906249"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="6.5722075"
+       y="12.658659"
+       id="text558-34-7-2"><tspan
+         sodipodi:role="line"
+         id="tspan556-44-8-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="6.5060616"
+         y="12.658659">4L</tspan></text>
     <circle
        style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
        id="path236-1"
-       cx="3.96875"
-       cy="1.3229166"
-       r="1.3229166" />
+       cx="3.968749"
+       cy="14.552082"
+       r="1.3229166"
+       inkscape:export-filename="sign/section5R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-7"
-       cx="3.96875"
-       cy="1.3229166"
-       r="1.0583333" />
+       id="path238-2"
+       cx="3.968749"
+       cy="14.552082"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="3.9317083"
-       y="1.9711447"
-       id="text558-18"><tspan
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="3.9263744"
+       y="15.304492"
+       id="text558-3"><tspan
          sodipodi:role="line"
          id="tspan556-7"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="3.9317083"
-         y="1.9711447">1L</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="3.8602283"
+         y="15.304492">5R</tspan></text>
     <circle
-       style="fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-1-3"
-       cx="6.6145835"
-       cy="1.3229166"
+       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-7"
+       cx="6.6145825"
+       cy="14.552082"
+       r="1.3229166"
+       inkscape:export-filename="sign/section1R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-4-65"
+       cx="6.6145825"
+       cy="14.552082"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="6.5722075"
+       y="15.304492"
+       id="text558-34-1"><tspan
+         sodipodi:role="line"
+         id="tspan556-44-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="6.5060616"
+         y="15.304492">5L</tspan></text>
+    <circle
+       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-2-9"
+       cx="3.968749"
+       cy="17.197916"
+       r="1.3229166"
+       inkscape:export-filename="sign/section6R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-5-7"
+       cx="3.968749"
+       cy="17.197916"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="3.9263744"
+       y="17.950325"
+       id="text558-8-9"><tspan
+         sodipodi:role="line"
+         id="tspan556-6-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="3.8602283"
+         y="17.950325">6R</tspan></text>
+    <circle
+       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-1-6"
+       cx="6.6145825"
+       cy="17.197916"
+       r="1.3229166"
+       inkscape:export-filename="sign/section6L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-4-4-5"
+       cx="6.6145825"
+       cy="17.197916"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="6.5722075"
+       y="17.950325"
+       id="text558-34-7-1"><tspan
+         sodipodi:role="line"
+         id="tspan556-44-8-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="6.5060616"
+         y="17.950325">6L</tspan></text>
+    <circle
+       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-3"
+       cx="3.968749"
+       cy="19.843748"
+       r="1.3229166"
+       inkscape:export-filename="sign/section7R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-59"
+       cx="3.968749"
+       cy="19.843748"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="3.9263744"
+       y="20.596159"
+       id="text558-28"><tspan
+         sodipodi:role="line"
+         id="tspan556-39"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="3.8602283"
+         y="20.596159">7R</tspan></text>
+    <circle
+       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-8"
+       cx="6.6145825"
+       cy="19.843748"
+       r="1.3229166"
+       inkscape:export-filename="sign/section7L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-4-7"
+       cx="6.6145825"
+       cy="19.843748"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="6.5722075"
+       y="20.596159"
+       id="text558-34-4"><tspan
+         sodipodi:role="line"
+         id="tspan556-44-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="6.5060616"
+         y="20.596159">7L</tspan></text>
+    <circle
+       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-2-7"
+       cx="3.968749"
+       cy="22.489582"
+       r="1.3229166"
+       inkscape:export-filename="sign/section8R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-5-60"
+       cx="3.968749"
+       cy="22.489582"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="3.9263744"
+       y="23.241993"
+       id="text558-8-2"><tspan
+         sodipodi:role="line"
+         id="tspan556-6-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="3.8602283"
+         y="23.241993">8R</tspan></text>
+    <circle
+       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-1-0"
+       cx="6.6145825"
+       cy="22.489582"
+       r="1.3229166"
+       inkscape:export-filename="sign/section8L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-4-4-8"
+       cx="6.6145825"
+       cy="22.489582"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="6.5722075"
+       y="23.241993"
+       id="text558-34-7-7"><tspan
+         sodipodi:role="line"
+         id="tspan556-44-8-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="6.5060616"
+         y="23.241993">8L</tspan></text>
+    <circle
+       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-2-7-5"
+       cx="3.968749"
+       cy="25.135416"
+       r="1.3229166"
+       inkscape:export-filename="sign/section9R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-5-60-7"
+       cx="3.968749"
+       cy="25.135416"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="3.9263744"
+       y="25.887827"
+       id="text558-8-2-9"><tspan
+         sodipodi:role="line"
+         id="tspan556-6-1-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="3.8602283"
+         y="25.887827">9R</tspan></text>
+    <circle
+       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-1-0-2"
+       cx="6.6145825"
+       cy="25.135416"
+       r="1.3229166"
+       inkscape:export-filename="sign/section9L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-4-4-8-3"
+       cx="6.6145825"
+       cy="25.135416"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="6.5722075"
+       y="25.887827"
+       id="text558-34-7-7-7"><tspan
+         sodipodi:role="line"
+         id="tspan556-44-8-9-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';stroke-width:0.053"
+         x="6.5060616"
+         y="25.887827">9L</tspan></text>
+    <circle
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75"
+       cx="9.2604151"
+       cy="1.3229158"
+       r="1.3229166"
+       inkscape:export-filename="sign/section0.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-1"
+       cx="1.3229153"
+       cy="1.3229158"
+       r="1.3229166"
+       inkscape:export-filename="sign/slow_notice.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-4"
+       inkscape:export-filename="sign/section1R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7"
+       sodipodi:type="arc"
+       sodipodi:cx="1.3229153"
+       sodipodi:cy="1.3229158"
+       sodipodi:rx="1.3229166"
+       sodipodi:ry="1.3229166"
+       sodipodi:start="0"
+       sodipodi:end="1.0471976"
+       sodipodi:arc-type="slice"
+       d="M 2.6458319,1.3229158 A 1.3229166,1.3229166 0 0 1 1.9843736,2.4685952 L 1.3229153,1.3229158 Z" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-4-1"
+       inkscape:export-filename="sign/section1R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7"
+       sodipodi:type="arc"
+       sodipodi:cx="1.3229153"
+       sodipodi:cy="1.3229158"
+       sodipodi:rx="1.3229166"
+       sodipodi:ry="1.3229166"
+       sodipodi:start="2.0943951"
+       sodipodi:end="3.1415927"
+       sodipodi:arc-type="slice"
+       d="M 0.661457,2.4685952 A 1.3229166,1.3229166 0 0 1 -1.3113022e-6,1.3229158 H 1.3229153 Z" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path238-4-5"
+       cx="9.2604151"
+       cy="1.3229158"
+       r="1.190625" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="9.260932"
+       y="2.078944"
+       id="text558-34-40"><tspan
+         sodipodi:role="line"
+         id="tspan556-44-87"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053"
+         x="9.1947861"
+         y="2.078944">0</tspan></text>
+    <circle
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-9"
+       cx="9.2604151"
+       cy="3.968749"
        r="1.3229166"
        inkscape:export-filename="sign/section1.png"
        inkscape:export-xdpi="2457.7"
        inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-7-9"
-       cx="6.6145835"
-       cy="1.3229166"
-       r="1.0583333" />
+       id="path238-4-5-0"
+       cx="9.2604151"
+       cy="3.968749"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="6.5775418"
-       y="1.9711447"
-       id="text558-18-0"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="9.260932"
+       y="4.7247772"
+       id="text558-34-40-2"><tspan
          sodipodi:role="line"
-         id="tspan556-7-5"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053;fill:#f2f2f2"
-         x="6.5775418"
-         y="1.9711447">1</tspan></text>
+         id="tspan556-44-87-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053"
+         x="9.1947861"
+         y="4.7247772">1</tspan></text>
     <circle
-       style="fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-1-3-3"
-       cx="6.6145835"
-       cy="3.96875"
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-7"
+       cx="9.2604151"
+       cy="6.6145825"
        r="1.3229166"
        inkscape:export-filename="sign/section2.png"
        inkscape:export-xdpi="2457.7"
        inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-7-9-0"
-       cx="6.6145835"
-       cy="3.96875"
-       r="1.0583333" />
+       id="path238-4-5-4"
+       cx="9.2604151"
+       cy="6.6145825"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="6.5775418"
-       y="4.6169782"
-       id="text558-18-0-8"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="9.260932"
+       y="7.3706107"
+       id="text558-34-40-8"><tspan
          sodipodi:role="line"
-         id="tspan556-7-5-4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="6.5775418"
-         y="4.6169782">2</tspan></text>
+         id="tspan556-44-87-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053"
+         x="9.1947861"
+         y="7.3706107">2</tspan></text>
     <circle
-       style="fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-1-3-0"
-       cx="6.6145835"
-       cy="6.6145835"
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-5"
+       cx="9.2604151"
+       cy="9.260416"
        r="1.3229166"
        inkscape:export-filename="sign/section3.png"
        inkscape:export-xdpi="2457.7"
        inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-7-9-4"
-       cx="6.6145835"
-       cy="6.6145835"
-       r="1.0583333" />
+       id="path238-4-5-2"
+       cx="9.2604151"
+       cy="9.260416"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="6.5775418"
-       y="7.2628112"
-       id="text558-18-0-6"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="9.260932"
+       y="10.016444"
+       id="text558-34-40-3"><tspan
          sodipodi:role="line"
-         id="tspan556-7-5-46"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="6.5775418"
-         y="7.2628112">3</tspan></text>
+         id="tspan556-44-87-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053"
+         x="9.1947861"
+         y="10.016444">3</tspan></text>
     <circle
-       style="fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-1-3-4"
-       cx="6.6145835"
-       cy="9.260417"
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-9-9"
+       cx="9.2604151"
+       cy="11.906249"
        r="1.3229166"
        inkscape:export-filename="sign/section4.png"
        inkscape:export-xdpi="2457.7"
        inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-7-9-3"
-       cx="6.6145835"
-       cy="9.260417"
-       r="1.0583333" />
+       id="path238-4-5-0-4"
+       cx="9.2604151"
+       cy="11.906249"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="6.5775418"
-       y="9.9086447"
-       id="text558-18-0-84"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="9.260932"
+       y="12.662277"
+       id="text558-34-40-2-6"><tspan
          sodipodi:role="line"
-         id="tspan556-7-5-0"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="6.5775418"
-         y="9.9086447">4</tspan></text>
+         id="tspan556-44-87-7-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053"
+         x="9.1947861"
+         y="12.662277">4</tspan></text>
     <circle
-       style="fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-1-3-09"
-       cx="6.6145835"
-       cy="11.90625"
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-7-2"
+       cx="9.2604151"
+       cy="14.552082"
        r="1.3229166"
        inkscape:export-filename="sign/section5.png"
        inkscape:export-xdpi="2457.7"
        inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-7-9-37"
-       cx="6.6145835"
-       cy="11.90625"
-       r="1.0583333" />
+       id="path238-4-5-4-0"
+       cx="9.2604151"
+       cy="14.552082"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="6.5775418"
-       y="12.554478"
-       id="text558-18-0-5"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="9.260932"
+       y="15.30811"
+       id="text558-34-40-8-6"><tspan
          sodipodi:role="line"
-         id="tspan556-7-5-7"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="6.5775418"
-         y="12.554478">5</tspan></text>
+         id="tspan556-44-87-3-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053"
+         x="9.1947861"
+         y="15.30811">5</tspan></text>
     <circle
-       style="fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-1-3-2"
-       cx="6.6145835"
-       cy="14.552084"
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-54"
+       cx="9.2604151"
+       cy="17.197916"
        r="1.3229166"
        inkscape:export-filename="sign/section6.png"
        inkscape:export-xdpi="2457.7"
        inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-7-9-9"
-       cx="6.6145835"
-       cy="14.552084"
-       r="1.0583333" />
+       id="path238-4-5-6"
+       cx="9.2604151"
+       cy="17.197916"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="6.5775418"
-       y="15.200312"
-       id="text558-18-0-7"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="9.260932"
+       y="17.953943"
+       id="text558-34-40-4"><tspan
          sodipodi:role="line"
-         id="tspan556-7-5-5"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="6.5775418"
-         y="15.200312">6</tspan></text>
+         id="tspan556-44-87-75"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053"
+         x="9.1947861"
+         y="17.953943">6</tspan></text>
     <circle
-       style="fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-1-3-6"
-       cx="6.6145835"
-       cy="17.197916"
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-9-5"
+       cx="9.2604151"
+       cy="19.84375"
        r="1.3229166"
        inkscape:export-filename="sign/section7.png"
        inkscape:export-xdpi="2457.7"
        inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-7-9-5"
-       cx="6.6145835"
-       cy="17.197916"
-       r="1.0583333" />
+       id="path238-4-5-0-6"
+       cx="9.2604151"
+       cy="19.84375"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="6.5775418"
-       y="17.846146"
-       id="text558-18-0-3"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="9.260932"
+       y="20.599777"
+       id="text558-34-40-2-4"><tspan
          sodipodi:role="line"
-         id="tspan556-7-5-04"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="6.5775418"
-         y="17.846146">7</tspan></text>
+         id="tspan556-44-87-7-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053"
+         x="9.1947861"
+         y="20.599777">7</tspan></text>
     <circle
-       style="fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-1-3-8"
-       cx="6.6145835"
-       cy="19.84375"
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-7-1"
+       cx="9.2604151"
+       cy="22.489582"
        r="1.3229166"
        inkscape:export-filename="sign/section8.png"
        inkscape:export-xdpi="2457.7"
        inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-7-9-55"
-       cx="6.6145835"
-       cy="19.84375"
-       r="1.0583333" />
+       id="path238-4-5-4-06"
+       cx="9.2604151"
+       cy="22.489582"
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="6.5775418"
-       y="20.491978"
-       id="text558-18-0-54"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="9.260932"
+       y="23.245611"
+       id="text558-34-40-8-9"><tspan
          sodipodi:role="line"
-         id="tspan556-7-5-2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="6.5775418"
-         y="20.491978">8</tspan></text>
+         id="tspan556-44-87-3-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053"
+         x="9.1947861"
+         y="23.245611">8</tspan></text>
     <circle
-       style="fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-1-3-1"
-       cx="6.6145835"
-       cy="22.489584"
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-7-1-7"
+       cx="9.2604151"
+       cy="25.135416"
        r="1.3229166"
        inkscape:export-filename="sign/section9.png"
        inkscape:export-xdpi="2457.7"
        inkscape:export-ydpi="2457.7" />
     <circle
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-7-9-92"
-       cx="6.6145835"
-       cy="22.489584"
-       r="1.0583333" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="6.5775418"
-       y="23.137812"
-       id="text558-18-0-4"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-58"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="6.5775418"
-         y="23.137812">9</tspan></text>
-    <circle
-       style="fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-1-3-62"
-       cx="6.6145835"
+       id="path238-4-5-4-06-9"
+       cx="9.2604151"
        cy="25.135416"
-       r="1.3229166"
-       inkscape:export-filename="sign/section0.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <circle
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-7-9-51"
-       cx="6.6145835"
-       cy="25.135416"
-       r="1.0583333" />
+       r="1.190625" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="6.5775418"
-       y="25.783646"
-       id="text558-18-0-39"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="9.260932"
+       y="25.891445"
+       id="text558-34-40-8-9-3"><tspan
          sodipodi:role="line"
-         id="tspan556-7-5-73"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="6.5775418"
-         y="25.783646">0</tspan></text>
-    <circle
-       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-5-8"
-       cx="3.96875"
-       cy="3.96875"
-       r="1.3229166" />
-    <circle
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-8-7"
-       cx="3.96875"
-       cy="3.96875"
-       r="1.0583333" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="3.9317083"
-       y="4.6169782"
-       id="text558-1-7"><tspan
-         sodipodi:role="line"
-         id="tspan556-4-4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="3.9317083"
-         y="4.6169782">2L</tspan></text>
-    <circle
-       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-4"
-       cx="3.96875"
-       cy="6.6145835"
-       r="1.3229166" />
-    <circle
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-9"
-       cx="3.96875"
-       cy="6.6145835"
-       r="1.0583333" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="3.9317083"
-       y="7.2628112"
-       id="text558-3-15"><tspan
-         sodipodi:role="line"
-         id="tspan556-8-55"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="3.9317083"
-         y="7.2628112">3L</tspan></text>
-    <circle
-       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-6-8"
-       cx="3.96875"
-       cy="9.260417"
-       r="1.3229166" />
-    <circle
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-0-2"
-       cx="3.96875"
-       cy="9.260417"
-       r="1.0583333" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="3.9317083"
-       y="9.9086447"
-       id="text558-3-3-9"><tspan
-         sodipodi:role="line"
-         id="tspan556-8-2-8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="3.9317083"
-         y="9.9086447">4L</tspan></text>
-    <circle
-       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-69-2"
-       cx="3.96875"
-       cy="11.90625"
-       r="1.3229166" />
-    <circle
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-4-0"
-       cx="3.96875"
-       cy="11.90625"
-       r="1.0583333" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="3.9317083"
-       y="12.554478"
-       id="text558-3-1-7"><tspan
-         sodipodi:role="line"
-         id="tspan556-8-3-4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="3.9317083"
-         y="12.554478">5L</tspan></text>
-    <circle
-       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-7-8"
-       cx="3.96875"
-       cy="14.552083"
-       r="1.3229166" />
-    <circle
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-8-5"
-       cx="3.96875"
-       cy="14.552083"
-       r="1.0583333" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="3.9317083"
-       y="15.200311"
-       id="text558-3-8-8"><tspan
-         sodipodi:role="line"
-         id="tspan556-8-38-3"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="3.9317083"
-         y="15.200311">6L</tspan></text>
-    <circle
-       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-1-0"
-       cx="3.96875"
-       cy="17.197916"
-       r="1.3229166" />
-    <circle
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-5-6"
-       cx="3.96875"
-       cy="17.197916"
-       r="1.0583333" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="3.9317083"
-       y="17.846144"
-       id="text558-3-35-2"><tspan
-         sodipodi:role="line"
-         id="tspan556-8-4-2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="3.9317083"
-         y="17.846144">7L</tspan></text>
-    <circle
-       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-3-5"
-       cx="3.96875"
-       cy="19.84375"
-       r="1.3229166" />
-    <circle
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-6-2"
-       cx="3.96875"
-       cy="19.84375"
-       r="1.0583333" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="3.9317083"
-       y="20.491978"
-       id="text558-3-5-2"><tspan
-         sodipodi:role="line"
-         id="tspan556-8-9-7"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="3.9317083"
-         y="20.491978">8L</tspan></text>
-    <circle
-       style="fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path236-7-5-1"
-       cx="3.96875"
-       cy="22.489584"
-       r="1.3229166" />
-    <circle
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="path238-1-49-5"
-       cx="3.96875"
-       cy="22.489584"
-       r="1.0583333" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:1.85208px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#ffd42a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="3.9317083"
-       y="23.137812"
-       id="text558-3-17-2"><tspan
-         sodipodi:role="line"
-         id="tspan556-8-5-1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.85208px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.053"
-         x="3.9317083"
-         y="23.137812">9L</tspan></text>
+         id="tspan556-44-87-3-7-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;fill-opacity:1;stroke-width:0.053"
+         x="9.1947861"
+         y="25.891445">9</tspan></text>
     <rect
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347"
+       id="rect1347-4"
        width="2.6458333"
        height="2.6458333"
-       x="7.9375"
-       y="0"
+       x="10.583332"
+       y="-7.5199102e-15"
+       inkscape:export-filename="sign/stop6.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="11.89024"
+       y="2.3153698"
+       id="text558-18-0-44-36"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-34"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.91042px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#f2f2f2;stroke-width:0.053"
+         x="11.89024"
+         y="2.3153698">6</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-4-9"
+       width="2.6458333"
+       height="2.6458333"
+       x="10.583332"
+       y="2.6458333"
+       inkscape:export-filename="sign/stop8.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="11.904793"
+       y="4.9772105"
+       id="text558-18-0-44-36-1"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-34-1"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.91042px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#f2f2f2;stroke-width:0.053"
+         x="11.904793"
+         y="4.9772105">8</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-4-9-6"
+       width="2.6458333"
+       height="3.9687502"
+       x="10.583332"
+       y="7.9375"
        inkscape:export-filename="sign/limit15.png"
        inkscape:export-xdpi="2457.6001"
        inkscape:export-ydpi="2457.6001" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="2.2198529"
-       id="text558-18-0-44"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="2.2198529">15</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="M 11.509373,7.9375002 V 11.90625 h 0.79375 V 7.9375002 Z"
+       id="path3539"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="M 10.583332,9.5250002 V 10.31875 h 2.645833 V 9.5250002 Z"
+       id="path3541"
+       sodipodi:nodetypes="ccccc" />
     <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-2"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-4-9-6-2"
        width="2.6458333"
-       height="2.6458333"
-       x="10.583333"
-       y="0"
-       inkscape:export-filename="sign/brake.png"
+       height="3.9687502"
+       x="10.583332"
+       y="11.90625"
+       inkscape:export-filename="sign/limit15.png"
        inkscape:export-xdpi="2457.6001"
        inkscape:export-ydpi="2457.6001" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="11.859947"
-       y="2.2396967"
-       id="text558-18-0-44-73"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-9"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.64583px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#f2f2f2;stroke-width:0.053"
-         x="11.859947"
-         y="2.2396967">B</tspan></text>
+    <path
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="M 11.509373,11.90625 V 15.875 h 0.79375 v -3.96875 z"
+       id="path3539-2"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 10.583332,13.49375 v 0.79375 h 2.645833 v -0.79375 z"
+       id="path3541-1"
+       sodipodi:nodetypes="ccccc" />
     <rect
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-2-0"
+       id="rect1347-2-3-2-9"
        width="2.6458333"
        height="2.6458333"
-       x="10.583333"
-       y="2.6458333"
-       inkscape:export-filename="sign/power.png"
+       x="21.166666"
+       y="23.812498"
+       inkscape:export-filename="horn.png"
        inkscape:export-xdpi="2457.6001"
        inkscape:export-ydpi="2457.6001" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="11.840103"
-       y="4.8947906"
-       id="text558-18-0-44-73-1"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-9-0"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.64583px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#f2f2f2;stroke-width:0.053"
-         x="11.840103"
-         y="4.8947906">P</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-1"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="2.6458333" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="4.8656864"
-       id="text558-18-0-44-4"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="4.8656864">20</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-8"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="5.2916665" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="7.5115194"
-       id="text558-18-0-44-7"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="7.5115194">25</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-9"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="7.9375"
-       inkscape:export-filename="sign/limit30.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="10.157352"
-       id="text558-18-0-44-3"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-11"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="10.157352">30</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-90"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="10.583333"
-       inkscape:export-filename="sign/limit35.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="12.803185"
-       id="text558-18-0-44-9"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-3"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="12.803185">35</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-90-0"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="13.229166"
-       inkscape:export-filename="sign/limit40.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="15.449018"
-       id="text558-18-0-44-9-6"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-3-2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="15.449018">40</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-90-1"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="15.874999"
-       inkscape:export-filename="sign/limit45.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="18.094852"
-       id="text558-18-0-44-9-8"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-3-5"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="18.094852">45</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-90-8"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="18.520832"
-       inkscape:export-filename="sign/limit50.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="20.740685"
-       id="text558-18-0-44-9-9"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-3-9"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="20.740685">50</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-90-9"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="21.166666"
-       inkscape:export-filename="sign/limit55.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="23.386518"
-       id="text558-18-0-44-9-3"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-3-3"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="23.386518">55</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-90-7"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="23.8125"
-       inkscape:export-filename="sign/limit60.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="26.032352"
-       id="text558-18-0-44-9-7"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-3-32"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="26.032352">60</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-90-7-7"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="26.458334"
-       inkscape:export-filename="sign/limit65.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="28.678186"
-       id="text558-18-0-44-9-7-6"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-3-32-8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="28.678186">65</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-90-7-6"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="29.104166"
-       inkscape:export-filename="sign/limit70.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="31.324018"
-       id="text558-18-0-44-9-7-7"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-3-32-1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="31.324018">70</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-90-7-8"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="31.75"
-       inkscape:export-filename="sign/limit75.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="33.969852"
-       id="text558-18-0-44-9-7-4"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-3-32-9"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="33.969852">75</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-90-7-8-8"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="34.395832"
-       inkscape:export-filename="sign/limit80.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="36.615685"
-       id="text558-18-0-44-9-7-4-9"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-3-32-9-3"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="36.615685">80</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-90-7-8-0"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="37.041668"
-       inkscape:export-filename="sign/limit85.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="39.26152"
-       id="text558-18-0-44-9-7-4-5"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-3-32-9-6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="39.26152">85</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-90-7-8-6"
-       width="2.6458333"
-       height="2.6458333"
-       x="7.9375"
-       y="39.6875"
-       inkscape:export-filename="sign/limit90.png"
-       inkscape:export-xdpi="2457.7"
-       inkscape:export-ydpi="2457.7" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:2.64583px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="9.2577686"
-       y="41.907352"
-       id="text558-18-0-44-9-7-4-57"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-3-32-9-34"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#f2f2f2;stroke-width:0.053"
-         x="9.2577686"
-         y="41.907352">90</tspan></text>
-    <rect
-       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       id="rect1347-2-3"
-       width="2.6458333"
-       height="2.6458333"
-       x="10.583333"
-       y="5.2916665"
-       inkscape:export-filename="sign/notchoff.png"
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.166665,23.812499 v 2.645834 l 2.645833,-2.645834 v 2.645834 z"
+       id="path2494"
+       inkscape:export-filename="sign/limitend.png"
        inkscape:export-xdpi="2457.6001"
        inkscape:export-ydpi="2457.6001" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="11.907571"
-       y="7.5313635"
-       id="text558-18-0-44-73-8"><tspan
-         sodipodi:role="line"
-         id="tspan556-7-5-59-9-3"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.64583px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#f2f2f2;stroke-width:0.053"
-         x="11.907571"
-         y="7.5313635">O</tspan></text>
     <rect
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
        id="rect1347-2-3-2"
        width="2.6458333"
        height="2.6458333"
-       x="10.583333"
-       y="7.9375"
+       x="21.166666"
+       y="26.458332"
        inkscape:export-filename="horn.png"
        inkscape:export-xdpi="2457.6001"
        inkscape:export-ydpi="2457.6001" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.64583px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
-       x="11.927414"
-       y="10.240697"
+       x="22.510746"
+       y="28.76153"
        id="text558-18-0-44-73-8-4"
        inkscape:export-filename="horn.png"
        inkscape:export-xdpi="2457.6001"
@@ -1132,7 +1042,1312 @@
          sodipodi:role="line"
          id="tspan556-7-5-59-9-3-9"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.64583px;font-family:'M PLUS 1';-inkscape-font-specification:'M PLUS 1 Medium';fill:#f2f2f2;stroke-width:0.053"
-         x="11.927414"
-         y="10.240697">笛</tspan></text>
+         x="22.510746"
+         y="28.76153">笛</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-6-6"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="18.520832"
+       inkscape:export-filename="sign/limit50R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="20.418068"
+       id="text558-18-0-44-9-8-1-0-3-5-4"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-7-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="20.418068">50</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,20.769791 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-5-4"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-7-3"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="18.520832"
+       inkscape:export-filename="sign/limit50L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="20.418068"
+       id="text558-18-0-44-9-8-1-0-2-0-9-1"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-1-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="20.418068">50</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,20.769791 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-1-8"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-1-9-9"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="21.166664"
+       inkscape:export-filename="sign/limit55R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="23.063902"
+       id="text558-18-0-44-9-8-1-0-3-1-1-5"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-4-5-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="23.063902">55</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,23.415624 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-8-5-2"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-4-4-2"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="21.166664"
+       inkscape:export-filename="sign/limit55L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="23.063902"
+       id="text558-18-0-44-9-8-1-0-2-0-5-3-5"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-7-4-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="23.063902">55</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-8-3"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="23.812498"
+       inkscape:export-filename="sign/limit60R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="25.709734"
+       id="text558-18-0-44-9-8-1-0-3-8-3"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-6-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="25.709734">60</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-6-1"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="29.104164"
+       inkscape:export-filename="sign/limit70R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="31.001402"
+       id="text558-18-0-44-9-8-1-0-3-5-7"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-7-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="31.001402">70</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,31.353124 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-5-7"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-7-9"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="29.104164"
+       inkscape:export-filename="sign/limit70L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="31.001402"
+       id="text558-18-0-44-9-8-1-0-2-0-9-2"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-1-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="31.001402">70</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,31.353124 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-1-0"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-1-9-1"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="31.749998"
+       inkscape:export-filename="sign/limit75R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="33.647236"
+       id="text558-18-0-44-9-8-1-0-3-1-1-51"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-4-5-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="33.647236">75</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,33.998957 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-8-5-6"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-4-4-0"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="31.749998"
+       inkscape:export-filename="sign/limit75L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="33.647236"
+       id="text558-18-0-44-9-8-1-0-2-0-5-3-4"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-7-4-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="33.647236">75</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-8-8"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="34.395832"
+       inkscape:export-filename="sign/limit80R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="36.293068"
+       id="text558-18-0-44-9-8-1-0-3-8-2"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-6-06"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="36.293068">80</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,36.64479 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-6-5"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-2-7"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="34.395832"
+       inkscape:export-filename="sign/limit80L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="36.293068"
+       id="text558-18-0-44-9-8-1-0-2-0-4-2"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-8-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="36.293068">80</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,36.64479 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-17-0"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-8-8-0"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="39.6875"
+       inkscape:export-filename="sign/limit90R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="41.584736"
+       id="text558-18-0-44-9-8-1-0-3-8-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-6-06-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="41.584736">90</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,41.936457 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-6-5-1"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-2-7-9"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="39.6875"
+       inkscape:export-filename="sign/limit90L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="41.584736"
+       id="text558-18-0-44-9-8-1-0-2-0-4-2-1"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-8-2-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="41.584736">90</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,41.936457 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-17-0-0"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-1-5-6"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="37.041664"
+       inkscape:export-filename="sign/limit85R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="38.9389"
+       id="text558-18-0-44-9-8-1-0-3-1-7-0"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-4-1-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="38.9389">85</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,39.290624 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-8-9-8"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-4-8-5"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="37.041664"
+       inkscape:export-filename="sign/limit85L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="38.9389"
+       id="text558-18-0-44-9-8-1-0-2-0-5-5-9"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-7-5-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="38.9389">85</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,39.290624 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-3-1-3"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,33.998957 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-3-3-1"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,26.061457 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-6-9"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-2-5"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="23.812498"
+       inkscape:export-filename="sign/limit60L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="25.709734"
+       id="text558-18-0-44-9-8-1-0-2-0-4-4"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-8-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="25.709734">60</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,26.061457 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-17-1"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-1-5-9"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="26.45833"
+       inkscape:export-filename="sign/limit65R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="28.355568"
+       id="text558-18-0-44-9-8-1-0-3-1-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-4-1-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="28.355568">65</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,28.707291 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-8-9-5"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-4-8-7"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="26.45833"
+       inkscape:export-filename="sign/limit65L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="28.355568"
+       id="text558-18-0-44-9-8-1-0-2-0-5-5-0"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-7-5-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="28.355568">65</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,28.707291 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-3-1-9"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,23.415624 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-3-3-3"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-2-0"
+       width="2.6458333"
+       height="2.6458333"
+       x="21.166666"
+       y="5.3860468e-08"
+       inkscape:export-filename="sign/power.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="22.4235"
+       y="2.35748"
+       id="text558-18-0-44-73-1"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-9-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="22.4235"
+         y="2.35748">P</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-2-0-7"
+       width="2.6458333"
+       height="2.6458333"
+       x="21.166666"
+       y="5.2916665"
+       inkscape:export-filename="sign/brake.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="22.45121"
+       y="7.6491466"
+       id="text558-18-0-44-73-1-0"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-9-0-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="22.45121"
+         y="7.6491466">B</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-2-0-6"
+       width="2.6458333"
+       height="2.6458333"
+       x="21.166666"
+       y="2.6458333"
+       inkscape:export-filename="sign/notchoff.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-2-3-0"
+       width="2.6458333"
+       height="2.6458333"
+       x="21.166666"
+       y="7.937501"
+       inkscape:export-filename="sign/ats_end.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <path
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.69583,9.128125 v 0.264584 h 1.5875 V 9.128125 Z"
+       id="path6966" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-2-3-0-3"
+       width="2.6458333"
+       height="2.6458333"
+       x="21.166666"
+       y="10.583335"
+       inkscape:export-filename="sign/ats_start.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#f2f2f2;stroke-width:0.264583;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path7546"
+       cx="22.48958"
+       cy="11.906249"
+       r="0.92604166" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#f2f2f2;stroke-width:0.264583;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path7546-5"
+       cx="22.48958"
+       cy="11.906249"
+       r="0.39687499" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#f2f2f2;stroke-width:0.264583;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path7546-9"
+       cx="22.48958"
+       cy="9.2604151"
+       r="0.92604166" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#f2f2f2;stroke-width:0.264583;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path7546-9-6"
+       cx="22.48958"
+       cy="3.9687486"
+       r="0.92604166" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-2-3-2-9-3-7"
+       width="2.6458333"
+       height="2.6458333"
+       x="21.166666"
+       y="15.874998"
+       inkscape:export-filename="sign/stop_position.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.31377px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Semi-Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.0553165;stroke-linejoin:round;stroke-dasharray:0.165949, 0.165949"
+       x="21.551105"
+       y="19.097807"
+       id="text558-18-0-44-9-6-9"
+       transform="scale(1.043707,0.95812331)"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-2-3"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.31377px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Semi-Bold';fill:#f2f2f2;stroke-width:0.0553165"
+         x="21.551105"
+         y="19.097807">X</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-2-3-2-9-3"
+       width="2.6458333"
+       height="2.6458333"
+       x="21.166666"
+       y="18.520832"
+       inkscape:export-filename="sign/wait_position.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <path
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.166664,20.849166 v 0.3175 h 0.3175 l 2.328334,-2.328333 v -0.3175 h -0.317501 z"
+       id="path2613"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 23.812498,20.849166 v 0.3175 h -0.3175 l -2.328334,-2.328333 v -0.3175 h 0.317501 z"
+       id="path2613-6"
+       sodipodi:nodetypes="ccccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="2.6458333"
+       inkscape:export-filename="sign/limit20.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="5.0033131"
+       id="text558-18-0-44-30"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="5.0033131">20</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-4"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="5.2916665"
+       inkscape:export-filename="sign/limit25.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="7.6491466"
+       id="text558-18-0-44-30-7"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="7.6491466">25</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-1"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="7.9375"
+       inkscape:export-filename="sign/limit30.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="10.29498"
+       id="text558-18-0-44-30-3"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="10.29498">30</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-4-5"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="10.583333"
+       inkscape:export-filename="sign/limit35.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="12.940813"
+       id="text558-18-0-44-30-7-8"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-4-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="12.940813">35</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-5"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="13.229166"
+       inkscape:export-filename="sign/limit40.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="15.586646"
+       id="text558-18-0-44-30-75"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="15.586646">40</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-4-56"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="15.874999"
+       inkscape:export-filename="sign/limit45.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="18.232479"
+       id="text558-18-0-44-30-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-4-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="18.232479">45</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-17"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="18.520834"
+       inkscape:export-filename="sign/limit50.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="20.878313"
+       id="text558-18-0-44-30-6"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="20.878313">50</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-4-561"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="21.166666"
+       inkscape:export-filename="sign/limit55.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="23.524147"
+       id="text558-18-0-44-30-7-1"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-4-56"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="23.524147">55</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-0"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="23.8125"
+       inkscape:export-filename="sign/limit60.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="26.169979"
+       id="text558-18-0-44-30-33"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-42"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="26.169979">60</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-4-7"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="26.458332"
+       inkscape:export-filename="sign/limit65.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="28.815813"
+       id="text558-18-0-44-30-7-31"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-4-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="28.815813">65</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-42"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="29.104166"
+       inkscape:export-filename="sign/limit70.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="31.461645"
+       id="text558-18-0-44-30-0"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-04"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="31.461645">70</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-4-6"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="31.75"
+       inkscape:export-filename="sign/limit75.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="34.107479"
+       id="text558-18-0-44-30-7-9"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-4-73"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="34.107479">75</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-48"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="34.395832"
+       inkscape:export-filename="sign/limit80.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="36.753311"
+       id="text558-18-0-44-30-39"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="36.753311">80</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-4-57"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="37.041668"
+       inkscape:export-filename="sign/limit85.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="39.399147"
+       id="text558-18-0-44-30-7-0"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-4-77"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="39.399147">85</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-6-9"
+       width="2.6458333"
+       height="2.6458333"
+       x="13.229165"
+       y="39.6875"
+       inkscape:export-filename="sign/limit90.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="14.567714"
+       y="42.044979"
+       id="text558-18-0-44-30-71"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-0-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#f2f2f2;stroke-width:0.053"
+         x="14.501568"
+         y="42.044979">90</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="-9.9981389e-07"
+       inkscape:export-filename="sign/limit15L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.792007"
+       y="1.8972356"
+       id="text558-18-0-44-9-8-1-0-2"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.725863"
+         y="1.8972356">15</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,2.248958 v 0.264584 h -2.38125 L 19.18229,1.984375 v 0.264583 z"
+       id="path2731-9-7"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="2.6458323"
+       inkscape:export-filename="sign/limit20R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="4.5430689"
+       id="text558-18-0-44-9-8-1-0-3"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="4.5430689">20</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,4.8947913 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="2.6458323"
+       inkscape:export-filename="sign/limit20L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="4.5430689"
+       id="text558-18-0-44-9-8-1-0-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="4.5430689">20</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,4.8947913 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-1"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="5.2916656"
+       inkscape:export-filename="sign/limit25R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="7.1889024"
+       id="text558-18-0-44-9-8-1-0-3-1"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="7.1889024">25</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,7.5406246 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-8"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-4"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="5.2916656"
+       inkscape:export-filename="sign/limit25L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="7.1889024"
+       id="text558-18-0-44-9-8-1-0-2-0-5"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="7.1889024">25</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,7.5406246 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-3"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-6"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="7.937499"
+       inkscape:export-filename="sign/limit30R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="9.8347359"
+       id="text558-18-0-44-9-8-1-0-3-5"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="9.8347359">30</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,10.186458 v 0.264584 h 2.38125 L 17.859373,9.9218749 v 0.2645831 z"
+       id="path2731-9-2-5"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-7"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="7.937499"
+       inkscape:export-filename="sign/limit30L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="9.8347359"
+       id="text558-18-0-44-9-8-1-0-2-0-9"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="9.8347359">30</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,10.186458 v 0.264584 h -2.38125 L 19.18229,9.9218749 v 0.2645831 z"
+       id="path2731-9-7-3-1"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-1-9"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="10.583332"
+       inkscape:export-filename="sign/limit35R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="12.480569"
+       id="text558-18-0-44-9-8-1-0-3-1-1"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-4-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="12.480569">35</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,12.832291 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-8-5"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-4-4"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="10.583332"
+       inkscape:export-filename="sign/limit35L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="12.480569"
+       id="text558-18-0-44-9-8-1-0-2-0-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-7-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="12.480569">35</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-8"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="13.229165"
+       inkscape:export-filename="sign/limit40R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="15.126402"
+       id="text558-18-0-44-9-8-1-0-3-8"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="15.126402">40</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,15.478124 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-6"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-2"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="13.229165"
+       inkscape:export-filename="sign/limit40L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="15.126402"
+       id="text558-18-0-44-9-8-1-0-2-0-4"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="15.126402">40</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,15.478124 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-17"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-5-1-5"
+       width="2.6458333"
+       height="2.6458333"
+       x="15.874998"
+       y="15.874998"
+       inkscape:export-filename="sign/limit45R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="17.211287"
+       y="17.772236"
+       id="text558-18-0-44-9-8-1-0-3-1-7"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-0-4-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="17.14514"
+         y="17.772236">45</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 16.00729,18.123958 v 0.264584 h 2.38125 l -0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-2-8-9"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-90-1-6-9-1-0-4-8"
+       width="2.6458333"
+       height="2.6458333"
+       x="18.520832"
+       y="15.874998"
+       inkscape:export-filename="sign/limit45L.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.38125px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;letter-spacing:-0.132292px;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="19.857121"
+       y="17.772236"
+       id="text558-18-0-44-9-8-1-0-2-0-5-5"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-3-5-8-1-8-3-7-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.38125px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#f2f2f2;stroke-width:0.053"
+         x="19.790974"
+         y="17.772236">45</tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,18.123958 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-3-1"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#ffffff;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       d="m 21.034373,12.832291 v 0.264584 h -2.38125 l 0.529167,-0.529167 v 0.264583 z"
+       id="path2731-9-7-3-3-3"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-9-75-4-1-8"
+       inkscape:export-filename="sign/section1R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7"
+       sodipodi:type="arc"
+       sodipodi:cx="1.3229153"
+       sodipodi:cy="1.3229158"
+       sodipodi:rx="1.3229166"
+       sodipodi:ry="1.3229166"
+       sodipodi:start="4.1887902"
+       sodipodi:end="5.2359878"
+       sodipodi:arc-type="slice"
+       d="m 0.661457,0.17723639 a 1.3229166,1.3229166 0 0 1 1.3229167,3e-8 L 1.3229153,1.3229158 Z" />
+    <circle
+       style="fill:#ff7f2a;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-88-1-5"
+       cx="1.3229158"
+       cy="3.968749"
+       inkscape:export-filename="sign/section1R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7"
+       r="1.1244792" />
+    <circle
+       style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-88-1-7"
+       cx="1.3229158"
+       cy="6.6145825"
+       r="1.3229166"
+       inkscape:export-filename="sign/slow_end.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7" />
+    <circle
+       style="fill:#00d400;fill-opacity:1;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="path236-88-1-5-2"
+       cx="1.3229158"
+       cy="6.6145825"
+       inkscape:export-filename="sign/section1R.png"
+       inkscape:export-xdpi="2457.7"
+       inkscape:export-ydpi="2457.7"
+       r="1.1244792" />
   </g>
 </svg>
