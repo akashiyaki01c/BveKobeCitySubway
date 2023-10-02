@@ -47,5 +47,4 @@ kasen_myodani_west, ./kasen_myodani_west.x
 kasen_myodani_west1, ./kasen_myodani_west1.x
 kasen_myodani1,	./kasen_myodani1.x
 
-# Nagoya Common
-Mt, ../../Nagoya_Common/Nature/Mt/Mt_L.x
+myodani_west_ishigaki,  ./myodani_west_ishigaki.x

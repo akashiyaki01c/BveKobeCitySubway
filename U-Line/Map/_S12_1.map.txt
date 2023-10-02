@@ -25,6 +25,7 @@ $MYODANI_START - 306;
 	Structure['kasen_myodani1'].Put0('0',0,0);
 $MYODANI_START - 272;
     Track['WestMainLine'].Y.Interpolate(0);
+    Repeater['MyodaniWestIshigaki'].Begin('0',0,0,0,0,0,0,0,0,2,'myodani_west_ishigaki');
     Track['S12_Track2'].X.Interpolate(4.5, 0);
     Structure['kasen_myodani_west'].Put0('0',0,0);
     Curve.Begin(-3000);
@@ -50,6 +51,7 @@ $MYODANI_START - 20;
     Track['WestMainLine'].Position(20, 0);
 $MYODANI_START + 18;	// [S12] ホーム始端
     Track['WestMainLine'].Position(24, 0);
+    Repeater['MyodaniWestIshigaki'].End();
     Curve.Begin(3000);
 $MYODANI_START + 68;
     Curve.End();
