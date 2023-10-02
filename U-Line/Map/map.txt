@@ -158,7 +158,7 @@ $MYODANI_START - 735;	// 名谷陸橋始端
 	Repeater['floor2'].End();
     Repeater['myodani_small_bridge'].Begin0('0',0,0,2,'myodani_small_bridge');
 	Track['Road_OchiaiCenter'].Position(-33,-6);
-	Repeater['Road_OchiaiCenter'].Begin0('Road_OchiaiCenter', 0, 0, 1, 'rail-ballast')
+	Repeater['Road_OchiaiCenter'].Begin0('Road_OchiaiCenter', 0, 0, 1, 'road_ochiaicenter')
 $MYODANI_START - 680;	// 名谷陸橋終端
     Track['WestMainLine'].X.Interpolate(14.5);
     Curve.BeginTransition();
