@@ -106,7 +106,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "horn.png";
+    "kp4a.png";
    }
   }
  }

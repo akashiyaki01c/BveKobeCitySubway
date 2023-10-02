@@ -22,25 +22,6 @@ $MYODANI_START = 10000;
     include '_S12_1.map.txt';
     include 'ats.txt';
 
-    // 隧道高架橋定義
-$MYODANI_START - 1599;	// 市の子隧道始端
-    Repeater['ichinoko_tunnel-e'].Begin0(0, 0, 1, 4, 'ichinoko_tunnel-e');
-    Repeater['ichinoko_tunnel-w'].Begin0('WestMainLine', 3, 1, 4, 'ichinoko_tunnel-w');
-$MYODANI_START - 1512;	// 市の子隧道終端
-    Repeater['ichinoko_tunnel-e'].End();
-    Repeater['ichinoko_tunnel-w'].End();
-$MYODANI_START - 1505; // 市の子橋梁始端
-    Repeater['ichinoko_bridge-e'].Begin0(0, 0, 1, 2, 'ichinoko_bridge-e');
-    Repeater['ichinoko_bridge-w'].Begin0('WestMainLine', 3, 1, 2, 'ichinoko_bridge-w');
-	Repeater['floor1'].End();
-$MYODANI_START - 1310;
-    Repeater['ichinoko_bridge-e'].End();
-    Repeater['ichinoko_bridge-w'].End();
-$MYODANI_START - 1280; // 市の子橋梁終端
-    Track['WestMainLine'].Position(3.5, 0);
-	Repeater['floor2'].Begin0('0',3,0,1,'floor');
-
-
 $MYODANI_START - 1000;	// [S17] 西神中央停車場 中心
 $MYODANI_START - 1000;	// [S17] 6R 出発
 $MYODANI_START - 1000;	// 第4閉塞
@@ -82,34 +63,43 @@ $MYODANI_START - 1630;	// [S13] 総合運動公園 停止位置
     Station['S13'].Put(1, -0.7, 0.7);
     Repeater['ForEastMainLine'].End();
     Repeater['ForEastMainLine'].Begin0(0, 3, 1, 2, 'rail-ballast-dassenboushi');
-$MYODANI_START - 1610;	// [S13] 総合運動公園 ホーム終端
+$MYODANI_START - 1619;	// [S13] 総合運動公園 ホーム終端
     Repeater['S13_Platform_extra'].End();
     Repeater['S13_Platform'].End();
     Track['WestMainLine'].Position(11, 0);
     Curve.BeginTransition();
-$MYODANI_START - 1604;
+$MYODANI_START - 1614 + 0.1;
+    Structure['pole_1.5m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 1614;
     Structure['limit_75'].Put('0',-2,1.5,0,0,0,0,0,0);
     SpeedLimit.Begin(75);
-$MYODANI_START - 1604 + 0.1;
-    Structure['pole_1.5m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 1609 + 0.1;
+    Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 1609;
+    Structure['section_4'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 1600;	// 第4閉塞
-	Structure['section_4'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
     Structure['kp_6'].Put('0',2.5,0,0,0,180,0,0,0);
     Sound['S13dep'].Play();
-$MYODANI_START - 1600 + 0.1;
-    Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 1599;	// 市の子隧道始端
+    Repeater['ichinoko_tunnel-e'].Begin0(0, 0, 1, 4, 'ichinoko_tunnel-e');
+    Repeater['ichinoko_tunnel-w'].Begin0('WestMainLine', 3, 1, 4, 'ichinoko_tunnel-w');
 $MYODANI_START - 1560;
     Curve.Begin(400, 0.1);
-$MYODANI_START - 1512;	// 市の子隧道終端
+$MYODANI_START - 1530;	// 市の子隧道終端
     Track['WestMainLine'].Position(5.5, 0);
+    Repeater['ichinoko_tunnel-e'].End();
+    Repeater['ichinoko_tunnel-w'].End();
 $MYODANI_START - 1510;
     Curve.BeginTransition();
     Track['WestMainLine'].Position(4.7, 0);
-$MYODANI_START - 1504;
+$MYODANI_START - 1522; // 市の子橋梁始端
+    Repeater['ichinoko_bridge-e'].Begin0(0, 0, 1, 2, 'ichinoko_bridge-e');
+    Repeater['ichinoko_bridge-w'].Begin0('WestMainLine', 3, 1, 2, 'ichinoko_bridge-w');
+	Repeater['floor1'].End();
     Repeater['kasen_ichinoko_bridge'].Begin0('0',0,0,25,'kasen_ichinoko_bridge');
 $MYODANI_START - 1500;
     Track['WestMainLine'].Position(4.2, 0);
-    Structure['kp_5'].Put('0',-2.5,0,0,0,0,0,0,0);
+    Structure['kp_5a'].Put('0',-1.8,1,0,0,0,0,0,0);
 $MYODANI_START - 1490;
     Track['WestMainLine'].Position(3.9, 0);
 $MYODANI_START - 1480;
@@ -118,9 +108,12 @@ $MYODANI_START - 1470;
     Track['WestMainLine'].Position(3.6, 0);
 $MYODANI_START - 1450;
     Track['WestMainLine'].Position(3.5, 0);
+    Structure['horn'].Put('0',-1.8,1,0,0,0,0,0,0);
 $MYODANI_START - 1400;
     Structure['kp_4'].Put('0',-2.5,0,0,0,0,0,0,0);
 $MYODANI_START - 1310;
+    Repeater['ichinoko_bridge-e'].End();
+    Repeater['ichinoko_bridge-w'].End();
     Curve.Begin(-350, 0.1);
 $MYODANI_START - 1300;
     Structure['kp_3'].Put('0',-2.5,0,0,0,0,0,0,0);
@@ -128,6 +121,8 @@ $MYODANI_START - 1280; // 市の子橋梁終端
     Track['WestMainLine'].Position(3.5, 0);
     Repeater['kasen_ichinoko_bridge'].End();
     Structure['chijoshi'].Put(0, 0, 0, 0, 0, 0, 0, 0, 0);
+    Track['WestMainLine'].Position(3.5, 0);
+	Repeater['floor2'].Begin0('0',3,0,1,'floor');
 $MYODANI_START - 1275;
     Repeater['kasen_tansen_S13-12'].Begin0('0',0,0,30,'kasen_tansen');
 $MYODANI_START - 1250 + 0.1;

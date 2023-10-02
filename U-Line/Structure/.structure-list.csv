@@ -73,6 +73,16 @@ kp_6,   ./kilopost_6.x
 kp_7,   ./kilopost_7.x
 kp_8,   ./kilopost_8.x
 kp_9,   ./kilopost_9.x
+kp_0a,   ./kilopost_0a.x
+kp_1a,   ./kilopost_1a.x
+kp_2a,   ./kilopost_2a.x
+kp_3a,   ./kilopost_3a.x
+kp_4a,   ./kilopost_4a.x
+kp_5a,   ./kilopost_5a.x
+kp_6a,   ./kilopost_6a.x
+kp_7a,   ./kilopost_7a.x
+kp_8a,   ./kilopost_8a.x
+kp_9a,   ./kilopost_9a.x
 kp_km,   ./kilopost_km.x
 station_edge,   ./station_edge.x
 
