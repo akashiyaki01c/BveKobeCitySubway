@@ -20,19 +20,14 @@ $MYODANI_START - 630;
 
 	Track['WestMainLine'].X.Interpolate(14.5); // 名谷④
 $MYODANI_START - 340;
-    Repeater['kasen_myodani_west'].End();
-$MYODANI_START - 306;
-	Structure['kasen_myodani1'].Put0('0',0,0);
 $MYODANI_START - 272;
     Track['WestMainLine'].Y.Interpolate(0);
     Repeater['MyodaniWestIshigaki'].Begin('0',0,0,0,0,0,0,0,0,2,'myodani_west_ishigaki');
     Track['S12_Track2'].X.Interpolate(4.5, 0);
-    Structure['kasen_myodani_west'].Put0('0',0,0);
     Curve.Begin(-3000);
 $MYODANI_START - 272 - 12.5;
 	Repeater['myodani_bridge'].End();
 $MYODANI_START - 240;
-	Repeater['kasen_myodani_west'].Begin0('0',0,0,30,'kasen_myodani_west');
     Structure['brake'].Put(0, -2, 2, 0, 0, 0, 0, 0, 0);
 $MYODANI_START - 200;
     Curve.End();

@@ -51,9 +51,9 @@ $MYODANI_START - 10000;	// 第1閉塞
 $MYODANI_START - 10000;	// [S13] 総合運動公園 停留場中心
 $MYODANI_START - 1600;	// 第4閉塞
 	Section.Begin(0,2,3,5);
-$MYODANI_START - 1260;	// 第3閉塞
+$MYODANI_START - 1280;	// 第3閉塞
 	Section.Begin(0,2,3,5,6);
-$MYODANI_START - 930;	// 第2閉塞
+$MYODANI_START - 947;	// 第2閉塞
 	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 630;	// 第1閉塞
 	Section.Begin(0,2,3,4,5);

@@ -48,10 +48,10 @@ floor,	./floor.x
 
 kasen_ichinoko_bridge,  ./kasen_ichinoko_bridge.x
 kasen_tansen,   ./kasen_tansen.x
-kasen_myodani_kodo, ./kasen_myodani_kodo.x
 kasen_myodani_west, ./kasen_myodani_west.x
 kasen_myodani_west1, ./kasen_myodani_west1.x
 kasen_myodani1,	./kasen_myodani1.x
+kasen_myodani2,	./kasen_myodani2.x
 
 myodani_west_ishigaki,  ./myodani_west_ishigaki.x
 
