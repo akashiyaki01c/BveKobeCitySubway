@@ -30,6 +30,9 @@ section_1R,	./sign/section_1R.x
 section_2R,	./sign/section_2R.x
 chijoshi,	./chijoshi.x
 
+stop6,  ./sign/stop6.x
+stop_position,  ./sign/stop_position.x
+
 limit_75,	./sign/limit_75.x
 limit_end,	./sign/limit_end.x
 brake,	./sign/brake.x
@@ -48,3 +51,5 @@ kasen_myodani_west1, ./kasen_myodani_west1.x
 kasen_myodani1,	./kasen_myodani1.x
 
 myodani_west_ishigaki,  ./myodani_west_ishigaki.x
+
+Bg, ../../Nagoya_Common/Nature/Sky/Back_0.x

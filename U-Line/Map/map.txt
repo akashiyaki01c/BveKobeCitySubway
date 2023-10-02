@@ -16,6 +16,7 @@ $MYODANI_START = 10000;
 	Track['WestMainLine'].Position(3, 0); // 西行本線
 	Repeater['ForWestMainLine'].Begin('WestMainLine', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
 	Repeater['floor1'].Begin0('0',3,0,1,'floor');
+    Background.Change('BG');
 	
     include '_S17_2.map.txt';
     include '_S12_1.map.txt';
@@ -82,7 +83,7 @@ $MYODANI_START - 1610;	// [S13] 総合運動公園 ホーム終端
     Track['WestMainLine'].Position(11, 0);
     Curve.BeginTransition();
 $MYODANI_START - 1604;
-    Structure['limit_75'].Put('0',-2,2.5,0,0,0,0,0,0);
+    Structure['limit_75'].Put('0',-2,1.5,0,0,0,0,0,0);
     SpeedLimit.Begin(75);
 $MYODANI_START - 1600;	// 第4閉塞
 	Structure['section_4'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
@@ -180,6 +181,8 @@ $MYODANI_START + 18;	// [S12] ホーム始端
 $MYODANI_START + 100;	// [S12] 名谷 停車場中心
 $MYODANI_START + 155;	// [S12] 名谷 停止位置
     Station['S12'].Put(1, -0.7, 0.7);
+	Structure['stop6'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+	Structure['stop_position'].Put(0, -2, 1.7, 0, 0, 0, 0, 0, 1);
 $MYODANI_START + 180;	// [S12] ホーム終端
 $MYODANI_START + 300;	// 落合隧道 始端
 	Repeater['floor3'].End();
