@@ -9,6 +9,9 @@
    id="svg5"
    inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
    sodipodi:docname="標識.svg"
+   inkscape:export-filename="kp1.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="2.1541827"
-     inkscape:cx="24.139085"
-     inkscape:cy="29.941749"
+     inkscape:zoom="8.6167308"
+     inkscape:cx="112.74578"
+     inkscape:cy="11.547303"
      inkscape:window-width="1367"
      inkscape:window-height="847"
      inkscape:window-x="73"
@@ -942,6 +945,27 @@
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.91042px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#f2f2f2;stroke-width:0.053"
          x="11.89024"
          y="2.3153698">6</tspan></text>
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       id="rect1347-4-7"
+       width="2.6458333"
+       height="2.6458333"
+       x="26.458332"
+       y="-7.5199102e-15"
+       inkscape:export-filename="sign/stop6.png"
+       inkscape:export-xdpi="2457.6001"
+       inkscape:export-ydpi="2457.6001" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.91042px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';text-align:center;text-orientation:upright;text-anchor:middle;fill:#f2f2f2;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
+       x="27.78125"
+       y="2.3624539"
+       id="text558-18-0-44-36-9"><tspan
+         sodipodi:role="line"
+         id="tspan556-7-5-59-34-3"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.91042px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#f2f2f2;stroke-width:0.053"
+         x="27.78125"
+         y="2.3624539">1</tspan></text>
     <rect
        style="fill:#1a1a1a;stroke-width:0.053;stroke-linejoin:round;stroke-dasharray:0.159, 0.159"
        id="rect1347-4-9"
