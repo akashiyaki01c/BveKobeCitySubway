@@ -74,6 +74,7 @@ kp_7,   ./kilopost_7.x
 kp_8,   ./kilopost_8.x
 kp_9,   ./kilopost_9.x
 kp_km,   ./kilopost_km.x
+station_edge,   ./station_edge.x
 
 # Bg, ../../Nagoya_Common/Nature/Sky/Back_0.x
 Bg,	./sky/sky.x
