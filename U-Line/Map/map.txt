@@ -157,6 +157,8 @@ $MYODANI_START - 740;   // なんかデカ目の架線柱
 $MYODANI_START - 735;	// 名谷陸橋始端
 	Repeater['floor2'].End();
     Repeater['myodani_small_bridge'].Begin0('0',0,0,2,'myodani_small_bridge');
+	Track['Road_OchiaiCenter'].Position(-33,-6);
+	Repeater['Road_OchiaiCenter'].Begin0('Road_OchiaiCenter', 0, 0, 1, 'rail-ballast')
 $MYODANI_START - 680;	// 名谷陸橋終端
     Track['WestMainLine'].X.Interpolate(14.5);
     Curve.BeginTransition();
@@ -172,9 +174,13 @@ $MYODANI_START - 630;	// 第1閉塞
 $MYODANI_START - 600;
     Track['WestMainLine'].Y.Interpolate(7.5);
     Curve.End();
+$MYODANI_START - 455;
+	Track['Road_OchiaiCenter'].Position(-18.5,0);
 $MYODANI_START - 380;	// [S12] 1R 場内
 	Structure['section_1R'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
     Structure['section_2R'].Put(0, -2, 1.7, 0, 0, 0, 0, 0, 1);
+$MYODANI_START - 205;
+	Track['Road_OchiaiCenter'].Position(-38,0);
 $MYODANI_START;			// 名谷始点
 $MYODANI_START + 18;	// [S12] ホーム始端
     Repeater['kasen_myodani_west'].End();
