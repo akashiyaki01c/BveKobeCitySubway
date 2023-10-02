@@ -295,19 +295,23 @@ $MYODANI_START - 380;	// [S12] 1R 場内
 $MYODANI_START - 353;
     Structure['kasen_myodani_west'].Put0('0',0,0);
 $MYODANI_START - 318;
-    Structure['kasen_myodani_west1'].Put0('0',0,0);
+    Structure['kasen_myodani_west2'].Put0('0',0,0);
 $MYODANI_START - 300;
     Structure['kp_3'].Put('0',-2.5,0,0,0,0,0,0,0);
 $MYODANI_START - 285;
-    Structure['kasen_myodani_west2'].Put0('0',0,0);
+    Structure['kasen_myodani_west'].Put0('0',0,0);
 $MYODANI_START - 245;
-    Structure['kasen_myodani_west1'].Put0('0',0,0);
+    Structure['kasen_myodani_west'].Put0('0',0,0);
 $MYODANI_START - 210;
-    Structure['kasen_myodani_west1'].Put0('0',0,0);
+    Structure['kasen_myodani_west'].Put0('0',0,0);
 $MYODANI_START - 205;
 	Track['Road_OchiaiCenter'].Position(-30,0);
 $MYODANI_START - 200;
     Structure['kp_2'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 175;
+    Structure['kasen_myodani_west'].Put0('0',0,0);
+$MYODANI_START - 160;
+    Structure['kasen_myodani_west3'].Put0('0',0,0);
 $MYODANI_START - 100;
     Structure['kp_1'].Put('0',-2.5,0,0,0,0,0,0,0);
 $MYODANI_START;			// 名谷始点
