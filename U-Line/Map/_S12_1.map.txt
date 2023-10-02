@@ -83,6 +83,10 @@ $MYODANI_START + 310;
 	Track['WestMainLine'].Position(3.5, 0);
 
 // ②→①渡り線
+$MYODANI_START - 360 + 0.1;
+    Structure['pole_1.5m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 360;
+    Structure['limit_45R'].Put(0, -2, 1.5, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 340;
 	Track['S12_Point7'].X.Interpolate(0, 300);
 	Repeater['S12_Point7'].Begin('S12_Point7', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
@@ -113,6 +117,10 @@ $MYODANI_START - 100;
 	Repeater['S12_Point1'].Begin('S12_Point1', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
 $MYODANI_START - 54;
 	Track['S12_Point1'].X.Interpolate(3.25, 300);
+$MYODANI_START - 20 + 0.1;
+    Structure['pole_1.5m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 20;
+    Structure['brake'].Put(0, -2, 1.5, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 8;	
 	Track['S12_Point1'].X.Interpolate(0);
 	Repeater['S12_Point1'].End();

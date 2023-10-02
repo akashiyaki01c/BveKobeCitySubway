@@ -28,11 +28,14 @@ section_8,	./section_8.x
 section_9,	./section_9.x
 section_1R,	./sign/section_1R.x
 section_2R,	./sign/section_2R.x
+ats_start,  ./sign/ats_start.x
 chijoshi,	./chijoshi.x
 
 stop6,  ./sign/stop6.x
 stop_position,  ./sign/stop_position.x
+wait_position,  ./sign/wait_position.x
 
+limit_45R,	./sign/limit_45R.x
 limit_75,	./sign/limit_75.x
 limit_end,	./sign/limit_end.x
 brake,	./sign/brake.x
@@ -60,7 +63,17 @@ pole_1.5m,    ./pole_1.5m.x
 pole_2m,    ./pole_2m.x
 pole_2.3m,    ./pole_2.3m.x
 
-kilopost_1km,   ./kilopost_1km.x
+kp_0,   ./kilopost_0.x
+kp_1,   ./kilopost_1.x
+kp_2,   ./kilopost_2.x
+kp_3,   ./kilopost_3.x
+kp_4,   ./kilopost_4.x
+kp_5,   ./kilopost_5.x
+kp_6,   ./kilopost_6.x
+kp_7,   ./kilopost_7.x
+kp_8,   ./kilopost_8.x
+kp_9,   ./kilopost_9.x
+kp_km,   ./kilopost_km.x
 
 # Bg, ../../Nagoya_Common/Nature/Sky/Back_0.x
 Bg,	./sky/sky.x
