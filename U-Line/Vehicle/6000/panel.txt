@@ -10,3 +10,10 @@ DaytimeImage = ./Panel/6000_vehicle.png
 NighttimeImage = ./Panel/6000_vehicle.png
 Center = 2048,2048
 Origin = 2048,2048
+
+[PilotLamp]
+Subject = ats11
+Location = 1518,2868
+DaytimeImage = ./Panel/B3.png
+NighttimeImage = ./Panel/B3.png
+Layer = 5
