@@ -128,6 +128,8 @@ Subject = ats29
 Location = 2336,2824
 DaytimeImage = ./Panel/Brake_Emg.png
 NighttimeImage = ./Panel/Brake_Emg.png
+
+[PilotLamp]
 Subject = ats31
 Location = 1800,3045
 DaytimeImage = ./Panel/ATS_02.png
