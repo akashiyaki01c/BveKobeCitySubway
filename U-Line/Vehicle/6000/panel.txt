@@ -173,7 +173,7 @@ Layer = 5
 
 [PilotLamp]
 Subject = ats37
-Location = 1855,2785
+Location = 1885,2785
 DaytimeImage = ./Panel/ATS_75.png
 NighttimeImage = ./Panel/ATS_75.png
 Layer = 5
