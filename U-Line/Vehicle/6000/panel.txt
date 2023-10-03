@@ -68,62 +68,66 @@ NighttimeImage = ./Panel/Notch_Power4.png
 Layer = 5
 
 [PilotLamp]
-Subject = ats18
+Subject = ats21
 Location = 2336,3001
-DaytimeImage = ./Panel/Notch_Brake0.png
-NighttimeImage = ./Panel/Notch_Brake0.png
+DaytimeImage = ./Panel/Brake_Yurume.png
+NighttimeImage = ./Panel/Brake_Yurume.png
 Layer = 5
 
 [PilotLamp]
-Subject = ats18
+Subject = ats22
 Location = 2336,2979
-DaytimeImage = ./Panel/Notch_Brake1.png
-NighttimeImage = ./Panel/Notch_Brake1.png
+DaytimeImage = ./Panel/Brake_1.png
+NighttimeImage = ./Panel/Brake_1.png
 Layer = 5
 
 [PilotLamp]
-Subject = ats18
+Subject = ats23
 Location = 2336,2957
-DaytimeImage = ./Panel/Notch_Brake2.png
-NighttimeImage = ./Panel/Notch_Brake2.png
+DaytimeImage = ./Panel/Brake_2.png
+NighttimeImage = ./Panel/Brake_2.png
 Layer = 5
 
 [PilotLamp]
-Subject = ats18
+Subject = ats24
 Location = 2336,2935
-DaytimeImage = ./Panel/Notch_Brake3.png
-NighttimeImage = ./Panel/Notch_Brake3.png
+DaytimeImage = ./Panel/Brake_3.png
+NighttimeImage = ./Panel/Brake_3.png
 Layer = 5
 
 [PilotLamp]
-Subject = ats18
+Subject = ats25
 Location = 2336,2912
-DaytimeImage = ./Panel/Notch_Brake4.png
-NighttimeImage = ./Panel/Notch_Brake4.png
+DaytimeImage = ./Panel/Brake_4.png
+NighttimeImage = ./Panel/Brake_4.png
 Layer = 5
 
 [PilotLamp]
-Subject = ats18
+Subject = ats26
 Location = 2336,2890
-DaytimeImage = ./Panel/Notch_Brake5.png
-NighttimeImage = ./Panel/Notch_Brake5.png
+DaytimeImage = ./Panel/Brake_5.png
+NighttimeImage = ./Panel/Brake_5.png
 Layer = 5
 
 [PilotLamp]
-Subject = ats18
+Subject = ats27
 Location = 2336,2868
-DaytimeImage = ./Panel/Notch_Brake6.png
-NighttimeImage = ./Panel/Notch_Brake6.png
+DaytimeImage = ./Panel/Brake_6.png
+NighttimeImage = ./Panel/Brake_6.png
 Layer = 5
 
 [PilotLamp]
-Subject = ats18
+Subject = ats28
 Location = 2336,2846
-DaytimeImage = ./Panel/Notch_Brake7.png
-NighttimeImage = ./Panel/Notch_Brake7.png
+DaytimeImage = ./Panel/Brake_7.png
+NighttimeImage = ./Panel/Brake_7.png
 Layer = 5
 
 [PilotLamp]
+Subject = ats29
+Location = 2336,2824
+DaytimeImage = ./Panel/Brake_Emg.png
+NighttimeImage = ./Panel/Brake_Emg.png
 Subject = ats31
 Location = 1800,3045
 DaytimeImage = ./Panel/ATS_02.png
