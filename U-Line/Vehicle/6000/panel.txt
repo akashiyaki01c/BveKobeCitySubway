@@ -45,3 +45,24 @@ Location = 1518,2957
 DaytimeImage = ./Panel/Power1.png
 NighttimeImage = ./Panel/Power1.png
 Layer = 5
+
+[PilotLamp]
+Subject = ats16
+Location = 1515,2979
+DaytimeImage = ./Panel/Power2.png
+NighttimeImage = ./Panel/Power2.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats17
+Location = 1515,3001
+DaytimeImage = ./Panel/Power3.png
+NighttimeImage = ./Panel/Power3.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats18
+Location = 1515,2979
+DaytimeImage = ./Panel/Power4.png
+NighttimeImage = ./Panel/Power4.png
+Layer = 5
