@@ -124,8 +124,57 @@ NighttimeImage = ./Panel/Notch_Brake7.png
 Layer = 5
 
 [PilotLamp]
-Subject = ats18
-Location = 2336,2824
-DaytimeImage = ./Panel/Notch_BrakeEmg.png
-NighttimeImage = ./Panel/Notch_BrakeEmg.png
+Subject = ats31
+Location = 1800,3045
+DaytimeImage = ./Panel/ATS_02.png
+NighttimeImage = ./Panel/ATS_02.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats32
+Location = 1665,2965
+DaytimeImage = ./Panel/ATS_01.png
+NighttimeImage = ./Panel/ATS_01.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats33
+Location = 1660,2885
+DaytimeImage = ./Panel/ATS_15.png
+NighttimeImage = ./Panel/ATS_15.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats34
+Location = 1660,2820
+DaytimeImage = ./Panel/ATS_25.png
+NighttimeImage = ./Panel/ATS_25.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats35
+Location = 1735,2755
+DaytimeImage = ./Panel/ATS_45.png
+NighttimeImage = ./Panel/ATS_45.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats36
+Location = 1820,2755
+DaytimeImage = ./Panel/ATS_60.png
+NighttimeImage = ./Panel/ATS_60.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats37
+Location = 1855,2785
+DaytimeImage = ./Panel/ATS_75.png
+NighttimeImage = ./Panel/ATS_75.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats38
+Location = 1945,2860
+DaytimeImage = ./Panel/ATS_90.png
+NighttimeImage = ./Panel/ATS_90.png
 Layer = 5
