@@ -14,55 +14,55 @@ Origin = 2048,2048
 [PilotLamp]
 Subject = ats11
 Location = 1518,2868
-DaytimeImage = ./Panel/Yokusoku3.png
-NighttimeImage = ./Panel/Yokusoku3.png
+DaytimeImage = ./Panel/Notch_Yokusoku3.png
+NighttimeImage = ./Panel/Notch_Yokusoku3.png
 Layer = 5
 
 [PilotLamp]
 Subject = ats12
 Location = 1518,2890
-DaytimeImage = ./Panel/Yokusoku2.png
-NighttimeImage = ./Panel/Yokusoku2.png
+DaytimeImage = ./Panel/Notch_Yokusoku2.png
+NighttimeImage = ./Panel/Notch_Yokusoku2.png
 Layer = 5
 
 [PilotLamp]
 Subject = ats13
 Location = 1518,2912
-DaytimeImage = ./Panel/Yokusoku1.png
-NighttimeImage = ./Panel/Yokusoku1.png
+DaytimeImage = ./Panel/Notch_Yokusoku1.png
+NighttimeImage = ./Panel/Notch_Yokusoku1.png
 Layer = 5
 
 [PilotLamp]
 Subject = ats14
 Location = 1518,2935
-DaytimeImage = ./Panel/Power0.png
-NighttimeImage = ./Panel/Power0.png
+DaytimeImage = ./Panel/Notch_Power0.png
+NighttimeImage = ./Panel/Notch_Power0.png
 Layer = 5
 
 [PilotLamp]
 Subject = ats15
 Location = 1518,2957
-DaytimeImage = ./Panel/Power1.png
-NighttimeImage = ./Panel/Power1.png
+DaytimeImage = ./Panel/Notch_Power1.png
+NighttimeImage = ./Panel/Notch_Power1.png
 Layer = 5
 
 [PilotLamp]
 Subject = ats16
 Location = 1515,2979
-DaytimeImage = ./Panel/Power2.png
-NighttimeImage = ./Panel/Power2.png
+DaytimeImage = ./Panel/Notch_Power2.png
+NighttimeImage = ./Panel/Notch_Power2.png
 Layer = 5
 
 [PilotLamp]
 Subject = ats17
 Location = 1515,3001
-DaytimeImage = ./Panel/Power3.png
-NighttimeImage = ./Panel/Power3.png
+DaytimeImage = ./Panel/Notch_Power3.png
+NighttimeImage = ./Panel/Notch_Power3.png
 Layer = 5
 
 [PilotLamp]
 Subject = ats18
-Location = 1515,2979
-DaytimeImage = ./Panel/Power4.png
-NighttimeImage = ./Panel/Power4.png
+Location = 1515,3023
+DaytimeImage = ./Panel/Notch_Power4.png
+NighttimeImage = ./Panel/Notch_Power4.png
 Layer = 5
