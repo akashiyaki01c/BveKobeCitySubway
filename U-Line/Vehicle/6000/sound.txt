@@ -1,0 +1,10 @@
+BveTs Vehicle Sound 3.01:UTF-8
+
+[Door]
+OpenLeft = ./Sound/doorchime_left.wav
+OpenRight = ./Sound/doorchime_right.wav
+CloseLeft = ./Sound/doorchime_left.wav
+CloseRight = ./Sound/doorchime_right.wav
+
+[Ats]
+3 = ./Sound/atsbell.wav

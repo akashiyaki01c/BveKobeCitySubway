@@ -68,6 +68,8 @@ $MYODANI_START - 1619;	// [S13] 総合運動公園 ホーム終端
     Repeater['S13_Platform'].End();
     Track['WestMainLine'].Position(11, 0);
     Curve.BeginTransition();
+$MYODANI_START - 1616;
+    Structure['kasen_tansen'].Put0('0',0,0);
 $MYODANI_START - 1614 + 0.1;
     Structure['pole_1.5m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
 $MYODANI_START - 1614;
@@ -79,7 +81,7 @@ $MYODANI_START - 1609;
     Structure['section_4'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 1600;	// 第4閉塞
     Structure['kp_6'].Put('0',2.5,0,0,0,180,0,0,0);
-    Sound['S13dep'].Play();
+    # Sound['S13dep'].Play();
 $MYODANI_START - 1599;	// 市の子隧道始端
     Repeater['ichinoko_tunnel-e'].Begin0(0, 0, 1, 4, 'ichinoko_tunnel-e');
     Repeater['ichinoko_tunnel-w'].Begin0('WestMainLine', 3, 1, 4, 'ichinoko_tunnel-w');
@@ -236,8 +238,10 @@ $MYODANI_START - 735;	// 名谷陸橋始端
     Repeater['Road_OchiaiCenterNorimen_1'].Begin0('0', 1, 0, 10, 'road_ochiaicenter_norimen');
 $MYODANI_START - 728;
     Structure['kasen_myodani_west'].Put0('0',0,0);
+$MYODANI_START - 710;
+    Structure['brake'].Put('0',-1.8,1,0,0,0,0,0,0);
 $MYODANI_START - 700;
-    Structure['kp_7'].Put('0',-2.5,0,0,0,0,0,0,0);
+    Structure['kp_7a'].Put('0',-1.8,1,0,0,0,0,0,0);
 $MYODANI_START - 688;
     Structure['kasen_myodani_west'].Put0('0',0,0);
 $MYODANI_START - 680;	// 名谷陸橋終端
@@ -252,7 +256,7 @@ $MYODANI_START - 640;
 $MYODANI_START - 630 + 0.1;
     Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
 $MYODANI_START - 630;	// 第1閉塞
-    Sound['S12arr'].Play();
+    # Sound['S12arr'].Play();
 	Structure['section_1'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 608;
     Structure['kasen_myodani_west'].Put0('0',0,0);
@@ -309,13 +313,25 @@ $MYODANI_START - 205;
 $MYODANI_START - 200;
     Structure['kp_2'].Put('0',-2.5,0,0,0,0,0,0,0);
 $MYODANI_START - 175;
-    Structure['kasen_myodani_west'].Put0('0',0,0);
+    Structure['kasen_myodani_west'].Put(0, 1, 0, 0, 0, 0, 0, 0, 0);
 $MYODANI_START - 160;
-    Structure['kasen_myodani_west3'].Put0('0',0,0);
+    Structure['kasen_myodani_west3'].Put(0, 1, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 140;
+    Structure['kasen_myodani_west2'].Put(0, 0, 0, 0, 0, 0, 0, 0, 0);
 $MYODANI_START - 100;
     Structure['kp_1'].Put('0',-2.5,0,0,0,0,0,0,0);
+    Structure['kasen_myodani_west2'].Put(0, 0, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 60;
+    Structure['kasen_myodani_west2'].Put(0, 0, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 25;
+    Structure['kasen_myodani_west2'].Put(0, 0, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 10;
+    Structure['kasen_myodani_west3'].Put(0, 0, 0, 0, 0, 0, 0, 0, 0);
 $MYODANI_START;			// 名谷始点
     Structure['kp_0'].Put('0',-2.5,0,0,0,0,0,0,0);
+    Structure['kasen_myodani_west3'].Put(0, 1, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START + 10;
+    Structure['kasen_tansen'].Put(0, 0, 0, 0, 0, 0, 0, 0, 0);
 $MYODANI_START + 18;	// [S12] ホーム始端
 $MYODANI_START + 100;	// [S12] 名谷 停車場中心
 $MYODANI_START + 155;	// [S12] 名谷 停止位置
