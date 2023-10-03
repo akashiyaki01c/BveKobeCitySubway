@@ -14,6 +14,34 @@ Origin = 2048,2048
 [PilotLamp]
 Subject = ats11
 Location = 1518,2868
-DaytimeImage = ./Panel/B3.png
-NighttimeImage = ./Panel/B3.png
+DaytimeImage = ./Panel/Yokusoku3.png
+NighttimeImage = ./Panel/Yokusoku3.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats12
+Location = 1518,2890
+DaytimeImage = ./Panel/Yokusoku2.png
+NighttimeImage = ./Panel/Yokusoku2.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats13
+Location = 1518,2912
+DaytimeImage = ./Panel/Yokusoku1.png
+NighttimeImage = ./Panel/Yokusoku1.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats14
+Location = 1518,2935
+DaytimeImage = ./Panel/Power0.png
+NighttimeImage = ./Panel/Power0.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats15
+Location = 1518,2957
+DaytimeImage = ./Panel/Power1.png
+NighttimeImage = ./Panel/Power1.png
 Layer = 5
