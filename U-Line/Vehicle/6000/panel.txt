@@ -66,3 +66,66 @@ Location = 1515,3023
 DaytimeImage = ./Panel/Notch_Power4.png
 NighttimeImage = ./Panel/Notch_Power4.png
 Layer = 5
+
+[PilotLamp]
+Subject = ats18
+Location = 2336,3001
+DaytimeImage = ./Panel/Notch_Brake0.png
+NighttimeImage = ./Panel/Notch_Brake0.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats18
+Location = 2336,2979
+DaytimeImage = ./Panel/Notch_Brake1.png
+NighttimeImage = ./Panel/Notch_Brake1.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats18
+Location = 2336,2957
+DaytimeImage = ./Panel/Notch_Brake2.png
+NighttimeImage = ./Panel/Notch_Brake2.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats18
+Location = 2336,2935
+DaytimeImage = ./Panel/Notch_Brake3.png
+NighttimeImage = ./Panel/Notch_Brake3.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats18
+Location = 2336,2912
+DaytimeImage = ./Panel/Notch_Brake4.png
+NighttimeImage = ./Panel/Notch_Brake4.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats18
+Location = 2336,2890
+DaytimeImage = ./Panel/Notch_Brake5.png
+NighttimeImage = ./Panel/Notch_Brake5.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats18
+Location = 2336,2868
+DaytimeImage = ./Panel/Notch_Brake6.png
+NighttimeImage = ./Panel/Notch_Brake6.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats18
+Location = 2336,2846
+DaytimeImage = ./Panel/Notch_Brake7.png
+NighttimeImage = ./Panel/Notch_Brake7.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats18
+Location = 2336,2824
+DaytimeImage = ./Panel/Notch_BrakeEmg.png
+NighttimeImage = ./Panel/Notch_BrakeEmg.png
+Layer = 5
