@@ -1,0 +1,138 @@
+BveTs Map 2.02:UTF-8
+
+$MYODANI_START + 5756.000;	// [S09] 新長田停車場 中心
+
+$MYODANI_START + 5851.231;
+	Curve.Begin(-1275);
+$MYODANI_START + 5968.832;
+	Curve.End();
+$MYODANI_START + 6036.600;	// 新長田わたり線中心 (10番片渡り)
+$MYODANI_START + 6140.000 - 10;
+	Gradient.BeginTransition();
+$MYODANI_START + 6140.000 + 10;
+	Gradient.Begin(-7);
+$MYODANI_START + 6223.738;
+	Curve.Begin(-370);
+$MYODANI_START + 6376.600 - 10;
+	Gradient.BeginTransition();
+$MYODANI_START + 6376.600 + 10;
+	Gradient.Begin(2);
+$MYODANI_START + 6558.596;
+	Curve.Change(600);
+$MYODANI_START + 6688.926;
+	Curve.Change(260);
+$MYODANI_START + 6827.851;
+	Curve.End();
+$MYODANI_START + 6832.500 -10;
+	Gradient.BeginTransition();
+$MYODANI_START + 6832.500 + 10;
+	Gradient.Begin(-2.006);
+$MYODANI_START + 6952.000;
+	Gradient.BeginTransition();
+$MYODANI_START + 6941.429;
+	Curve.Begin(165);
+$MYODANI_START + 7191.971;
+	Curve.End();
+$MYODANI_START + 7056.000;
+	Gradient.Begin(26);
+$MYODANI_START + 7104.000;
+	Gradient.BeginTransition();
+$MYODANI_START + 7216.000;
+	Gradient.Begin(-2);
+
+$MYODANI_START + 7215.000;	// [S08] 長田駅 構築始端　
+$MYODANI_START + 7247.500;	// [S08] 長田ホーム始端
+$MYODANI_START + 7310.000;	// [S08] 長田停留場 中心
+$MYODANI_START + 7329.733;
+	Curve.Begin(2500);
+$MYODANI_START + 7372.500;	// [S08] 長田ホーム終端
+$MYODANI_START + 7400.000 -10;
+	Gradient.BeginTransition();
+$MYODANI_START + 7400.000 + 10;
+	Gradient.Begin(5);
+$MYODANI_START + 7419.977;
+	Curve.End();
+$MYODANI_START + 7430.000;	// [S08] 長田駅 構築終端
+$MYODANI_START + 7575.697;
+	Curve.Begin(4500);
+$MYODANI_START + 7650.250;
+	Gradient.BeginTransition();
+$MYODANI_START + 7710.250;
+	Gradient.Begin(-15);
+$MYODANI_START + 7805.431;
+	Curve.End();
+$MYODANI_START + 7835.000;
+	Gradient.BeginTransition();
+$MYODANI_START + 7875.000;
+	Gradient.Begin(-2);
+
+$MYODANI_START + 7875.000;	// [S07] 上沢駅 構築始端
+$MYODANI_START + 8052.500;	// [S07] 上沢駅 ホーム始端
+$MYODANI_START + 8130.000;	// [S07] 上沢停留場 中心
+$MYODANI_START + 8187.400;	// [S07] 上沢駅 ホーム終端
+$MYODANI_START + 8215.000 -10;
+	Gradient.BeginTransition();
+$MYODANI_START + 8215.000 + 10;
+	Gradient.Begin(2);
+$MYODANI_START + 8249.122;
+	Curve.Begin(1500);
+$MYODANI_START + 8275.000;	// [S07] 上沢駅 構築終端
+$MYODANI_START + 8303.901;
+	Curve.End();
+$MYODANI_START + 8363.981;
+	Curve.Begin(1500);
+$MYODANI_START + 8418.840;
+	Curve.End();
+$MYODANI_START + 8462.057 -10;
+	Gradient.BeginTransition();
+$MYODANI_START + 8462.057 + 10;
+	Gradient.Begin(-5);
+$MYODANI_START + 8644.209;
+	Curve.Begin(3000);
+$MYODANI_START + 8675.676;
+	Curve.End();
+$MYODANI_START + 8853.630;
+	Curve.Begin(800);
+$MYODANI_START + 8916.430;
+	Curve.End();
+$MYODANI_START + 8967.500;	// [S06] 湊川公園駅構築始端
+$MYODANI_START + 8976.430;
+	Curve.Begin(700);
+$MYODANI_START + 8980.000 -10;
+	Gradient.BeginTransition();
+$MYODANI_START + 8980.000 + 10;
+	Gradient.Begin(2);
+$MYODANI_START + 8994.000;	// [S06] 湊川公園駅ホーム始端
+$MYODANI_START + 9080.000;	// [S06] 湊川公園停留場 中心
+$MYODANI_START + 9137.500;	// [S06] 湊川公園駅ホーム終端
+$MYODANI_START + 9163.111;
+	Curve.End();
+$MYODANI_START + 9199.000;
+	Gradient.BeginTransition();
+$MYODANI_START + 9242.500;	// [S06] 湊川公園駅構築終端
+$MYODANI_START + 9311.000;
+	Gradient.Begin(30);
+$MYODANI_START + 9460.286;
+	Gradient.BeginTransition();
+$MYODANI_START + 9566.286;
+	Gradient.Begin(-5);
+$MYODANI_START + 9720.840;	// 大倉山西交差わたり線中心(10#シーサスクロッシング)
+$MYODANI_START + 9821.158;
+	Curve.Begin(500);
+$MYODANI_START + 9910.000;	// [S05] 大倉山駅構築始端
+$MYODANI_START + 9975.000 - 10;
+	Gradient.BeginTransition();
+$MYODANI_START + 9975.000 + 10;
+	Gradient.Begin(-2);
+
+$MYODANI_START + 9990.982;
+	Curve.End();
+$MYODANI_START + 10021.000;	// [S05] 大倉山駅ホーム始端
+$MYODANI_START + 10070.000;	// [S05] 大倉山停車場 中心
+$MYODANI_START + 10111.673;
+	Curve.Begin(1200);
+$MYODANI_START + 10146.000;	// [S05] 大倉山駅ホーム終端
+$MYODANI_START + 10168.633;
+	Curve.End();
+$MYODANI_START + 10205.000;	// [S05] 大倉山駅構築終端
+$MYODANI_START + 10225.000;	// 大倉山開業時 仮壁

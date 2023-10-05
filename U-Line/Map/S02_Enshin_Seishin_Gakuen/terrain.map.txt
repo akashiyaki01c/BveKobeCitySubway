@@ -1,0 +1,52 @@
+BveTs Map 2.02:UTF-8
+
+// 勾配や曲線を定義するマップデータ
+
+$MYODANI_START - 10275.054; // 西神車庫終端
+
+$MYODANI_START - 9270.000;	// 西神中央停車場 中心
+
+$MYODANI_START - 9025.000;	// 西神隧道 始端
+$MYODANI_START - 8964.176;
+	Gradient.Begin(-34);
+$MYODANI_START - 8340.000;	// 西神隧道 終端
+$MYODANI_START - 8220.000;	// 櫨谷高架線 始端
+$MYODANI_START - 8173.000;
+	Gradient.End();
+$MYODANI_START - 7852.000;
+	Gradient.Begin(30);
+$MYODANI_START - 7844.500;	// 櫨谷高架線 終端
+$MYODANI_START - 6952.000;
+	Gradient.End();
+
+$MYODANI_START - 6700.000;	// 西神南停留場 中心
+
+$MYODANI_START - 6402.000;
+	Gradient.Begin(-20);
+$MYODANI_START - 6288.000;	// 永井谷橋梁 始端
+$MYODANI_START - 6131.000;
+	Gradient.Begin(-30);
+$MYODANI_START - 6107.000;	// 永井谷橋梁 終端
+$MYODANI_START - 6080.000;	// 表山隧道 始端
+$MYODANI_START - 5210.000;	// 表山隧道 終端
+$MYODANI_START - 5115.000;
+	Gradient.End();
+$MYODANI_START - 5098.000;	// 伊川谷高架橋 始端
+
+$MYODANI_START - 5040.000:	// 伊川谷停留場 中心
+
+$MYODANI_START - 4673.780;
+	Gradient.Begin(27);
+$MYODANI_START - 4510.000;	// 伊川谷高架橋 終端
+$MYODANI_START - 4295.000;	// 小寺隧道 始端
+$MYODANI_START - 3870.000;	// 小寺隧道 終端
+$MYODANI_START - 3537.500;	// 学園都市開業時 車止め中心
+$MYODANI_START - 3536.500;
+	Gradient.BeginTransition();
+$MYODANI_START - 3468.600;	// 住宅幹線２号線中心 幅員18m00
+$MYODANI_START - 3455.500;
+	Gradient.End();
+
+$MYODANI_START - 3451.000;	// [S14] 学園都市 ホーム始端
+$MYODANI_START - 3370.000;	// [S14] 学園都市停車場 中心
+$MYODANI_START - 3289.000;	// [S14] 学園都市 ホーム終端

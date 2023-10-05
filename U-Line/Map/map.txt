@@ -22,25 +22,25 @@ $MYODANI_START = 10000;
     include '_S12_1.map.txt';
     include 'ats.txt';
 
-$MYODANI_START - 1000;	// [S17] 西神中央停車場 中心
+$MYODANI_START - 9270;	// [S17] 西神中央停車場 中心
 $MYODANI_START - 1000;	// [S17] 6R 出発
 $MYODANI_START - 1000;	// 第4閉塞
 $MYODANI_START - 1000;	// 第3閉塞
 $MYODANI_START - 1000;	// 第2閉塞
 $MYODANI_START - 1000;	// 第1閉塞
-$MYODANI_START - 1000;	// [S16] 西神南 停留場中心
+$MYODANI_START - 6700;	// [S16] 西神南 停留場中心
 $MYODANI_START - 1000;	// 第5閉塞
 $MYODANI_START - 1000;	// 第4閉塞
 $MYODANI_START - 1000;	// 第3閉塞
 $MYODANI_START - 1000;	// 第2閉塞
 $MYODANI_START - 1000;	// 第1閉塞
-$MYODANI_START - 1000;	// [S15] 伊川谷 停留場中心
+$MYODANI_START - 5040;	// [S15] 伊川谷 停留場中心
 $MYODANI_START - 1000;	// 第4閉塞
 $MYODANI_START - 1000;	// 第3閉塞
 $MYODANI_START - 1000;	// 第2閉塞
 $MYODANI_START - 1000;	// 第1閉塞
 $MYODANI_START - 1000;	// [S14] 1R 場内
-$MYODANI_START - 1000;	// [S14] 学園都市 停車場中心
+$MYODANI_START - 3370;	// [S14] 学園都市 停車場中心
 $MYODANI_START - 3310;	// [S14] 学園都市 ホーム終端
 $MYODANI_START - 1000;	// [S14] 3R 出発
 $MYODANI_START - 1000;	// 第4閉塞
