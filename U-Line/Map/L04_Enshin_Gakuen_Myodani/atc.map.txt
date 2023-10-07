@@ -1,0 +1,31 @@
+BveTs Map 2.02:UTF-8
+
+// 範囲 M.L.-3k150M000 M.L.-750M000
+
+# ATC定義
+$MYODANI_START - 2911;	// 第4閉塞
+	Section.Begin(0,2,3,5,6);
+	Structure['section_4'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+	distance + 0.1;	Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 2596;	// 第3閉塞
+	Section.Begin(0,2,3,5,6);
+	Structure['section_3'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+	distance + 0.1;	Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 2090;	// 第2閉塞
+	Section.Begin(0,2,3,5,6);
+	Structure['section_2'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+$MYODANI_START - 1820;	// 第1閉塞
+	Section.Begin(0,2,3,5);
+
+$MYODANI_START - 10000;	// [S13] 総合運動公園 停留場中心
+
+$MYODANI_START - 1600;	// 第4閉塞
+	Section.Begin(0,2,3,5);
+$MYODANI_START - 1280;	// 第3閉塞
+	Section.Begin(0,2,3,5,6);
+	Structure['section_3'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+	distance + 0.1;	Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 947;	// 第2閉塞
+	Section.Begin(0,2,3,5,6);
+	Structure['section_2'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+	distance + 0.1;	Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);

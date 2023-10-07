@@ -1,0 +1,56 @@
+BveTs Map 2.02:UTF-8
+
+# 勾配や曲線を定義するマップデータ
+# 範囲 M.L.-3k150M000 M.L.-750M000
+
+# その他標識
+$MYODANI_START - 3370.000;	// [S14] 学園都市停車場 中心
+$MYODANI_START - 3150.000;	// マップ境界
+$MYODANI_START - 3000.100;	Structure['stop_position'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+$MYODANI_START - 3000.000;	Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 2980.100;	Structure['power'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+$MYODANI_START - 2980.000;	Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 2040.000;	Structure['notch_off'].Put('0', -2, 2, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 1990.000;	Structure['brake'].Put('0', -2, 2, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 1790;	Structure['station_edge'].Put('0',6,0,0,0,-90,0,0,0);
+$MYODANI_START - 1700.000;	// [S13] 総合運動公園停留場 中心
+$MYODANI_START - 1614.100;	Structure['pole_1.5m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 1614.000;	Structure['limit_75'].Put('0',-2,1.5,0,0,0,0,0,0);
+$MYODANI_START - 1450.000;	Structure['horn'].Put('0',-1.8,1,0,0,0,0,0,0);
+$MYODANI_START - 1277.100;	Structure['pole_1.5m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 1277.000;	Structure['limit_end'].Put(0, -2, 1.5, 0, 0, 0, 0, 0, 1);
+$MYODANI_START - 1015.100;	Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 1015.000;	Structure['notch_off'].Put(0, -2, 2, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 1003.100;	Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 1003.000;	Structure['brake'].Put(0, -2, 2, 0, 0, 0, 0, 0, 0);
+$MYODANI_START - 750.000;	// マップ境界
+
+# 距離標
+$MYODANI_START - 3370.000;	// [S14] 学園都市停車場 中心
+$MYODANI_START - 3150.000;	// マップ境界
+$MYODANI_START - 3100.000;	Structure['kp_1'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 3000.000;	Structure['kp_km'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 2900.000;	Structure['kp_9'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 2800.000;	Structure['kp_8'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 2700.000;	Structure['kp_7'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 2600.000;	Structure['kp_6'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 2500.000;	Structure['kp_5'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 2400.000;	Structure['kp_4'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 2300.000;	Structure['kp_3'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 2200.000;	Structure['kp_2'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 2100.000;	Structure['kp_1'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 2000.000;	Structure['kp_km'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 1900.000;	Structure['kp_9'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 1800.000;	Structure['kp_8'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 1700.000;	// [S13] 総合運動公園停留場 中心
+$MYODANI_START - 1700.000;	Structure['kp_7'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 1600.000;	Structure['kp_6'].Put('0',2.5,0,0,0,180,0,0,0);
+$MYODANI_START - 1500.000;	Structure['kp_5a'].Put('0',-1.8,1,0,0,0,0,0,0);
+$MYODANI_START - 1400.000;	Structure['kp_4'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 1300.000;	Structure['kp_3'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 1200.000;	Structure['kp_2'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 1100.000;	Structure['kp_1'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 1000.000;	Structure['kp_km'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 900.000;	Structure['kp_9'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 800.000;	Structure['kp_8'].Put('0',-2.5,0,0,0,0,0,0,0);
+$MYODANI_START - 750.000;	// マップ境界

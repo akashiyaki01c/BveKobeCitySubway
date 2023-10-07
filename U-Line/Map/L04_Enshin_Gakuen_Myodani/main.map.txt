@@ -1,0 +1,8 @@
+BveTs Map 2.02:UTF-8
+
+// 範囲 M.L.-3k150M000 M.L.-750M000
+
+include './L04_Enshin_Gakuen_Myodani/terrain.map.txt';
+include './L04_Enshin_Gakuen_Myodani/signs.map.txt';
+include './L04_Enshin_Gakuen_Myodani/trackstructure.map.txt';
+include './L04_Enshin_Gakuen_Myodani/atc.map.txt';

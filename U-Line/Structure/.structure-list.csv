@@ -28,6 +28,7 @@ section_8,	./section_8.x
 section_9,	./section_9.x
 section_1R,	./sign/section_1R.x
 section_2R,	./sign/section_2R.x
+section_3R,	./sign/section_3R.x
 ats_start,  ./sign/ats_start.x
 chijoshi,	./chijoshi.x
 
@@ -40,6 +41,7 @@ limit_75,	./sign/limit_75.x
 limit_end,	./sign/limit_end.x
 brake,	./sign/brake.x
 notch_off,	./sign/notchoff.x
+power,	./sign/power.x
 horn,	./sign/horn.x
 
 floor,	./floor.x

@@ -40,21 +40,6 @@ $MYODANI_START - 10000;	// [S14] 1R 場内
 $MYODANI_START - 10000;	// [S14] 学園都市 停車場中心
 $MYODANI_START - 10000;	// [S14] 3R 出発
 	Section.Begin(0,2,3,5,6);
-$MYODANI_START - 10000;	// 第4閉塞
-	Section.Begin(0,2,3,5,6);
-$MYODANI_START - 10000;	// 第3閉塞
-	Section.Begin(0,2,3,5,6);
-$MYODANI_START - 10000;	// 第2閉塞
-	Section.Begin(0,2,3,5,6);
-$MYODANI_START - 10000;	// 第1閉塞
-	Section.Begin(0,2,3,5);
-$MYODANI_START - 10000;	// [S13] 総合運動公園 停留場中心
-$MYODANI_START - 1600;	// 第4閉塞
-	Section.Begin(0,2,3,5);
-$MYODANI_START - 1280;	// 第3閉塞
-	Section.Begin(0,2,3,5,6);
-$MYODANI_START - 947;	// 第2閉塞
-	Section.Begin(0,2,3,5,6);
 $MYODANI_START - 630;	// 第1閉塞
 	Section.Begin(0,2,3,4,5);
 $MYODANI_START - 380;	// [S12] 1R 場内
