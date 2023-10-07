@@ -5,6 +5,12 @@ rail-ballast-dassenboushi,	./ballast_dassenboushi.x
 S13_platform,	./S13_platform.x
 S13_platform_extra,	./S13_platform_Extra.x
 S12_platform,	./S12_platform.x
+S14_home_a,	./S14_home_a.x
+S14_home_b,	./S14_home_b.x
+S14_home,	./S14_home.x
+S14_home_wall1,	./S14_home_wall.x
+S14_home_wall2,	./S14_home_wall2.x
+S14_home_wall3,	./S14_home_wall3.x
 
 sangaku_tunnel,	sangaku_tunnel.x
 sangaku_tunnel_exit,	sangaku_tunnel_exit.x
