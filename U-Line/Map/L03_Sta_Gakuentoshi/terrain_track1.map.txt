@@ -13,7 +13,7 @@ $MYODANI_START - 3290.100;
 $MYODANI_START - 3290.000;
 	Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
 	Section.Begin(0,2,3,5,6);	// [S14] 出発3R
-
+$MYODANI_START - 3278.300;	// 市道多聞小寺線中心 幅員22m00
 $MYODANI_START - 3220.880;	// 学園都市東交差わたり線中心 (10#シーサスクロッシング)
 
 $MYODANI_START - 3220.880 - 25;
