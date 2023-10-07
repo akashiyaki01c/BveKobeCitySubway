@@ -119,12 +119,12 @@ $MYODANI_START + 9566.286;
 $MYODANI_START + 9720.840;	// 大倉山西交差わたり線中心(10#シーサスクロッシング)
 $MYODANI_START + 9821.158;
 	Curve.Begin(500);
+
 $MYODANI_START + 9910.000;	// [S05] 大倉山駅構築始端
 $MYODANI_START + 9975.000 - 10;
 	Gradient.BeginTransition();
 $MYODANI_START + 9975.000 + 10;
 	Gradient.Begin(-2);
-
 $MYODANI_START + 9990.982;
 	Curve.End();
 $MYODANI_START + 10021.000;	// [S05] 大倉山駅ホーム始端
@@ -135,4 +135,5 @@ $MYODANI_START + 10146.000;	// [S05] 大倉山駅ホーム終端
 $MYODANI_START + 10168.633;
 	Curve.End();
 $MYODANI_START + 10205.000;	// [S05] 大倉山駅構築終端
+
 $MYODANI_START + 10225.000;	// 大倉山開業時 仮壁

@@ -21,6 +21,7 @@ $MYODANI_START = 10000;
     include '_S17_2.map.txt';
     include '_S12_1.map.txt';
     include 'ats.txt';
+	include './L04_Enshin_Gakuen_Myodani/terrain.map.txt';
 
 $MYODANI_START - 9270;	// [S17] 西神中央停車場 中心
 $MYODANI_START - 1000;	// [S17] 6R 出発
@@ -67,7 +68,6 @@ $MYODANI_START - 1619;	// [S13] 総合運動公園 ホーム終端
     Repeater['S13_Platform_extra'].End();
     Repeater['S13_Platform'].End();
     Track['WestMainLine'].Position(11, 0);
-    Curve.BeginTransition();
 $MYODANI_START - 1616;
     Structure['kasen_tansen'].Put0('0',0,0);
 $MYODANI_START - 1614 + 0.1;
@@ -85,14 +85,11 @@ $MYODANI_START - 1600;	// 第4閉塞
 $MYODANI_START - 1599;	// 市の子隧道始端
     Repeater['ichinoko_tunnel-e'].Begin0(0, 0, 1, 4, 'ichinoko_tunnel-e');
     Repeater['ichinoko_tunnel-w'].Begin0('WestMainLine', 3, 1, 4, 'ichinoko_tunnel-w');
-$MYODANI_START - 1560;
-    Curve.Begin(400, 0.1);
 $MYODANI_START - 1530;	// 市の子隧道終端
     Track['WestMainLine'].Position(5.5, 0);
     Repeater['ichinoko_tunnel-e'].End();
     Repeater['ichinoko_tunnel-w'].End();
 $MYODANI_START - 1510;
-    Curve.BeginTransition();
     Track['WestMainLine'].Position(4.7, 0);
 $MYODANI_START - 1522; // 市の子橋梁始端
     Repeater['ichinoko_bridge-e'].Begin0(0, 0, 1, 2, 'ichinoko_bridge-e');
@@ -135,7 +132,6 @@ $MYODANI_START - 1308; // 市の子橋梁終端
     Structure['chijoshi'].Put(0, 0, 0, 0, 0, 0, 0, 0, 0);
     Track['WestMainLine'].Position(3.5, 0);
 	Repeater['floor2'].Begin0('0',3,0,1,'floor');
-    Curve.Begin(-350, 0.1);
 $MYODANI_START - 1300;
     Structure['kp_3'].Put('0',-2.5,0,0,0,0,0,0,0);
 $MYODANI_START - 1285;
@@ -152,9 +148,7 @@ $MYODANI_START - 1277;
 $MYODANI_START - 1255;
     Structure['kasen_tansen'].Put0('0',0,0);
 $MYODANI_START - 1235; // 上下分離点
-    Curve.BeginTransition();
     Track['WestMainLine'].Y.Interpolate(0);
-    Gradient.BeginTransition();
 $MYODANI_START - 1230;
     Structure['kasen_tansen'].Put0('0',0,0);
 $MYODANI_START - 1200;
@@ -162,16 +156,12 @@ $MYODANI_START - 1200;
     Structure['kasen_tansen'].Put0('0',0,0);
 $MYODANI_START - 1165;
     Structure['kasen_tansen'].Put0('0',0,0);
-$MYODANI_START - 1160;
-    Gradient.Begin(-20);
 $MYODANI_START - 1167 + 12.5;
 	Repeater['myodani_bridge'].Begin0('WestMainLine',1,0,25,'myodani_bridge');
 $MYODANI_START - 1160;
     Track['WestMainLine'].X.Interpolate(5);
 $MYODANI_START - 1130;
     Structure['kasen_tansen'].Put0('0',0,0);
-$MYODANI_START - 1110;
-    Curve.End();
 $MYODANI_START - 1100;
     Structure['kp_1'].Put('0',-2.5,0,0,0,0,0,0,0);
 $MYODANI_START - 1095;
@@ -179,7 +169,6 @@ $MYODANI_START - 1095;
 $MYODANI_START - 1060;
     Structure['kasen_tansen'].Put0('0',0,0);
 $MYODANI_START - 1035;
-    Curve.BeginTransition();
     Track['WestMainLine'].X.Interpolate(5, 0);
 $MYODANI_START - 1025;
     Structure['kasen_tansen'].Put0('0',0,0);
@@ -199,10 +188,6 @@ $MYODANI_START - 955;
     Structure['kasen_tansen'].Put0('0',0,0);
 $MYODANI_START - 950;
     Structure['chijoshi'].Put(0, 0, 0, 0, 0, 0, 0, 0, 0);
-    Gradient.BeginTransition();
-$MYODANI_START - 947.5;
-    Curve.Begin(-2000);
-    Curve.End();
 $MYODANI_START - 947 + 0.1;
     Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
 $MYODANI_START - 947;	// 第2閉塞
@@ -212,13 +197,11 @@ $MYODANI_START - 930;
 $MYODANI_START - 915;
     Structure['kasen_tansen'].Put0('0',0,0);
 $MYODANI_START - 900;
-    Gradient.End();
     Structure['kp_9'].Put('0',-2.5,0,0,0,0,0,0,0);
 $MYODANI_START - 880;
     Structure['kasen_tansen'].Put0('0',0,0);
 $MYODANI_START - 860;
     Track['WestMainLine'].X.Interpolate(3.5+3.8293 , 0);
-    Curve.End();
 $MYODANI_START - 845;
     Structure['kasen_tansen'].Put0('0',0,0);
 $MYODANI_START - 805;
@@ -246,13 +229,9 @@ $MYODANI_START - 688;
     Structure['kasen_myodani_west'].Put0('0',0,0);
 $MYODANI_START - 680;	// 名谷陸橋終端
     Track['WestMainLine'].X.Interpolate(14.5);
-    Curve.BeginTransition();
     Repeater['myodani_small_bridge'].End();
 $MYODANI_START - 648;
     Structure['kasen_myodani_west'].Put0('0',0,0);
-$MYODANI_START - 640;
-    Curve.Begin(-2000);
-    Curve.BeginTransition();
 $MYODANI_START - 630 + 0.1;
     Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
 $MYODANI_START - 630;	// 第1閉塞
@@ -262,7 +241,6 @@ $MYODANI_START - 608;
     Structure['kasen_myodani_west'].Put0('0',0,0);
 $MYODANI_START - 600;
     Track['WestMainLine'].Y.Interpolate(7.5);
-    Curve.End();
     Structure['kp_6'].Put('0',-2.5,0,0,0,0,0,0,0);
 $MYODANI_START - 573;
     Structure['kasen_myodani_west'].Put0('0',0,0);

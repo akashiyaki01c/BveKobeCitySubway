@@ -1,0 +1,117 @@
+BveTs Map 2.02:UTF-8
+
+$MYODANI_START + 9910.000;	// [S05] 大倉山駅構築始端
+$MYODANI_START + 9975.000 - 10;
+	Gradient.BeginTransition();
+$MYODANI_START + 9975.000 + 10;
+	Gradient.Begin(-2);
+$MYODANI_START + 9990.982;
+	Curve.End();
+$MYODANI_START + 10021.000;	// [S05] 大倉山駅ホーム始端
+$MYODANI_START + 10070.000;	// [S05] 大倉山停車場 中心
+$MYODANI_START + 10111.673;
+	Curve.Begin(1200);
+$MYODANI_START + 10146.000;	// [S05] 大倉山駅ホーム終端
+$MYODANI_START + 10168.633;
+	Curve.End();
+$MYODANI_START + 10205.000;	// [S05] 大倉山駅構築終端
+
+$MYODANI_START + 10225.000;	// 大倉山開業時 仮壁
+$MYODANI_START + 10270.000;
+	Gradient.BeginTransition();
+$MYODANI_START + 10410.000;
+	Gradient.Begin(33);
+$MYODANI_START + 10447.556;
+	Curve.Begin(420);
+$MYODANI_START + 10654.000;
+	Gradient.BeginTransition();
+$MYODANI_START + 10675.755;
+	Curve.End();
+$MYODANI_START + 10906.000;
+	Gradient.Begin(-30);
+$MYODANI_START + 10998.922;
+	Gradient.BeginTransition();
+$MYODANI_START + 11040.798;
+	Curve.Begin(800);
+$MYODANI_START + 11110.922;
+	Gradient.Begin(-2);
+
+$MYODANI_START + 11114.000;	// [S04] 県庁前駅構築始端
+$MYODANI_START + 11189.957;
+	Curve.End();
+$MYODANI_START + 11138.000;	// [S04] 県庁前駅ホーム始端
+$MYODANI_START + 11220.000;	// [S04] 県庁前停留場 中心
+$MYODANI_START + 11246.722;
+	Curve.Begin(650);
+$MYODANI_START + 11300.000;	// [S04] 県庁前駅ホーム終端
+$MYODANI_START + 11312.553;
+	Curve.End();
+$MYODANI_START + 11318.710;
+	Gradient.BeginTransition();
+$MYODANI_START + 11328.000;	// [S04] 県庁前駅構築終端
+$MYODANI_START + 11442.710;
+	Gradient.Begin(-33);
+$MYODANI_START + 11491.523;
+	Curve.Begin(420);
+$MYODANI_START + 11512.000;
+	Gradient.BeginTransition();
+$MYODANI_START + 11564.000;
+	Gradient.Begin(-20);
+$MYODANI_START + 11625.374;
+	Curve.End();
+$MYODANI_START + 11826.688;
+	Gradient.BeginTransition();
+$MYODANI_START + 11888.477;
+	Curve.Begin(228);
+$MYODANI_START + 11914.688;
+	Gradient.Begin(2);
+$MYODANI_START + 11919.650; // [S03] 三宮駅構築始端
+$MYODANI_START + 11965.824;
+	Curve.End();
+$MYODANI_START + 11970.000;	// [S03] 三宮駅ホーム始端
+$MYODANI_START + 12050.000;	// [S03] 三宮停留場 中心
+$MYODANI_START + 12142.000;	// [S03] 三宮駅ホーム終端
+$MYODANI_START + 12151.037;
+	Curve.Begin(148);
+$MYODANI_START + 12186.000;
+	Gradient.BeginTransition();
+$MYODANI_START + 12226.074;	// [S03] 三宮駅構築終端
+$MYODANI_START + 12294.000;
+	Gradient.Begin(29);
+$MYODANI_START + 12307.214;
+	Curve.End();
+$MYODANI_START + 12408.000 - 10;
+	Gradient.BeginTransition();
+$MYODANI_START + 12408.000 + 10;
+	Gradient.Begin(34);
+$MYODANI_START + 12443.536;
+	Curve.Begin(1200);
+$MYODANI_START + 12509.578;
+	Curve.End();
+$MYODANI_START + 12660.000 - 10;
+	Gradient.BeginTransition();
+$MYODANI_START + 12660.000 + 10;
+	Gradient.Begin(33);
+$MYODANI_START + 12696.302;
+	Curve.Begin(550);
+$MYODANI_START + 12853.064;
+	Curve.End();
+$MYODANI_START + 12993.000;
+	Gradient.BeginTransition();
+$MYODANI_START + 13109.000;
+	Gradient.Begin(5);
+$MYODANI_START + 13166.866;	// 布引駅交差わたり線中心(10番シーサスクロッシング)
+$MYODANI_START + 13225.060;	// 10番片開き中心
+$MYODANI_START + 13257.336;
+	Curve.Begin(550);
+$MYODANI_START + 13275.000;
+	Gradient.BeginTransition();
+$MYODANI_START + 13275.000;
+	Gradient.End();
+$MYODANI_START + 13317.846;
+	Curve.End();
+$MYODANI_START + 13282.000;	// [S02] 新神戸駅構築始端
+$MYODANI_START + 13330.000;	// [S02] 新神戸駅1,2番線ホーム始端
+$MYODANI_START + 13380.000;	// [S02] 新神戸停車場 中心
+$SHINKOBE_START + 82.000;	// [S02] 新神戸駅1,2番線ホーム終端
+$SHINKOBE_START + 97.000;	// [S02] 新神戸駅構築終端

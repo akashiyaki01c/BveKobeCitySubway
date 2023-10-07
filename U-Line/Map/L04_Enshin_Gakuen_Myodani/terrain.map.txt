@@ -1,0 +1,83 @@
+BveTs Map 2.02:UTF-8
+
+// 勾配や曲線を定義するマップデータ
+
+$MYODANI_START - 3451.000;	// [S14] 学園都市 ホーム始端
+$MYODANI_START - 3370.000;	// [S14] 学園都市停車場 中心
+$MYODANI_START - 3289.000;	// [S14] 学園都市 ホーム終端
+
+$MYODANI_START - 3278.300;	// 市道多聞小寺線中心 幅員22m00
+$MYODANI_START - 3220.880;	// 学園都市東交差わたり線中心 (10#シーサスクロッシング)
+$MYODANI_START - 2807.500;	// 団地内道路中心 幅員8m00
+$MYODANI_START - 2443.500;	// 住区幹線３号線中心 幅員14m00
+$MYODANI_START - 2316.000;	// 湯屋谷隧道 始端
+$MYODANI_START - 2230.414;	// 白川伊川谷線交差中心 幅員10m00
+$MYODANI_START - 1801.000;	// 湯屋谷隧道 終端
+
+$MYODANI_START - 1781.000;	// [S13] 総合運動公園 ホーム始端
+$MYODANI_START - 1700.000;	// [S13] 総合運動公園停留場 中心
+$MYODANI_START - 1619.000;	// [S13] 総合運動公園 ホーム終端
+
+$MYODANI_START - 1599.000;	// 市の子隧道 始端
+$MYODANI_START - 1530.400;	// 市の子隧道 終端
+$MYODANI_START - 1522.000;	// 市の子橋梁 始端
+$MYODANI_START - 1509.000;	// 県道神戸加古川姫路線中心
+$MYODANI_START - 1400.900;	// 山陽新幹線中心
+$MYODANI_START - 1308.000;	// 市の子橋梁 終端
+$MYODANI_START - 900.000;	// 西行線 0‰
+$MYODANI_START - 600.000;	// 西行線 34‰
+$MYODANI_START - 316.470;	// 西行線 0‰
+$MYODANI_START - 263.000;	// C2号コンベヤ
+$MYODANI_START - 155.195;	// 渡り線中心 (8#シーサスクロッシング)
+$MYODANI_START - 112.000;	// 市道名谷環状線中心
+$MYODANI_START - 98.839;	// 10#片開き分岐器中心
+$MYODANI_START - 32.000;	// 10#片開き分岐器中心
+
+$MYODANI_START + 18.000;	// [S12] 名谷 ホーム始端
+$MYODANI_START + 100.000;	// [S12] 名谷停車場 中心
+$MYODANI_START + 180.000;	// [S12] 名谷 ホーム終端
+$MYODANI_START + 238.340;	// 名谷渡り線中心 (10#シーサスクロッシング)
+$MYODANI_START + 303.800;	// 10#片開き分岐器中心
+
+// 曲線定義部
+$MYODANI_START - 3370.000;	// [S14] 学園都市停車場 中心
+	Track['WestMainLine'].X.Interpolate(3.5,0);
+$MYODANI_START - 2887.650 - 30;
+	Curve.BeginTransition();
+$MYODANI_START - 2887.650 + 30;
+	Curve.Begin(-1000);
+$MYODANI_START - 2715.391 - 30;
+	Curve.BeginTransition();
+$MYODANI_START - 2715.391 + 30;
+	Curve.End();
+
+$MYODANI_START - 2090.000;	Curve.BeginTransition();
+$MYODANI_START - 1990.000;	Curve.Begin(-600);
+$MYODANI_START - 8025.000;	Curve.BeginTransition();
+$MYODANI_START - 7990.000;	Curve.End();
+
+$MYODANI_START - 1700.000;	// [S13] 総合運動公園停留場 中心
+
+$MYODANI_START - 1630.000;	Curve.BeginTransition();
+$MYODANI_START - 1605.000;	Curve.Begin(-350);
+$MYODANI_START - 1530.400;	Curve.BeginTransition();
+$MYODANI_START - 1465.000;	Curve.End();
+
+$MYODANI_START - 1435.000;	Curve.BeginTransition();
+$MYODANI_START - 1320.000;	Curve.Begin(500);
+$MYODANI_START - 1175.000;	Curve.BeginTransition();
+$MYODANI_START - 1055.000;	Curve.Change(1500);
+$MYODANI_START - 970.000;	Curve.BeginTransition();
+$MYODANI_START - 920.000;	Curve.End();
+
+// 勾配定義
+$MYODANI_START - 3180.500;	Gradient.BeginTransition();
+$MYODANI_START - 3099.300;	Gradient.Begin(27);
+$MYODANI_START - 2541.600;	Gradient.BeginTransition();
+$MYODANI_START - 2454.100;	Gradient.Begin(-2);
+$MYODANI_START - 1899.000;	Gradient.BeginTransition();
+$MYODANI_START - 1891.000;	Gradient.Begin(0);
+$MYODANI_START - 1270.000;	Gradient.BeginTransition();
+$MYODANI_START - 1190.000;	Gradient.Begin(-20);
+$MYODANI_START - 1010.000;	Gradient.BeginTransition();
+$MYODANI_START - 970.000;	Gradient.Begin(0);

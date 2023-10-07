@@ -1,0 +1,29 @@
+BveTs Map 2.02:UTF-8
+
+// 名谷①番線発着シナリオ
+// 範囲 M.L.-750M000 M.L.310M000
+
+$MYODANI_START - 710.000;	Curve.BeginTransition();
+$MYODANI_START - 690.000;	Curve.Begin(-3000);
+$MYODANI_START - 580.000;	Curve.BeginTransition();
+$MYODANI_START - 560.000;	Curve.End();
+$MYODANI_START - 280.000;	Curve.BeginTransition();
+$MYODANI_START - 260.000;	Curve.Begin(3000);
+$MYODANI_START - 200.000;	Curve.BeginTransition();
+$MYODANI_START - 180.000;	Curve.End();
+
+$MYODANI_START + 45.000;	Curve.BeginTransition();
+$MYODANI_START + 60.000;	Curve.Begin(1500);
+$MYODANI_START + 80.000;	Curve.BeginTransition();
+$MYODANI_START + 100.000;	Curve.End();
+
+$MYODANI_START + 100.000;	// [S12] 名谷停車場 中心
+
+$MYODANI_START + 125.000;	Curve.BeginTransition();
+$MYODANI_START + 140.000;	Curve.Begin(1000);
+$MYODANI_START + 225.000;	Curve.BeginTransition();
+$MYODANI_START + 245.000;	Curve.End();
+
+# 勾配定義
+$MYODANI_START - 600.000;	Gradient.BeginTransition();	Gradient.Begin(0.2);
+$MYODANI_START - 300.000;	Gradient.BeginTransition();	Gradient.End();
