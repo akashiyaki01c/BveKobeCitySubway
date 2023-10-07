@@ -63,10 +63,13 @@ kasen_myodani_west3, ./kasen_myodani_west3.x
 kasen_myodani1,	./kasen_myodani1.x
 
 myodani_west_ishigaki,  ./myodani_west_ishigaki.x
+gakuen_ishigaki,	./gakuen_ishigaki.x
 
 road_ochiaicenter,	./road_ochiaicenter.x
 road_ochiaicenter_norimen,  ./road_ochiaicenter_norimen.x
 road_ochiaicenter_norimen_1,  ./road_ochiaicenter_norimen_1.x
+road_tamon_kodera,	./road_tamon_kodera.x
+road_gaidai_higashi,	./road_gaidai_higashi.x
 
 pole_1.5m,    ./pole_1.5m.x
 pole_2m,    ./pole_2m.x

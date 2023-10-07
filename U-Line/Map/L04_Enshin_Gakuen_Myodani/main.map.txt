@@ -6,3 +6,4 @@ include './L04_Enshin_Gakuen_Myodani/terrain.map.txt';
 include './L04_Enshin_Gakuen_Myodani/signs.map.txt';
 include './L04_Enshin_Gakuen_Myodani/trackstructure.map.txt';
 include './L04_Enshin_Gakuen_Myodani/atc.map.txt';
+include './L04_Enshin_Gakuen_Myodani/structure.map.txt';
