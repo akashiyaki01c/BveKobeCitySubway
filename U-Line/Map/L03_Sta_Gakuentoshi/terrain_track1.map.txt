@@ -2,3 +2,30 @@ BveTs Map 2.02:UTF-8
 
 // 学園都市①番線発着シナリオ
 // 範囲 M.L.-3k500M000 M.L.-3k150M000
+
+$MYODANI_START - 3451.000;	// [S14] 学園都市 ホーム始端
+	Repeater['S14_Platform_Track1'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 1, 1, 'S13_platform_extra');
+$MYODANI_START - 3370.000;	// [S14] 学園都市停車場 中心
+$MYODANI_START - 3289.000;	// [S14] 学園都市 ホーム終端
+	Repeater['S14_Platform_Track1'].End();
+$MYODANI_START - 3290.100;
+	Structure['section_3R'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
+$MYODANI_START - 3290.000;
+	Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
+	Section.Begin(0,2,3,5,6);	// [S14] 出発3R
+
+$MYODANI_START - 3220.880;	// 学園都市東交差わたり線中心 (10#シーサスクロッシング)
+
+$MYODANI_START - 3220.880 - 25;
+	Track['S12_Point3'].X.Interpolate(0, 200);
+	Repeater['S12_Point3'].Begin('S12_Point3', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
+	Track['S12_Point4'].X.Interpolate(3.5, -200);
+	Repeater['S12_Point4'].Begin('S12_Point4', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
+$MYODANI_START - 3220.880;
+	Track['S12_Point3'].X.Interpolate(1.75, -200);
+	Track['S12_Point4'].X.Interpolate(1.75, 200);
+$MYODANI_START - 3220.880 + 25;
+	Track['S12_Point3'].X.Interpolate(3.5);
+	Repeater['S12_Point3'].End();
+	Track['S12_Point4'].X.Interpolate(0);
+	Repeater['S12_Point4'].End();

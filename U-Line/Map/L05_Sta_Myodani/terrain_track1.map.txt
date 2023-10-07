@@ -8,7 +8,7 @@ $MYODANI_START - 690.000;	Curve.Begin(-3000);
 $MYODANI_START - 580.000;	Curve.BeginTransition();
 $MYODANI_START - 560.000;	Curve.End();
 $MYODANI_START - 280.000;	Curve.BeginTransition();
-$MYODANI_START - 260.000;	Curve.Begin(3000);
+$MYODANI_START - 260.000;	Curve.Begin(-3000);
 $MYODANI_START - 200.000;	Curve.BeginTransition();
 $MYODANI_START - 180.000;	Curve.End();
 

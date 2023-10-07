@@ -1,6 +1,7 @@
 BveTs Map 2.02:UTF-8
 
 // 勾配や曲線を定義するマップデータ
+// 範囲 M.L.-3k150M000 M.L.-750M000
 
 $MYODANI_START - 3451.000;	// [S14] 学園都市 ホーム始端
 $MYODANI_START - 3370.000;	// [S14] 学園都市停車場 中心
@@ -41,7 +42,6 @@ $MYODANI_START + 303.800;	// 10#片開き分岐器中心
 
 // 曲線定義部
 $MYODANI_START - 3370.000;	// [S14] 学園都市停車場 中心
-	Track['WestMainLine'].X.Interpolate(3.5,0);
 $MYODANI_START - 2887.650 - 30;
 	Curve.BeginTransition();
 $MYODANI_START - 2887.650 + 30;
@@ -52,21 +52,24 @@ $MYODANI_START - 2715.391 + 30;
 	Curve.End();
 
 $MYODANI_START - 2090.000;	Curve.BeginTransition();
-$MYODANI_START - 1990.000;	Curve.Begin(-600);
-$MYODANI_START - 8025.000;	Curve.BeginTransition();
-$MYODANI_START - 7990.000;	Curve.End();
+$MYODANI_START - 1990.000;	Curve.Begin(600);
+$MYODANI_START - 1825.000;	Curve.BeginTransition();
+$MYODANI_START - 1780.000;	Curve.End();
 
 $MYODANI_START - 1700.000;	// [S13] 総合運動公園停留場 中心
 
 $MYODANI_START - 1630.000;	Curve.BeginTransition();
-$MYODANI_START - 1605.000;	Curve.Begin(-350);
+$MYODANI_START - 1605.000;	Curve.Begin(350, 0.0150);
 $MYODANI_START - 1530.400;	Curve.BeginTransition();
 $MYODANI_START - 1465.000;	Curve.End();
 
 $MYODANI_START - 1435.000;	Curve.BeginTransition();
-$MYODANI_START - 1320.000;	Curve.Begin(500);
+$MYODANI_START - 1320.000;	Curve.Begin(-500);
 $MYODANI_START - 1175.000;	Curve.BeginTransition();
-$MYODANI_START - 1055.000;	Curve.Change(1500);
+$MYODANI_START - 1080.000;	Curve.End();
+
+$MYODANI_START - 1055.000;	Curve.BeginTransition();
+$MYODANI_START - 1025.000;	Curve.Begin(-1500);
 $MYODANI_START - 970.000;	Curve.BeginTransition();
 $MYODANI_START - 920.000;	Curve.End();
 
@@ -81,3 +84,73 @@ $MYODANI_START - 1270.000;	Gradient.BeginTransition();
 $MYODANI_START - 1190.000;	Gradient.Begin(-20);
 $MYODANI_START - 1010.000;	Gradient.BeginTransition();
 $MYODANI_START - 970.000;	Gradient.Begin(0);
+
+// 他軌道位置
+$MYODANI_START - 3150.000;	Track['WestMainLine'].Position(3.5, 0);
+$MYODANI_START - 2316.000;	Track['WestMainLine'].Position(3.5, 0);
+$MYODANI_START - 1781.000;	Track['WestMainLine'].Position(12, 0);
+$MYODANI_START - 1619.000;	Track['WestMainLine'].Position(12, 0);
+$MYODANI_START - 1530.400;	Track['WestMainLine'].Position(5.5, 0);
+$MYODANI_START - 1500.000;	Track['WestMainLine'].Position(4.2, 0);
+$MYODANI_START - 1490.000;	Track['WestMainLine'].Position(3.9, 0);
+$MYODANI_START - 1480.000;	Track['WestMainLine'].Position(3.7, 0);
+$MYODANI_START - 1470.000;	Track['WestMainLine'].Position(3.6, 0);
+$MYODANI_START - 1450.000;	Track['WestMainLine'].Position(3.5, 0);
+$MYODANI_START - 1235.000;	Track['WestMainLine'].Position(3.5, 0);
+$MYODANI_START - 1160.000;	Track['WestMainLine'].X.Interpolate(5);
+$MYODANI_START - 1035.000;	Track['WestMainLine'].X.Interpolate(5, 0);
+$MYODANI_START - 900.000;	Track['WestMainLine'].Y.Interpolate(10);
+$MYODANI_START - 860.000;	Track['WestMainLine'].X.Interpolate(7 , 0);
+
+// 架線定義
+$MYODANI_START - 3130;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 3105;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 3070;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 3030;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 2990;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2950;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2910;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2890;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2859;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2824;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2789;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2754;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2719;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2679;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2639;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2599;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 2559;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 2524;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 2489;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 2449;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 2409;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2379;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2349;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2334;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 2316;	// 湯屋谷隧道 始端
+$MYODANI_START - 1616;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 1512;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 1502;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 1477;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 1452;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 1417;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 1382;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 1350;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 1319;	Structure['kasen_ichinoko_bridge'].Put0('0',0,0);
+$MYODANI_START - 1285;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 1255;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 1230;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 1200;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 1165;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 1130;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 1095;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 1060;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 1025;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 990;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 955;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 915;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 880;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 845;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 805;	Structure['kasen_tansen'].Put0('0',0,0);
+$MYODANI_START - 766;	Structure['kasen_myodani_west1'].Put0('0',0,0);
+$MYODANI_START - 760;	Structure['kasen_myodani_west1'].Put0('0',0,0);

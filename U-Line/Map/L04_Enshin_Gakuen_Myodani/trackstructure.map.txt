@@ -1,2 +1,27 @@
 BveTs Map 2.02:UTF-8
 
+# 橋梁/隧道
+
+	# 湯屋谷隧道
+$MYODANI_START - 2316.000;	// 湯屋谷隧道 始端
+	Repeater['ichinoko_tunnel-e1'].Begin('0',-0.5,0,0,0,0,0,0,4,4,'ichinoko_tunnel-e');
+	Repeater['ichinoko_tunnel-w1'].Begin('WestMainLine',-0.5,0,0,0,0,0,0,4,4,'ichinoko_tunnel-w');
+$MYODANI_START - 1801.000;	// 湯屋谷隧道 終端
+	Repeater['ichinoko_tunnel-e1'].End();
+	Repeater['ichinoko_tunnel-w1'].End();
+
+	# 市の子隧道
+$MYODANI_START - 1599.000;	// 市の子隧道始端
+	Repeater['ichinoko_tunnel-e'].Begin0(0, 0, 1, 4, 'ichinoko_tunnel-e');
+	Repeater['ichinoko_tunnel-w'].Begin0('WestMainLine', 3, 1, 4, 'ichinoko_tunnel-w');
+$MYODANI_START - 1530.400;	// 市の子隧道終端
+	Repeater['ichinoko_tunnel-e'].End();
+	Repeater['ichinoko_tunnel-w'].End();
+
+	# 市の子橋梁
+$MYODANI_START - 1522.000;	// 市の子橋梁始端
+	Repeater['ichinoko_bridge-e'].Begin0(0, 0, 1, 2, 'ichinoko_bridge-e');
+	Repeater['ichinoko_bridge-w'].Begin0('WestMainLine', 3, 1, 2, 'ichinoko_bridge-w');
+$MYODANI_START - 1308.000;	// 市の子橋梁終端
+	Repeater['ichinoko_bridge-e'].End();
+	Repeater['ichinoko_bridge-w'].End();
