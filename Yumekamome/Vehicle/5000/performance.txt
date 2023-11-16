@@ -1,0 +1,15 @@
+[Power]
+Force = ./Performance/Power_Force.csv
+MaxForce = ./Performance/Power_Force.csv
+Current = ./Performance/Power_Current.csv
+MaxCurrent = ./Performance/Power_Current.csv
+NoLoadCurrent = ./Performance/Power_Current.csv
+Params = ./Performance/Parameters.csv
+
+[Brake]
+Force = ./Performance/Power_Force.csv
+MaxForce = ./Performance/Power_Force.csv
+Current = ./Performance/Power_Current.csv
+MaxCurrent = ./Performance/Power_Current.csv
+NoLoadCurrent = ./Performance/Power_Current.csv
+Params = ./Performance/Parameters.csv

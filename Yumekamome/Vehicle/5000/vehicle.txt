@@ -1,0 +1,7 @@
+BveTs Vehicle 2.00:UTF-8
+
+PerformanceCurve = ../../../sc2000/Notch/Notch.txt
+Parameters = ./parameter_v2.txt
+Panel = ./panel.txt
+Ats32 = ./BveKobeCitySubwayAts.dll
+Sound = sound.txt
