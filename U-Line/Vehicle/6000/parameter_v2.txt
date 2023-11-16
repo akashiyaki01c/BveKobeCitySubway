@@ -16,7 +16,7 @@ BrakeText = 弛め,ブレーキ1,ブレーキ2,ブレーキ3,ブレーキ4,ブ�
 HoldingSpeedText = 切,抑速1,抑速2,抑速3
 [Dynamics]
 MotorcarWeight = 31500
-TrailerWeight = 31500
+TrailerWeight = 21500
 MotorcarCount = 3
 TrailerCount = 3
 MotorcarInertiaFactor = 0.1

@@ -1,3 +1,5 @@
 BveTs Sound List 2.00:UTF-8
-S13dep,   ./S13dep.wav
-S12arr,   ./S12arr.wav
+S12next,	./S12next.wav
+S12arr,		./S12arr.wav
+S13next,	./S13next.wav
+S13arr,		./S13arr.wav

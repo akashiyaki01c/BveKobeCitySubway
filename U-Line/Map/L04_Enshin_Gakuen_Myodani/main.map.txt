@@ -7,3 +7,6 @@ include './L04_Enshin_Gakuen_Myodani/signs.map.txt';
 include './L04_Enshin_Gakuen_Myodani/trackstructure.map.txt';
 include './L04_Enshin_Gakuen_Myodani/atc.map.txt';
 include './L04_Enshin_Gakuen_Myodani/structure.map.txt';
+
+$MYODANI_START - 3200.000;	// 市道多聞小寺線中心 幅員22m00
+	Sound['S13next'].Play();

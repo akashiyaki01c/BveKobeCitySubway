@@ -72,7 +72,7 @@ $MYODANI_START - 1614;
 $MYODANI_START - 1609.100;	Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
 $MYODANI_START - 1609.000;	Structure['section_4'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 1600;	// 第4閉塞
-	Sound['S13dep'].Play();
+	Sound['S12next'].Play();
 $MYODANI_START - 1510;
 	Track['WestMainLine'].Position(4.7, 0);
 $MYODANI_START - 1522; // 市の子橋梁始端
@@ -110,7 +110,7 @@ $MYODANI_START - 648;
 $MYODANI_START - 630 + 0.1;
 	Structure['pole_2.3m'].Put('0', -2, 0, 0, 0, 0, 0, 0, 0);
 $MYODANI_START - 630;	// 第1閉塞
-	# Sound['S12arr'].Play();
+	Sound['S12arr'].Play();
 	Structure['section_1'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 608;
 	Structure['kasen_myodani_west'].Put0('0',0,0);

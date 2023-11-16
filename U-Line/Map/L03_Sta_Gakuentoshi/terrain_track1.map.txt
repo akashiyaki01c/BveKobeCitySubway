@@ -4,20 +4,30 @@ BveTs Map 2.02:UTF-8
 // 範囲 M.L.-3k500M000 M.L.-3k150M000
 
 $MYODANI_START - 3451.000;	// [S14] 学園都市 ホーム始端
-	Repeater['S14_Platform_Track1'].Begin(0, -1.5, 1, 0, 0, 180, 0, 3, 1, 10, 'S14_home');
-	Repeater['S14_Platform_Track2'].Begin(0, 5, 1, 0, 0, 0, 0, 3, 1, 10, 'S14_home');
+	Repeater['S14_Platform_Track1'].Begin(0, -1.5, 1, 0, 0, 180, 0, 3, 1, 1, 'S14_home1', 'S14_home1', 'S14_home1', 'S14_home1', 'S14_home1', 'S14_home1', 'S14_home1', 'S14_home1', 'S14_home2', 'S14_home2');
+	Repeater['S14_Platform_Track2'].Begin(0, 5, 1, 0, 0, 0, 0, 3, 1, 1, 'S14_home1', 'S14_home1', 'S14_home1', 'S14_home1', 'S14_home1', 'S14_home1', 'S14_home1', 'S14_home1', 'S14_home2', 'S14_home2');
 	Repeater['S14_Platform_Track1Wall2'].Begin(0, -1.5, 1, 0, 0, 180, 0, 1, 2, 2, 'S14_home_wall1');
+	Repeater['S14_Platform_Track2Wall2'].Begin(0, 5, 1, 0, 0, 0, 0, 1, 2, 2, 'S14_home_wall1');
+	Repeater['S14_Track1Floor'].Begin('0',-5,0,0,0,0,0,1,0,1,'floor');
+	Repeater['S14_Track2Floor'].Begin('0',5,0,0,0,0,0,1,0,1,'floor');
 $MYODANI_START - 3370.000;	// [S14] 学園都市停車場 中心
+$MYODANI_START - 3315.300;	// 市道学園駅前線中心 幅員22m00
+	Structure['road_tamon_kodera'].Put('0', 0, 0, 0, 0, 0, 0, 0, 0);
 $MYODANI_START - 3303.000;	// [S14] 学園都市 ホーム終端
 	Repeater['S14_Platform_Track1Wall2'].End();
+	Repeater['S14_Platform_Track2Wall2'].End();
 	Repeater['S14_Platform_Track1Wall1'].Begin(0, -1.5, 1, 0, 0, 180, 0, 3, 2, 2, 'S14_home_wall2');
+	Repeater['S14_Platform_Track2Wall1'].Begin(0, 5, 1, 0, 0, 0, 0, 3, 2, 2, 'S14_home_wall2');
 $MYODANI_START - 3304.000;
 	Structure['S14_home_wall3'].Put(0, -1.5, 1, 0, 0, 180, 0, 1, 0);
+	Structure['S14_home_wall3'].Put(0, 5, 1, 0, 0, 0, 0, 1, 0);
 $MYODANI_START - 3289.000;	// [S14] 学園都市 ホーム終端
 	Repeater['S14_Platform_Track1'].End();
 	Repeater['S14_Platform_Track2'].End();
 	Repeater['S14_Platform_Track1Wall1'].End();
+	Repeater['S14_Platform_Track2Wall1'].End();
 	Structure['S14_home_wall3'].Put(0, -1.5, 1, 0, 0, 180, 0, 1, 0);
+	Structure['S14_home_wall3'].Put(0, 5, 1, 0, 0, 0, 0, 1, 0);
 $MYODANI_START - 3285.100;
 	Structure['section_3R'].Put(0, -2, 2, 0, 0, 0, 0, 0, 1);
 $MYODANI_START - 3285.000;
@@ -26,7 +36,6 @@ $MYODANI_START - 3285.000;
 $MYODANI_START - 3278.300;	// 市道多聞小寺線中心 幅員22m00
 	Structure['road_tamon_kodera'].Put('0', 0, 0, 0, 0, 0, 0, 0, 0);
 $MYODANI_START - 3220.880;	// 学園都市東交差わたり線中心 (10#シーサスクロッシング)
-
 $MYODANI_START - 3220.880 - 25;
 	Track['S12_Point3'].X.Interpolate(0, 200);
 	Repeater['S12_Point3'].Begin('S12_Point3', 0, 0, 0, 0, 0, 0, 3, 1, 2, 'rail-ballast');
@@ -40,3 +49,21 @@ $MYODANI_START - 3220.880 + 25;
 	Repeater['S12_Point3'].End();
 	Track['S12_Point4'].X.Interpolate(0);
 	Repeater['S12_Point4'].End();
+
+$MYODANI_START - 3396.000;
+	Track['Gakutoshi_ishigaki'].Position(0,-1.5);
+	Repeater['Gakutoshi_Ishigaki_e1'].Begin('Gakutoshi_ishigaki', -12, 1, 0, 0, 0, 0, 1, 2, 2, 'gakuen_ishigaki1');
+	Repeater['Gakutoshi_Ishigaki_w1'].Begin('Gakutoshi_ishigaki', 15.5, 1, 0, 0, 180, 0, 1, 2, 2, 'gakuen_ishigaki1');
+$MYODANI_START - 3197.100;
+	Structure['gakuen_ishigaki2'].Put('0',0,-1,0,0,0,0,2,2);
+	Structure['gakuen_ishigaki2'].Put('0',3.5,-1,0,0,180,0,2,2);
+$MYODANI_START - 3196.000;
+	Repeater['Gakutoshi_Ishigaki_e1'].End();
+	Repeater['Gakutoshi_Ishigaki_w1'].End();
+	Repeater['Gakutoshi_Ishigaki_e2'].Begin('Gakutoshi_ishigaki', -3, 0, 0, 0, 0, 0, 1, 2, 2, 'gakuen_ishigaki');
+	Repeater['Gakutoshi_Ishigaki_w2'].Begin('Gakutoshi_ishigaki', 6.5, 0, 0, 0, 180, 0, 1, 2, 2, 'gakuen_ishigaki');
+$MYODANI_START - 3150.000;
+	Repeater['Gakutoshi_Ishigaki_e2'].End();
+	Repeater['Gakutoshi_Ishigaki_w2'].End();
+	Repeater['S14_Track1Floor'].End();
+	Repeater['S14_Track2Floor'].End();

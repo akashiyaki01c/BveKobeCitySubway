@@ -8,3 +8,8 @@ CloseRight = ./Sound/doorchime_right.wav
 
 [Ats]
 3 = ./Sound/atsbell.wav
+
+[Motor]
+0 = ./Sound/vvvf1.wav
+1 = ./Sound/vvvf2.wav
+2 = ./Sound/vvvf3.wav

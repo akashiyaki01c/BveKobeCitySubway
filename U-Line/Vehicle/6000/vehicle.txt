@@ -5,3 +5,4 @@ Parameters = ./parameter_v2.txt
 Panel = ./panel.txt
 Ats32 = ./BveKobeCitySubwayAts.dll
 Sound = sound.txt
+MotorNoise = ./MotorNoise/MotorNoise.txt
