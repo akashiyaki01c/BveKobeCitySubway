@@ -6,5 +6,5 @@ Left = 0
 Top = 0
 Right = 0
 Bottom = 0
-DaytimeImage = ./panel_temp.txt
-NighttimeImage = ./panel_temp.txt
+DaytimeImage = ./panel_temp.png
+NighttimeImage = ./panel_temp.png
