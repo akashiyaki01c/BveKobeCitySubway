@@ -18,18 +18,53 @@ PowerText = 切,P1,P2,P3
 RegenerationLimit = 5
 
 [PowerReAdhesion]
+SlipVelocity = 2
+SlipAcceleration = 10
+BalanceAcceleration = -2
+HoldingTime = 2
+ReferenceAcceleration = 4
+ReferenceDeceleration = 5
+CurrentDecrease = 0
+CurrentIncrease = 0
 
 [Ecb]
+MaximumPressure = 440000
+SapBcRatio = 0.94
+SapBcOffset = 30000
+LeverDelay = 0.2
 
 [AirSupplement]
+RegenerationLimit = 5
+InitialPressure = 40000
+MaximumPressure = 440000
+ShoeFriction = 0.18
 
 [Bc]
+ApplySpeed = 500
+ReleaseSpeed = 500
+VolumeRatio = 20
+ApplyStart = 20000
+ApplyStop = 0
+ReleaseStart = 20000
+ReleaseStop = 0
 
 [Brake]
+PistonArea = 0.4
+ShoeFriction = 0.26, 0.01, 0.025
 
 [BrakeReAdhesion]
+SlipVelocity = 10
+SlipDeceleration = 20
+BalanceDeceleration = 0
+HoldingTime = 0
+ReferenceDeceleration = 5
+BcReleaseSpeed = 0
+BcApplySpeed = 0
 
 [Compressor]
+LowerPressure = 700000
+UpperPressure = 800000
+CompressionSpeed = 5000
 
 [Dynamics]
 MotorcarWeight = 26200
