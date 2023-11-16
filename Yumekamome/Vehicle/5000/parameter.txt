@@ -1,0 +1,44 @@
+BveTs Vehicle Parameters 2.01:UTF-8
+
+FirstCar = M
+LoadCompensating = true
+
+[OneLeverCab]
+BrakeNotchCount = 5 # 要検証
+PowerNotchCount = 3
+HoldingSpeedNotchCount = 0
+HoldingSpeedBrake = false
+AtsCaneclNotch = 1
+MotorBrakeNotch = 1
+ReverserText = 後,切,前
+BrakeText = 切,B1,B2,B3,B4,B5,B6,EB
+PowerText = 切,P1,P2,P3
+
+[MainCircuit]
+RegenerationLimit = 5
+
+[PowerReAdhesion]
+
+[Ecb]
+
+[AirSupplement]
+
+[Bc]
+
+[Brake]
+
+[BrakeReAdhesion]
+
+[Compressor]
+
+[Dynamics]
+MotorcarWeight = 26200
+TrailerWeight = 24800
+MotorcarCount = 2
+TrailerCount = 2
+CarLength = 15.7
+
+[ViewPoint]
+X = 1
+Y = 2.5
+Z = -1
