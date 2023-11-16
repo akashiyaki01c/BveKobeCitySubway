@@ -1,6 +1,6 @@
 BveTs Scenario 2.00:UTF-8
 Title = 海岸線 新長田→三宮・花時計前行
-Route = ./Yumekamome/Map/map.txt
+Route = ./U-Line/Map/map.txt
 RouteTitle = 神戸市営地下鉄海岸線
 # Vehicle = ./sc2000/Vehicle/Vehicle.txt
 Vehicle = ./Yumekamome/Vehicle/5000/vehicle.txt
