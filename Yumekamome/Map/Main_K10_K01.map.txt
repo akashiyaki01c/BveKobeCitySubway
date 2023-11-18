@@ -1,0 +1,7 @@
+BveTs Map 2.02:UTF-8
+
+Station.Load('../Station/K10_K01.csv');
+include './variable.map.txt';
+
+include './station.map.txt';
+include './curve_gradient.map.txt';

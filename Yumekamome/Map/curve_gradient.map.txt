@@ -1,4 +1,4 @@
-BveTs Map 2.02:UTF-8			
+BveTs Map 2.02:UTF-8
 # 距離程	駅	曲線	勾配
   0.000;			Gradient.BeginTransition(); 
 					Gradient.Begin(2);
