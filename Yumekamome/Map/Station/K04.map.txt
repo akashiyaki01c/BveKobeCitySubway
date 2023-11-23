@@ -1,0 +1,62 @@
+BveTs Map 2.02:UTF-8
+
+# ハーバーランド構内
+
+5660.000;	// ホーム始端
+	Repeater['K04_Wall'].Begin0(0, 1, 16, 16, 'K04_Wall');
+	Repeater['K04_Wall1'].Begin(0, 10.7, 0, 0, 0, 0, 180, 1, 16, 16, 'K04_Wall');
+	Repeater['K04_Floor'].Begin0(0, 1, 1, 1, 'K10Floor');
+5770.000;	// ホーム終端
+	Repeater['K04_Wall'].End();
+	Repeater['K04_Floor'].End();
+	Repeater['K04_Wall1'].End();
+
+5660.000;	// 柱1 未共用ホーム始端
+	Structure['StationPiller_Black'].Put('0',5.1,0,0,0,0,0,3,3);
+5667.500;	// 柱2
+	Structure['StationPiller_Black'].Put('0',5.1,0,0,0,0,0,3,3);
+5675.000;	// 柱3
+	Structure['StationPiller_Black'].Put('0',5.1,0,0,0,0,0,3,3);
+5682.500;	// 柱4
+	Structure['StationPiller_Black'].Put('0',5.1,0,0,0,0,0,3,3);
+5685.000;		// 共用ホーム始端
+5690.000;	// 柱5
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',6.2,0,0,0,0,0,3,3);
+5697.500;	// 柱6
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',6.2,0,0,0,0,0,3,3);
+5705.000;	// 柱7
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',6.2,0,0,0,0,0,3,3);
+5712.500;	// 柱8
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',6.2,0,0,0,0,0,3,3);
+5720.000;	// 柱9
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',6.2,0,0,0,0,0,3,3);
+5727.500;	// 柱10
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',6.2,0,0,0,0,0,3,3);
+5735.000;	// 柱11
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',6.2,0,0,0,0,0,3,3);
+5742.500;	// 柱12
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',6.2,0,0,0,0,0,3,3);
+5750.000;	// 柱13
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',6.2,0,0,0,0,0,3,3);
+5757.500;	// 柱14
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',6.2,0,0,0,0,0,3,3);
+5765.000;	// 柱15
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',6.2,0,0,0,0,0,3,3);
+5770.000;		// 共用ホーム終端
+5772.500;	// 柱16
+5780.000;	// 柱17
+5787.500;	// 柱18
+5795.000;	// 柱19
+5802.500;	// 柱16
+5810.000;	// 柱17 シールド開始

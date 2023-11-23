@@ -1,7 +1,8 @@
-BveTs Vehicle 2.01:UTF-8
+BveTs Vehicle 2.00:UTF-8
 
 PerformanceCurve = ./performance.txt
 Parameters = ./parameter.txt
 Panel = ./panel.txt
-Ats32 = ./BveKobeCitySubwayAts.dll
+# Ats32 = ./BveKobeCitySubwayAts.dll
 Sound = ./sound.txt
+MotorNoise = ./motor.txt

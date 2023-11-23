@@ -1,1 +1,42 @@
 BveTs Vehicle Sound 3.01:UTF-8
+
+[Motor]
+0 = ./Sound/Motor/0.wav
+1 = ./Sound/Motor/1.wav
+2 = ./Sound/Motor/2.wav
+3 = ./Sound/Motor/3.wav
+
+
+[Run]
+0 = ./Sound/Run/0.wav
+
+[Compressor]
+Attack = ./Sound/Compressor/Attack.wav
+Loop = ./Sound/Compressor/loop.wav
+
+[Door]
+OpenLeft = ./Sound/Door/OpenL.wav
+OpenRight = ./Sound/Door/OpenR.wav
+CloseLeft = ./Sound/Door/CloseL.wav
+CloseRight = ./Sound/Door/CloseR.wav
+
+[Others]
+Noise = ./Sound/Noise.wav
+
+[Ats]
+0 = ./Sound/Ats/0.wav
+
+[Flange]
+0 = ./Sound/Flange/0.wav
+
+[BrakeHandle]
+Apply = ./Sound/MasterController/Notch.wav
+Release = ./Sound/MasterController/Notch.wav
+Min = ./Sound/MasterController/NotchMax.wav
+Max = ./Sound/MasterController/NotchMax.wav
+
+[MasterController]
+Up = ./Sound/MasterController/Notch.wav
+Down = ./Sound/MasterController/Notch.wav
+Min = ./Sound/MasterController/NotchMax.wav
+Max = ./Sound/MasterController/NotchMax.wav

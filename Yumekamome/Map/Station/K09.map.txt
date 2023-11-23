@@ -1,0 +1,9 @@
+BveTs Map 2.02:UTF-8
+
+# 駒ヶ林構内
+650.000;
+	Repeater['K09_Wall'].Begin0(0, 1, 16, 16, 'K09_Wall');
+	Repeater['K09_Floor'].Begin0(0, 1, 1, 1, 'K10Floor');
+740.000;	// 共用ホーム終端
+	Repeater['K09_Wall'].End();
+	Repeater['K09_Floor'].End();

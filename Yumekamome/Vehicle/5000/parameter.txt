@@ -4,18 +4,18 @@ FirstCar = M
 LoadCompensating = true
 
 [OneLeverCab]
-BrakeNotchCount = 5 # 要検証
+BrakeNotchCount = 6 # 要検証
 PowerNotchCount = 3
 HoldingSpeedNotchCount = 0
 HoldingSpeedBrake = false
 AtsCancelNotch = 1
 MotorBrakeNotch = 1
 ReverserText = 後,切,前
-BrakeText = 切,B1,B2,B3,B4,B5,EB
+BrakeText = 切,B1,B2,B3,B4,B5,B6,EB
 PowerText = 切,P1,P2,P3
 
 [MainCircuit]
-RegenerationLimit = 5
+RegenerationLimit = 0
 
 [PowerReAdhesion]
 SlipVelocity = 2
@@ -67,13 +67,13 @@ UpperPressure = 800000
 CompressionSpeed = 5000
 
 [Dynamics]
-MotorcarWeight = 26200
+MotorcarWeight = 25500
 TrailerWeight = 24800
-MotorcarCount = 2
-TrailerCount = 2
+MotorcarCount = 4
+TrailerCount = 0
 CarLength = 15.7
 
 [ViewPoint]
-X = 1
-Y = 2.5
+X = 0.5
+Y = 2
 Z = -1

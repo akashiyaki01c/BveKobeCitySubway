@@ -1,0 +1,85 @@
+BveTs Map 2.02:UTF-8
+
+# 新長田①番線構内
+
+# 他線
+200;
+	Track['K10_watari1'].X.Interpolate(0,180);
+	Repeater['K10_watari1_Track'].Begin0('K10_watari1', 3, 1.25, 1.25, 'Track');
+225;
+	Track['K10_watari1'].X.Interpolate(2.5,-180);
+250;
+	Track['K10_watari1'].X.Interpolate(5,0);
+	Repeater['K10_watari1_Track'].End();
+
+150;
+	Track['K10_watari2'].X.Interpolate(10,0);
+	Repeater['K10_watari2_Track'].Begin0('K10_watari2', 3, 1.25, 1.25, 'Track');
+225;
+	Track['K10_watari2'].X.Interpolate(2.5,180);
+260;
+	Track['K10_watari2'].X.Interpolate(0,0);
+	Repeater['K10_watari2_Track'].End();
+
+190;
+	Track['K10_watari3'].X.Interpolate(6,180);
+	Repeater['K10_watari3_Track'].Begin0('K10_watari3', 3, 1.25, 1.25, 'Track');
+205;
+	Track['K10_watari3'].X.Interpolate(5,0);
+250;
+	Track['K10_watari3'].X.Interpolate(5,0);
+400;
+	Repeater['K10_watari3_Track'].End();
+
+ 30.000;	// ホーム始端
+	Repeater['K10_Wall_1'].Begin0(0, 1, 16, 16, 'K10_Wall');
+	Repeater['K10_Wall_2'].Begin(0, 11.7, 0, 0, 0, 180, 0, 1, 16, 16, 'K10_Wall');
+	Repeater['K10_Floor'].Begin0(0, 1, 1, 1, 'K10Floor');
+112.500;	// 共用ホーム終端
+	Repeater['K10_Wall_1'].End();
+	Repeater['K10_Wall_2'].End();
+	Repeater['K10_Floor'].End();
+	Repeater['K10Piller'].End();
+	Structure['K10Floor_South'].Put0('0',3,3);
+
+  0.000;	// 終点
+  7.500;	// 柱1
+ 15.000;	// 柱2
+ 22.500;	// 柱3
+ 30.000;	// 柱4
+ 37.500;	// 柱5
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',7.2,0,0,0,0,0,3,3);
+ 45.000;	// 柱6 (エレベータ)
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',7.2,0,0,0,0,0,3,3);
+ 52.500;	// 柱7
+	Structure['StationPiller_Blue'].Put('0',5.1,0,0,0,0,0,3,3);
+ 60.000;	// 柱8
+	Structure['StationPiller_Blue'].Put('0',5.1,0,0,0,0,0,3,3);
+ 67.500;	// 柱9
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',7.2,0,0,0,0,0,3,3);
+ 75.000;	// 柱10
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',7.2,0,0,0,0,0,3,3);
+ 82.500;	// 柱11
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',7.2,0,0,0,0,0,3,3);
+ 90.000;	// 柱12
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',7.2,0,0,0,0,0,3,3);
+ 97.500;	// 柱13
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',7.2,0,0,0,0,0,3,3);
+105.000;	// 柱14
+	Structure['StationPiller_Blue'].Put('0',3,0,0,0,0,0,3,3);
+	Structure['StationPiller_Blue'].Put('0',7.2,0,0,0,0,0,3,3);
+112.500;	// 柱15
+	Structure['StationPiller_Blue'].Put('0',5.1,0,0,0,0,0,3,3);
+120.000;	// 柱16
+	Structure['StationPiller_Black'].Put('0',5.1,0,0,0,0,0,3,3);
+127.500;	// 柱17
+	Structure['StationPiller_Black'].Put('0',5.1,0,0,0,0,0,3,3);
+135.000;	// 柱18
+	Structure['StationPiller_Black'].Put('0',5.1,0,0,0,0,0,3,3);

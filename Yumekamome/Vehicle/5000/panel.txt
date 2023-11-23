@@ -2,9 +2,9 @@ BveTs Instrument Panel 2.01:UTF-8
 
 [This]
 Resolution = 1
-Left = 0
-Top = 0
-Right = 2
-Bottom = 2
+Left = -1
+Top = -1
+Right = 1
+Bottom = 1
 DaytimeImage = ./panel_temp.png
 NighttimeImage = ./panel_temp.png

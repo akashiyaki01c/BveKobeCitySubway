@@ -1,0 +1,7 @@
+[Power]
+Frequency = ./Motor/PowerFrequency.csv
+Volume = ./Motor/PowerVolume.csv
+
+[Brake]
+Frequency = ./Motor/BrakeFrequency.csv
+Volume = ./Motor/BrakeVolume.csv

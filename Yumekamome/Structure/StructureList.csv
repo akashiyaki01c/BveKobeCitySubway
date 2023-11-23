@@ -1,0 +1,35 @@
+BveTs Structure List 2.00:UTF-8
+ShieldTunnel, ./Blender/シールドトンネル.x
+
+単円シールド_連続,	./Blender/単円シールド_連続.x
+単円シールド_2.4m,	./Blender/単円シールド_2.4m.x
+単円シールド_4.8m,	./Blender/単円シールド_4.8m.x
+単円シールド_6m,	./Blender/単円シールド_6m.x
+単円シールド_7.2m,	./Blender/単円シールド_7.2m.x
+単円シールド_14.4m,	./Blender/単円シールド_14.4m.x
+複円シールド_連続,	./Blender/複円シールド_連続.x
+複円シールド_1m,	./Blender/複円シールド_1m.x
+複円シールド_2.4m,	./Blender/複円シールド_2.4m.x
+複円シールド_4.8m,	./Blender/複円シールド_4.8m.x
+複円シールド_6m,	./Blender/複円シールド_6m.x
+複円シールド_7.2m,	./Blender/複円シールド_7.2m.x
+複円シールド_14.4m,	./Blender/複円シールド_14.4m.x
+
+Track, ./Blender/Track.x
+
+K10_Wall,	./Blender/K10_wall.x
+K09_Wall,	./Blender/K09_wall.x
+K08_Wall,	./Blender/K08_wall.x
+K07_Wall,	./Blender/K07_wall.x
+K06_Wall,	./Blender/K06_wall.x
+K05_Wall,	./Blender/K05_wall.x
+K04_Wall,	./Blender/K04_wall.x
+K03_Wall,	./Blender/K03_wall.x
+K02_Wall,	./Blender/K02_wall.x
+K01_Wall,	./Blender/K01_wall.x
+
+K10Floor,	./Blender/K10Floor.x
+K10Floor_South,	./Blender/K10Floor_South.x
+
+StationPiller_Blue,	./Blender/StationPillar_Blue.x
+StationPiller_Black,	./Blender/StationPillar_Black.x

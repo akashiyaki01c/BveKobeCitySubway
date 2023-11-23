@@ -1,0 +1,5 @@
+BveTs Sound List 2.00:UTF-8
+1sanR,	./Station/1sanR.wav
+1sanL,	./Station/1sanL.wav
+
+K10Hassha,	./Shanai/K10Hassha.wav

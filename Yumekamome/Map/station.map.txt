@@ -1,6 +1,7 @@
 BveTs Map 2.02:UTF-8
 
-$K10 + 30;	Station['K10'].Put(-1, -1, 1);	// 新長田
+$K10 + 20;	Station['K10'].Put(1, -1, 1);	// 新長田
+	$K10 + 40;	Sound['K10Hassha'].Play();
 $K09 + 30;	Station['K09'].Put(1, -1, 1);
 $K08 + 30;	Station['K08'].Put(1, -1, 1);
 $K07 + 30;	Station['K07'].Put(1, -1, 1);	// 御崎公園
