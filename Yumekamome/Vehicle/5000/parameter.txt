@@ -4,14 +4,14 @@ FirstCar = M
 LoadCompensating = true
 
 [OneLeverCab]
-BrakeNotchCount = 6 # 要検証
+BrakeNotchCount = 7 # 要検証
 PowerNotchCount = 3
 HoldingSpeedNotchCount = 0
 HoldingSpeedBrake = false
 AtsCancelNotch = 1
 MotorBrakeNotch = 1
 ReverserText = 後,切,前
-BrakeText = 切,B1,B2,B3,B4,B5,B6,EB
+BrakeText = 切,B1,B2,B3,B4,B5,B6,B7,EB
 PowerText = 切,P1,P2,P3
 
 [MainCircuit]

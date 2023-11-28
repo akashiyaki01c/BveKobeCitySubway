@@ -19,7 +19,9 @@ include './Signal/Main_K10_K01.map.txt';
 // 新長田駅部
 include './Station/K10_1.map.txt';
 
-250;
+249.99;
+	Structure['複円シールド_開始'].Put0('0',1,0.5);
+250.0;
 	Repeater['Shield_K10_K09_0'].Begin0('0', 1, 5, 5, '複円シールド_連続');
 	Repeater['Shield_K10_K09_1'].Begin0('0', 1, 1.2, 1.2, '複円シールド_1m');
 	Repeater['Shield_K10_K09_2'].Begin0('0', 1, 2.4, 2.4, '複円シールド_2.4m');
@@ -27,6 +29,19 @@ include './Station/K10_1.map.txt';
 	Repeater['Shield_K10_K09_4'].Begin0('0', 1, 6.0, 6.0, '複円シールド_6m');
 	Repeater['Shield_K10_K09_5'].Begin0('0', 1, 7.2, 7.2, '複円シールド_7.2m');
 	Repeater['Shield_K10_K09_6'].Begin0('0', 1, 14.4, 14.4, '複円シールド_14.4m');
+270.0;	// 惰行標
+	Structure['sign_notchoff'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
+315.0;	// 力行標
+	Structure['sign_power'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
+350.0;	// 入換停止位置
+	Structure['sign_stop_position'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
+400.0;	// 車両停止位置？
+	
+450.0;	// 第3閉塞標
+	Structure['sign_section3'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
+470.0;	// 惰行標
+	Structure['sign_notchoff'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
+
 553.5;
 	Repeater['Shield_K10_K09_0'].End();
 	Repeater['Shield_K10_K09_1'].End();
@@ -36,8 +51,21 @@ include './Station/K10_1.map.txt';
 	Repeater['Shield_K10_K09_5'].End();
 	Repeater['Shield_K10_K09_6'].End();
 
+565.0;	// 閉塞標
+	Structure['sign_section2'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
+635.0;	// 閉塞標
+	Structure['sign_section1'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
+
 // 駒ヶ林駅部
 include './Station/K09.map.txt';
+
+750.0;	// 閉塞標
+	Structure['sign_section4'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
+755.0;	// 笛 40
+	Structure['sign_horn'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
+	Structure['sign_limit40'].Put(0, 1.5, 2.3, 0, 0, 0, 0, 0, 0);
+770.0;	// 惰行標
+	Structure['sign_notchoff'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
 
 782.5;
 	Repeater['Shield_K09_K08_0'].Begin0('0', 1, 5, 5, '単円シールド_連続');
@@ -46,6 +74,14 @@ include './Station/K09.map.txt';
 	Repeater['Shield_K09_K08_3'].Begin0('0', 1, 6.0, 6.0, '単円シールド_6m');
 	Repeater['Shield_K09_K08_4'].Begin0('0', 1, 7.2, 7.2, '単円シールド_7.2m');
 	Repeater['Shield_K09_K08_5'].Begin0('0', 1, 14.4, 14.4, '単円シールド_14.4m');
+
+950.0;	// 力行標
+	Structure['sign_power'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
+960.0;	// 閉塞標
+	Structure['sign_section3'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
+965.0;	// 制限解除
+	Structure['sign_limitend'].Put(0, 1.5, 2, 0, 0, 0, 0, 0, 0);
+
 1382.5;
 	Repeater['Shield_K09_K08_0'].End();
 	Repeater['Shield_K09_K08_1'].End();
@@ -55,12 +91,7 @@ include './Station/K09.map.txt';
 	Repeater['Shield_K09_K08_5'].End();
 
 // 苅藻駅部
-$K08 - 60;
-	Repeater['K08_Wall'].Begin0(0, 3, 16, 16, 'K08_Wall');
-	Repeater['K08_Floor'].Begin0(0, 3, 1, 1, 'K10Floor');
-$K08 + 60;	// 共用ホーム終端
-	Repeater['K08_Wall'].End();
-	Repeater['K08_Floor'].End();
+include './Station/K08.map.txt';
 
 1565.0;
 	Repeater['Shield_K08_K07_0'].Begin0('0', 1, 5, 5, '単円シールド_連続');
@@ -78,20 +109,10 @@ $K08 + 60;	// 共用ホーム終端
 	Repeater['Shield_K08_K07_5'].End();
 
 // 御崎公園駅部
-$K07 - 60;
-	Repeater['K07_Wall'].Begin0(0, 3, 16, 16, 'K07_Wall');
-	Repeater['K07_Floor'].Begin0(0, 3, 1, 1, 'K10Floor');
-$K07 + 60;	// 共用ホーム終端
-	Repeater['K07_Wall'].End();
-	Repeater['K07_Floor'].End();
+include './Station/K07_1.map.txt';
 
 // 和田岬駅部
-$K06 - 60;
-	Repeater['K06_Wall'].Begin0(0, 3, 16, 16, 'K06_Wall');
-	Repeater['K06_Floor'].Begin0(0, 3, 1, 1, 'K10Floor');
-$K06 + 60;	// 共用ホーム終端
-	Repeater['K06_Wall'].End();
-	Repeater['K06_Floor'].End();
+include './Station/K06.map.txt';
 
 3470.2;
 	Repeater['Shield_K06_K05_0'].Begin0('0', 1, 5, 5, '単円シールド_連続');
@@ -109,12 +130,7 @@ $K06 + 60;	// 共用ホーム終端
 	Repeater['Shield_K06_K05_5'].End();
 
 // 中央市場前駅部
-$K05 - 60;
-	Repeater['K05_Wall'].Begin0(0, 3, 16, 16, 'K05_Wall');
-	Repeater['K05_Floor'].Begin0(0, 3, 1, 1, 'K10Floor');
-$K05 + 60;	// 共用ホーム終端
-	Repeater['K05_Wall'].End();
-	Repeater['K05_Floor'].End();
+include './Station/K05.map.txt';
 
 4396.0;
 	Repeater['Shield_K05_K04_0'].Begin0('0', 1, 5, 5, '単円シールド_連続');
@@ -134,13 +150,23 @@ $K05 + 60;	// 共用ホーム終端
 // ハーバーランド駅部
 include './Station/K04.map.txt';
 
+5812.0;
+	Repeater['Shield_K04_K03_0'].Begin0('0', 1, 5, 5, '単円シールド_連続');
+	Repeater['Shield_K04_K03_1'].Begin0('0', 1, 2.4, 2.4, '単円シールド_2.4m');
+	Repeater['Shield_K04_K03_2'].Begin0('0', 1, 4.8, 4.8, '単円シールド_4.8m');
+	Repeater['Shield_K04_K03_3'].Begin0('0', 1, 6.0, 6.0, '単円シールド_6m');
+	Repeater['Shield_K04_K03_4'].Begin0('0', 1, 7.2, 7.2, '単円シールド_7.2m');
+	Repeater['Shield_K04_K03_5'].Begin0('0', 1, 14.4, 14.4, '単円シールド_14.4m');
+6551.9;
+	Repeater['Shield_K04_K03_0'].End();
+	Repeater['Shield_K04_K03_1'].End();
+	Repeater['Shield_K04_K03_2'].End();
+	Repeater['Shield_K04_K03_3'].End();
+	Repeater['Shield_K04_K03_4'].End();
+	Repeater['Shield_K04_K03_5'].End();
+
 // みなと元町駅部
-$K03 - 60;
-	Repeater['K03_Wall'].Begin0(0, 3, 16, 16, 'K03_Wall');
-	Repeater['K03_Floor'].Begin0(0, 3, 1, 1, 'K10Floor');
-$K03 + 60;	// 共用ホーム終端
-	Repeater['K03_Wall'].End();
-	Repeater['K03_Floor'].End();
+include './Station/K03.map.txt';
 
 6795.7;
 	Repeater['Shield_K03_K02_0'].Begin0('0', 1, 5, 5, '単円シールド_連続');
@@ -158,17 +184,12 @@ $K03 + 60;	// 共用ホーム終端
 	Repeater['Shield_K03_K02_5'].End();
 
 // 旧居留地・大丸前駅部
-$K02 - 60;
-	Repeater['K02_Wall'].Begin0(0, 3, 16, 16, 'K02_Wall');
-	Repeater['K02_Floor'].Begin0(0, 3, 1, 1, 'K10Floor');
-$K02 + 60;	// 共用ホーム終端
-	Repeater['K02_Wall'].End();
-	Repeater['K02_Floor'].End();
+include './Station/K02.map.txt';
 
 // 三宮・花時計前駅部
 $K01 - 60;
-	Repeater['K01_Wall'].Begin0(0, 3, 16, 16, 'K01_Wall');
-	Repeater['K01_Floor'].Begin0(0, 3, 1, 1, 'K10Floor');
+	Repeater['K01_Wall'].Begin0(0, 1, 16, 16, 'K01_Wall');
+	Repeater['K01_Floor'].Begin0(0, 1, 1, 1, 'K10Floor');
 $K01 + 60;	// 共用ホーム終端
 	Repeater['K01_Wall'].End();
 	Repeater['K01_Floor'].End();

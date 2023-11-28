@@ -3,6 +3,10 @@ name = "bve-yumekamome-ats"
 version = "0.1.0"
 edition = "2021"
 
+[target.i686-pc-windows-gnu]
+linker = "i686-w64-mingw32-gcc"
+rustflags = "-C panic=abort"
+
 [lib]
 crate-type = ["cdylib"]
 

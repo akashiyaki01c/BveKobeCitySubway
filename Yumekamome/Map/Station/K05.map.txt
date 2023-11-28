@@ -1,0 +1,21 @@
+BveTs Map 2.02:UTF-8
+
+# 中央市場前構内
+
+4243.8;
+	Repeater['K05_1_駅部_連続'].Begin0(0, 1, 5, 5, '駅部_連続');
+	Repeater['K05_1_駅部_6m'].Begin0(0, 1, 6, 6, '駅部_6m');
+	Repeater['K05_2_駅部_連続'].Begin('WestMain', 0, 0, -5, 0, 180, 0, 1, 5, 5, '駅部_連続');
+	Repeater['K05_2_駅部_6m'].Begin('WestMain', 0, 0, -5, 0, 180, 0, 1, 6, 6, '駅部_6m');
+4396.0;
+	Repeater['K05_1_駅部_連続'].End();
+	Repeater['K05_1_駅部_6m'].End();
+	Repeater['K05_2_駅部_連続'].End();
+	Repeater['K05_2_駅部_6m'].End();
+
+$K05 - 60;
+	Repeater['K05_Wall'].Begin0(0, 1, 16, 16, 'K05_Wall');
+	Repeater['K05_Floor'].Begin0(0, 1, 1, 1, 'K10Floor');
+$K05 + 60;	// 共用ホーム終端
+	Repeater['K05_Wall'].End();
+	Repeater['K05_Floor'].End();

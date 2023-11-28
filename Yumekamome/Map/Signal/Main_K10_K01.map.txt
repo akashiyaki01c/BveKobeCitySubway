@@ -10,11 +10,11 @@ Section.SetSpeedLimit(0, 0, 15, 25, 30, 40, 45, 50, 60, 65, 70);
 112.500;	Section.Begin(0, 1, 5);
 
 // 新長田→駒ヶ林 第3閉塞
-400.000;	Section.Begin(0, 1, 8);
+450.000;	Section.Begin(0, 1, 8);
 // 新長田→駒ヶ林 第2閉塞
-550.000;	Section.Begin(0, 1, 5);
+565.000;	Section.Begin(0, 1, 5);
 // 新長田→駒ヶ林 第1閉塞
-650.000;	Section.Begin(0, 1, 5);
+635.000;	Section.Begin(0, 1, 5);
 
 // 駒ヶ林→苅藻 第4閉塞
 815.000;	Section.Begin(0, 1, 5);
@@ -26,11 +26,11 @@ Section.SetSpeedLimit(0, 0, 15, 25, 30, 40, 45, 50, 60, 65, 70);
 1350.000;	Section.Begin(0, 1, 10);
 
 // 苅藻→御崎公園 第3閉塞
-;	Section.Begin(0, 1, 10);
+1555.000;	Section.Begin(0, 1, 10);
 // 苅藻→御崎公園 第2閉塞
-;	Section.Begin(0, 1, 10);
+1700.000;	Section.Begin(0, 1, 10);
 // 苅藻→御崎公園 第1閉塞
-;	Section.Begin(0, 1, 10);
+1850.000;	Section.Begin(0, 1, 10);
 
 // 御崎公園場内 1R/2R
 ;	Section.Begin(0, 1, 10);

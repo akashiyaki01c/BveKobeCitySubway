@@ -79,12 +79,12 @@ BveTs Map 2.02:UTF-8
 400.778 + 0.017 * 600;		Curve.End();
 
 488.284 - 0.037 * 600;		Curve.BeginTransition();
-488.284;		Curve.Begin(-1500, 0.037);
+488.284;		Curve.Begin(-1500, -0.037);
 518.380;		Curve.BeginTransition();
 518.380 + 0.037 * 600;		Curve.End();
 
 575.523 - 0.018 * 600;		Curve.BeginTransition();
-575.523;		Curve.Begin(-1000, 0.018);
+575.523;		Curve.Begin(-1000, -0.018);
 598.598;		Curve.BeginTransition();
 598.598 + 0.018 * 600;		Curve.End();
 
@@ -96,7 +96,7 @@ BveTs Map 2.02:UTF-8
 700.000;	// 駒ヶ林停留場 中心
 
 815.618 - 0.180 * 600;		Curve.BeginTransition();
-815.618;	Curve.Begin(-100, 0.180);
+815.618;	Curve.Begin(-100, -0.180);
 903.035;	Curve.BeginTransition();
 903.035 + 0.180 * 600;	Curve.End();
 
@@ -117,14 +117,15 @@ BveTs Map 2.02:UTF-8
 1898.927 + 0.028 * 600;		Curve.End();
 
 1949.590 - 0.028 * 600;		Curve.BeginTransition();
-1949.590;		Curve.Begin(-2000, 0.028);
+1949.590;		Curve.Begin(-2000, -0.028);
 1967.679;		Curve.BeginTransition();
 // 1967.679 + 0.028 * 600;		Curve.End();
 
 2007.804;	Curve.End();	Curve.BeginTransition();
 
 // 2047.929 - 0.180 * 600;		Curve.BeginTransition();
-2047.929;		Curve.Begin(-300, 0.180);
+// 2047.929;		Curve.Begin(-300, -0.180);
+2047.929;		Curve.Begin(-300);
 2078.571;		Curve.BeginTransition();
 2078.571 + 0.180 * 600;		Curve.End();
 
@@ -135,24 +136,24 @@ BveTs Map 2.02:UTF-8
 2374.575 + 0.092 * 600;		Curve.End();
 
 2684.395 - 0.058 * 600;		Curve.BeginTransition();
-2684.395;		Curve.Begin(-700, 0.058);
+2684.395;		Curve.Begin(-700, -0.058);
 2705.871;		Curve.BeginTransition();
 2705.871 + 0.058 * 600;		Curve.End();
 
 2878.965 - 0.090 * 600;		Curve.BeginTransition();
-2878.965;		Curve.Begin(-450, 0.090);
+2878.965;		Curve.Begin(-450, -0.090);
 2911.413;		Curve.BeginTransition();
 2911.413 + 0.090 * 600;		Curve.End();
 
 3091.219 - 0.114 * 600;		Curve.BeginTransition();
-3091.219;		Curve.Begin(-200, 0.114);
+3091.219;		Curve.Begin(-200, -0.114);
 3138.207;		Curve.BeginTransition();
 3138.207 + 0.114 * 600;		Curve.End();
 
 3380.000;	// 和田岬停留場 中心
 
 3521.158 - 0.180 * 600;		Curve.BeginTransition();
-3521.158;		Curve.Begin(-120, 0.180);
+3521.158;		Curve.Begin(-120, -0.180);
 3584.333;		Curve.BeginTransition();
 3584.333 + 0.180 * 600;		Curve.End();
 
@@ -198,7 +199,7 @@ BveTs Map 2.02:UTF-8
 5847.0465;	Curve.End();	Curve.BeginTransition();
 
 // 5869.546 - 0.055 * 600;		Curve.BeginTransition();
-5869.546;		Curve.Begin(-1000, 0.055);
+5869.546;		Curve.Begin(-1000, -0.055);
 5919.982;		Curve.BeginTransition();
 // 5919.982 + 0.055 * 600;		Curve.End();
 
@@ -215,7 +216,7 @@ BveTs Map 2.02:UTF-8
 6177.687 + 0.014 * 600;		Curve.End();
 
 6221.720 - 0.055 * 600;		Curve.BeginTransition();
-6221.720;		Curve.Begin(-1000, 0.055);
+6221.720;		Curve.Begin(-1000, -0.055);
 6253.101;		Curve.BeginTransition();
 6253.101 + 0.055 * 600;		Curve.End();
 
@@ -241,7 +242,7 @@ BveTs Map 2.02:UTF-8
 6813.181 + 0.136 * 600;		Curve.End();
 
 7197.025 - 0.177 * 600;		Curve.BeginTransition();
-7197.025;		Curve.Begin(-160, 0.177);
+7197.025;		Curve.Begin(-160, -0.177);
 7261.463;		Curve.BeginTransition();
 // 7261.463 + 0.136 * 600;		Curve.End();
 
@@ -259,7 +260,7 @@ BveTs Map 2.02:UTF-8
 7686.505 + 0.041 * 600;		Curve.End();
 
 7887.713 - 0.041 * 600;		Curve.BeginTransition();
-7887.713;		Curve.Begin(-1000, 0.041);
+7887.713;		Curve.Begin(-1000, -0.041);
 7919.660;		Curve.BeginTransition();
 7919.660 + 0.041 * 600;		Curve.End();
 
