@@ -137,3 +137,14 @@ sign_section8,	./Sign/section8.x
 sign_limit65L,	./Sign/limit65L.x
 sign_section7L,	./Sign/section7L.x
 sign_limit85,	./Sign/limit85.x
+
+kilopost_0a,	,.Sign/kilopost_0a.x
+kilopost_1a,	,.Sign/kilopost_1a.x
+kilopost_2a,	,.Sign/kilopost_2a.x
+kilopost_3a,	,.Sign/kilopost_3a.x
+kilopost_4a,	,.Sign/kilopost_4a.x
+kilopost_5a,	,.Sign/kilopost_5a.x
+kilopost_6a,	,.Sign/kilopost_6a.x
+kilopost_7a,	,.Sign/kilopost_7a.x
+kilopost_8a,	,.Sign/kilopost_8a.x
+kilopost_9a,	,.Sign/kilopost_9a.x

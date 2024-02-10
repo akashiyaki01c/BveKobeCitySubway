@@ -10,7 +10,7 @@ include './station.map.txt';
 include './curve_gradient.map.txt';
 include './Signal/Main_K10_K01.map.txt';
 
-include './VoiceSound/K10_K01.txt';
+include './VoiceSound/K10_K01.map.txt';
 
 0;	RollingNoise.Change(0);
 	Repeater['Track'].Begin0(0, 3, 1.25, 1.25, 'Track');
@@ -192,9 +192,8 @@ include './Station/K03.map.txt';
 include './Station/K02.map.txt';
 
 // 三宮・花時計前駅部
-$K01 - 60;
-	Repeater['K01_Wall'].Begin0(0, 1, 16, 16, 'K01_Wall');
-	Repeater['K01_Floor'].Begin0(0, 1, 1, 1, 'K10Floor');
-$K01 + 60;	// 共用ホーム終端
-	Repeater['K01_Wall'].End();
-	Repeater['K01_Floor'].End();
+
+
+
+// 距離程
+300;	Structure['kilopost_3a'].Put(0, 0, 2, 0, 0, 0, 0, 0, 0);

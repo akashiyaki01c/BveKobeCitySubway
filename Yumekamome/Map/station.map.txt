@@ -1,6 +1,6 @@
 BveTs Map 2.02:UTF-8
 
-60;		Station['K10'].Put(1, -1, 1);	// 新長田
+100;	Station['K10'].Put(1, -1, 1);	// 新長田
 703;	Station['K09'].Put(1, -1, 1);
 1506;	Station['K08'].Put(1, -1, 1);
 2290;	Station['K07'].Put(1, -1, 1);	// 御崎公園
