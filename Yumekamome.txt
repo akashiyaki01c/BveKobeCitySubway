@@ -4,6 +4,6 @@ Route = ./Yumekamome/Map/Main_K10_K01.map.txt
 RouteTitle = 神戸市営地下鉄海岸線
 Vehicle = ./Yumekamome/Vehicle/5000/vehicle.txt
 VehicleTitle = 神戸市営5000形
-Author = Xifire
+Author =
 Image =
 Comment = 

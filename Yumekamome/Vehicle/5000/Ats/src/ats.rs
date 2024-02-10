@@ -86,7 +86,7 @@ impl BveAts for KobeCitySubwayATS {
         let enable_auto_brake = self.speed as i32 > self.now_signal.getSpeed();
 
         if enable_auto_brake {
-            sound[1] = 1;
+            sound[1] = AtsSound::PlayLooping as i32;
             return AtsHandles {
                 brake: self.spec.brake_notches,
                 power: 0,
@@ -94,7 +94,7 @@ impl BveAts for KobeCitySubwayATS {
                 constant_speed: 0
             }
         } else {
-            sound[1] = 0;
+            sound[1] = AtsSound::Stop as i32;
         }
 
         AtsHandles { 
