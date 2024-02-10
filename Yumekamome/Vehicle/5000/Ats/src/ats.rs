@@ -1,5 +1,9 @@
 use ::bveats_rs::*;
 
+use crate::{ati::YumekamomeATI, voice::VoiceManager};
+
+#[allow(dead_code)]
+#[repr(u8)]
 enum AtcSignal {
     Signal02 = 0,
     Signal01 = 1,
@@ -39,7 +43,7 @@ impl Default for AtcSignal {
 }
 
 #[derive(Default)]
-pub struct KobeCitySubwayATS {
+pub struct YumekamomeATS {
     spec: AtsVehicleSpec,
     man_power: i32,
     man_brake: i32,
@@ -49,15 +53,19 @@ pub struct KobeCitySubwayATS {
     time: i32,
     now_signal: AtcSignal,
     is_change_signal_now: bool,
+    ati: YumekamomeATI,
+    voice_manager: VoiceManager,
 }
 
-impl BveAts for KobeCitySubwayATS {
+impl BveAts for YumekamomeATS {
 
     fn load(&mut self) {
         println!("Load");
+        self.ati.load();
     }
     fn dispose(&mut self) {
         println!("Dispose");
+        self.ati.dispose();
     }
     fn get_plugin_version(&mut self) -> i32 { 
         println!("GetPluginVersion"); 
@@ -65,13 +73,19 @@ impl BveAts for KobeCitySubwayATS {
     }
     fn set_vehicle_spec(&mut self, spec: AtsVehicleSpec) {
         println!("SetVehicleSpec: {:?}", spec);
+        self.ati.set_vehicle_spec(spec);
         self.spec = spec;
     }
     fn initialize(&mut self, _handle: AtsInit) {
+        self.ati.initialize(_handle);
     }
 
+    #[allow(unused_variables)]
     fn elapse(&mut self, state: AtsVehicleState, panel: &mut [i32], sound: &mut [i32]) -> AtsHandles {
         // println!("Elapse: {:?}\n{:?}\n{:?}", state, panel, sound);
+        self.ati.elapse(state, panel, sound);
+        self.voice_manager.elapse(state, panel, sound);
+
         self.location = state.location;
         self.speed = state.speed;
         self.time = state.time;
@@ -106,38 +120,51 @@ impl BveAts for KobeCitySubwayATS {
     }
     fn set_power(&mut self, notch: i32) {
         println!("SetPower: {:?}", notch);
+        self.ati.set_power(notch);
         self.man_power = notch;
        
     }
     fn set_brake(&mut self, notch: i32) {
         println!("SetBrake: {:?}", notch);
+        self.ati.set_brake(notch);
         self.man_brake = notch;
     }
     fn set_reverser(&mut self, notch: i32) {
         println!("SetReverser: {:?}", notch);
+        self.ati.set_reverser(notch);
         self.man_reverser = notch;
     }
     fn key_down(&mut self, key: AtsKey) {
         println!("KeyDown: {:?}", key);
+        self.ati.key_down(key);
     }
     fn key_up(&mut self, key: AtsKey) {
         println!("KeyUp: {:?}", key);
+        self.ati.key_up(key);
     }
     fn horn_blow(&mut self, horn_type: AtsHorn) {
         println!("HornBlow: {:?}", horn_type);
+        self.ati.horn_blow(horn_type);
     }
     fn door_open(&mut self) {
         println!("DoorOpen");
+        self.ati.door_open();
     }
     fn door_close(&mut self) {
         println!("DoorClose");
+        self.ati.door_close();
     }
     fn set_signal(&mut self, signal: i32) {
         println!("SetSignal: {:?}", signal);
+        self.ati.set_signal(signal);
         self.now_signal = unsafe { std::mem::transmute(signal as u8) };
         self.is_change_signal_now = true;
     }
     fn set_beacon_data(&mut self, data: AtsBeaconData) {
         println!("SetBeaconData: {:?}", data);
+        self.ati.set_beacon_data(data);
+        match data.beacon_type {
+            _ => eprintln!("[SetBeaconData] BeaconType '{}' is undefined.", data.beacon_type)
+        }
     }
 }

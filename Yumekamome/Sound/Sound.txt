@@ -2,4 +2,24 @@ BveTs Sound List 2.00:UTF-8
 1sanR,	./Station/1sanR.wav
 1sanL,	./Station/1sanL.wav
 
-K10Hassha,	./Shanai/K10Hassha.wav
+NextK09,	./Shanai/NextK09.wav
+NextK08,	./Shanai/NextK08.wav
+NextK07,	./Shanai/NextK07.wav
+NextK07_LastStop,	./Shanai/NextK07_LastStop.wav
+NextK06,	./Shanai/NextK06.wav
+NextK05,	./Shanai/NextK05.wav
+NextK04,	./Shanai/NextK04.wav
+NextK03,	./Shanai/NextK03.wav
+NextK02,	./Shanai/NextK02.wav
+NextK01_LastStop,	./Shanai/NextK01_LastStop.wav
+
+SoonK09,	./Shanai/SoonK09.wav
+SoonK08,	./Shanai/SoonK08.wav
+SoonK07,	./Shanai/SoonK07.wav
+SoonK07_LastStop,	./Shanai/SoonK07_LastStop.wav
+SoonK06,	./Shanai/SoonK06.wav
+SoonK05,	./Shanai/SoonK05.wav
+SoonK04,	./Shanai/SoonK04.wav
+SoonK03,	./Shanai/SoonK03.wav
+SoonK02,	./Shanai/SoonK02.wav
+SoonK01_LastStop,	./Shanai/SoonK01_LastStop.wav
