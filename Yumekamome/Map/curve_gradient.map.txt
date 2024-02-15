@@ -251,7 +251,7 @@ BveTs Map 2.02:UTF-8
 // 7401.455 - 0.180 * 600;		Curve.BeginTransition();
 7401.455;		Curve.Begin(100, 0.180);
 7416.853;		Curve.BeginTransition();
-7416.853 + 0.180 * 600;		Curve.End();
+7416.853 + 0.090 * 600;		Curve.End();
 
 7500.000;	// 旧居留地・大丸前停留場 中心
 7563.135 - 0.041 * 600;		Curve.BeginTransition();

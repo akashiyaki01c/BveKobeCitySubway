@@ -3,7 +3,7 @@ use ::bveats_rs::*;
 /// 駅コードを表す構造体
 #[allow(dead_code)]
 #[repr(u8)]
-#[derive(Debug)]
+#[derive(Debug, Clone, Copy)]
 enum StationCode {
 	None = 0,
     ShinNagata = 1,
@@ -27,7 +27,7 @@ impl Default for StationCode {
 /// 種別を表す構造体
 #[allow(dead_code)]
 #[repr(u8)]
-#[derive(Debug)]
+#[derive(Debug, Clone, Copy)]
 enum TypeCode {
 	None = 0,
     InService = 1,
@@ -45,7 +45,7 @@ impl Default for TypeCode {
 /// 駅区間を表す構造体
 #[allow(dead_code, non_camel_case_types)]
 #[repr(u8)]
-#[derive(Debug)]
+#[derive(Debug, Clone, Copy)]
 enum StationSection {
 	None,
 	K10,
@@ -77,8 +77,40 @@ impl Default for StationSection {
 
 /// 運番を表す構造体
 #[derive(Default)]
-#[derive(Debug)]
+#[derive(Debug, Clone, Copy)]
 struct TrainNumber(u8);
+impl TrainNumber {
+	fn get10(&self) -> u8 {
+		self.0 / 10
+	}
+	fn get1(&self) -> u8 {
+		self.0 % 10
+	}
+}
+
+/// 時刻を表す構造体
+struct Time(i32);
+impl Time {
+	fn getHour(&self) -> i32 { self.0 / 60 / 60 }
+	fn getHour10(&self) -> i32 { self.getHour() / 10 }
+	fn getHour1(&self) -> i32 { self.getHour() % 10 }
+	fn getMinute(&self) -> i32 { self.0 / 60 % 60 }
+	fn getMinute10(&self) -> i32 { self.getMinute() / 10 }
+	fn getMinute1(&self) -> i32 { self.getMinute() % 10 }
+	fn getSecond(&self) -> i32 { self.0 % 60 }
+	fn getSecond10(&self) -> i32 { self.getSecond() / 10 }
+	fn getSecond1(&self) -> i32 { self.getSecond() % 10 }
+}
+
+/// 距離を表す構造体
+struct Distance(f64);
+impl Distance {
+	fn getKm10(&self) -> u8 { (self.0 / 1000.0 / 10.0) as u8 }
+	fn getKm1(&self) -> u8 { (self.0 / 1000.0 % 10.0) as u8 }
+	fn getM100(&self) -> u8 { (self.0 / 100.0 % 10.0) as u8 }
+	fn getM10(&self) -> u8 { (self.0 / 10.0 % 10.0) as u8 }
+}
+
 
 #[derive(Default)]
 #[derive(Debug)]
@@ -88,6 +120,7 @@ pub struct YumekamomeATI {
 	train_type: TypeCode,
 	train_number: TrainNumber,
 	section: StationSection,
+	is_direction_east: bool,
 }
 
 #[allow(unused)]
@@ -168,6 +201,32 @@ impl YumekamomeATI {
 				self.section = StationSection::None;
 			},
 		}
+		panel[51] = self.train_number.get10().into();
+		panel[52] = self.train_number.get1().into();
+		{
+			let time = Time(state.time / 1000);
+			panel[53] = time.getHour10();
+			panel[54] = time.getHour1();
+			panel[55] = time.getMinute10();
+			panel[56] = time.getMinute1();
+			panel[57] = time.getSecond10();
+			panel[58] = time.getSecond1();
+		}
+		panel[59] = self.train_type as i32;
+		panel[60] = self.destination as i32;
+		{
+			let distance = if self.is_direction_east {
+				Distance(state.location - 62.8)
+			} else {
+				Distance(state.location)
+			};
+			panel[61] = distance.getKm10().into();
+			panel[62] = distance.getKm1().into();
+			panel[63] = distance.getM100().into();
+			panel[64] = distance.getM10().into();
+		}
+		panel[65] = self.section as i32;
+
     }
 
     pub(super) fn set_power(&mut self, notch: i32) {
@@ -219,6 +278,13 @@ impl YumekamomeATI {
 				println!("{:?}", number);
 				self.train_number = TrainNumber(number as u8);
 			},
+			15 => {
+				self.is_direction_east = if data.optional == 1 {
+					true
+				} else {
+					false
+				}
+			}
             _ => {},
         }
     }

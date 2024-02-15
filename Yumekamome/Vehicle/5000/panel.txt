@@ -1,10 +1,187 @@
 BveTs Instrument Panel 2.01:UTF-8
 
 [This]
-Resolution = 1
-Left = -1
-Top = -1
-Right = 1
-Bottom = 1
+Resolution = 1024
+Left = -1024
+Top = -1024
+Right = 1024
+Bottom = 1024
 DaytimeImage = ./panel_temp.png
 NighttimeImage = ./panel_temp.png
+
+[DigitalNumber]
+Subject = Ats51
+Location = 0, 0
+DaytimeImage = ./Panel/DigitalDight.png
+NighttimeImage = ./Panel/DigitalDight.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats52
+Location = 8, 0
+DaytimeImage = ./Panel/DigitalDight.png
+NighttimeImage = ./Panel/DigitalDight.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats53
+Location = 16, 0
+DaytimeImage = ./Panel/DigitalDight.png
+NighttimeImage = ./Panel/DigitalDight.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats54
+Location = 24, 0
+DaytimeImage = ./Panel/DigitalDight.png
+NighttimeImage = ./Panel/DigitalDight.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats55
+Location = 32, 0
+DaytimeImage = ./Panel/DigitalDight.png
+NighttimeImage = ./Panel/DigitalDight.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats56
+Location = 40, 0
+DaytimeImage = ./Panel/DigitalDight.png
+NighttimeImage = ./Panel/DigitalDight.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats57
+Location = 48, 0
+DaytimeImage = ./Panel/DigitalDight.png
+NighttimeImage = ./Panel/DigitalDight.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats58
+Location = 56, 0
+DaytimeImage = ./Panel/DigitalDight.png
+NighttimeImage = ./Panel/DigitalDight.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats59
+Location = 64, 0
+DaytimeImage = ./Panel/TrainType.png
+NighttimeImage = ./Panel/TrainType.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats60
+Location = 128, 0
+DaytimeImage = ./Panel/Dest.png
+NighttimeImage = ./Panel/Dest.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats61
+Location = 192, 0
+DaytimeImage = ./Panel/DigitalDight.png
+NighttimeImage = ./Panel/DigitalDight.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats62
+Location = 200, 0
+DaytimeImage = ./Panel/DigitalDight.png
+NighttimeImage = ./Panel/DigitalDight.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats63
+Location = 208, 0
+DaytimeImage = ./Panel/DigitalDight.png
+NighttimeImage = ./Panel/DigitalDight.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats64
+Location = 216, 0
+DaytimeImage = ./Panel/DigitalDight.png
+NighttimeImage = ./Panel/DigitalDight.png
+Interval = 16
+
+[DigitalNumber]
+Subject = Ats65
+Location = 224, 0
+DaytimeImage = ./Panel/Section.png
+NighttimeImage = ./Panel/Section.png
+Interval = 16
+
+[PilotLamp]
+Subject = Ats11
+Location = 0, 16
+DaytimeImage = ./Panel/02.png
+NighttimeImage = ./Panel/02.png
+
+[PilotLamp]
+Subject = Ats12
+Location = 16, 16
+DaytimeImage = ./Panel/01.png
+NighttimeImage = ./Panel/01.png
+
+[PilotLamp]
+Subject = Ats13
+Location = 24, 16
+DaytimeImage = ./Panel/15.png
+NighttimeImage = ./Panel/15.png
+
+[PilotLamp]
+Subject = Ats14
+Location =32, 16
+DaytimeImage = ./Panel/25.png
+NighttimeImage = ./Panel/25.png
+
+[PilotLamp]
+Subject = Ats15
+Location = 48, 16
+DaytimeImage = ./Panel/30.png
+NighttimeImage = ./Panel/30.png
+
+[PilotLamp]
+Subject = Ats16
+Location = 64, 16
+DaytimeImage = ./Panel/40.png
+NighttimeImage = ./Panel/40.png
+
+[PilotLamp]
+Subject = Ats17
+Location = 80, 16
+DaytimeImage = ./Panel/45.png
+NighttimeImage = ./Panel/45.png
+
+[PilotLamp]
+Subject = Ats18
+Location = 96, 16
+DaytimeImage = ./Panel/50.png
+NighttimeImage = ./Panel/50.png
+
+[PilotLamp]
+Subject = Ats19
+Location = 128, 16
+DaytimeImage = ./Panel/60.png
+NighttimeImage = ./Panel/60.png
+
+[PilotLamp]
+Subject = Ats20
+Location = 144, 16
+DaytimeImage = ./Panel/65.png
+NighttimeImage = ./Panel/65.png
+
+[PilotLamp]
+Subject = Ats21
+Location = 160, 16
+DaytimeImage = ./Panel/70.png
+NighttimeImage = ./Panel/70.png
+
+[PilotLamp]
+Subject = Ats22
+Location = 176, 16
+DaytimeImage = ./Panel/Yokoku.png
+NighttimeImage = ./Panel/Yokoku.png

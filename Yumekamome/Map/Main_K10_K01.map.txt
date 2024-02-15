@@ -19,7 +19,8 @@ include './VoiceSound/K10_K01.map.txt';
 	Beacon.Put(11, 0, 1); // 始発駅設定
 	Beacon.Put(12, 0, 10); // 行先駅設定
 	Beacon.Put(13, 0, 1); // 種別設定
-	Beacon.Put(14, 0, 1); // 運番設定
+	Beacon.Put(14, 0, 4); // 運番設定
+	Beacon.Put(15, 0, 1); // 運転方向設定
 
 // 新長田駅部
 include './Station/K10_1.map.txt';

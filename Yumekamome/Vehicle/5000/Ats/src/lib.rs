@@ -5,5 +5,5 @@ mod voice;
 mod ati;
 use ::bveats_rs::*;
 
-ats_main!(ats::YumekamomeATS);
+ats_main!(ats::YumekamomeATC);
 

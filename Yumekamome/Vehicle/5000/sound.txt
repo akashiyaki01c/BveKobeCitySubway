@@ -41,3 +41,11 @@ Up = ./Sound/MasterController/Notch.wav
 Down = ./Sound/MasterController/Notch.wav
 Min = ./Sound/MasterController/NotchMax.wav
 Max = ./Sound/MasterController/NotchMax.wav
+
+[Reverser]
+On = ./Sound/MasterController/Reverser.wav
+Off = ./Sound/MasterController/Reverser.wav
+
+[Brake]
+BcRelease = ./Sound/Brake/Release.wav
+BcReleaseFull = ./Sound/Brake/Release.wav
