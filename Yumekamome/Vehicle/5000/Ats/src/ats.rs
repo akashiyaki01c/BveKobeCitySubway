@@ -82,8 +82,6 @@ pub struct YumekamomeATC {
     time: i32,
     /// 現在ATC信号
     now_signal: AtcSignal,
-    /// ATC信号が変更されたか
-    is_change_signal_now: bool,
     /// ATI
     ati: YumekamomeATI,
     /// 放送管理クラス
@@ -92,6 +90,8 @@ pub struct YumekamomeATC {
     zenpo_yokoku: bool,
     /// ATCブレーキの種別
     atc_brake_status: AtcBrakeStatus,
+    /// ATC信号が変更されたか
+    is_change_signal_now: bool,
 }
 
 impl YumekamomeATC {
@@ -119,20 +119,7 @@ impl YumekamomeATC {
         self.speed as i32 > self.now_signal.getSpeed()
     }
 
-    fn elapse_atc_sound(&self, sound: &mut [i32]) {
-        if self.is_change_signal_now {
-            sound[0] = AtsSound::Play as i32;
-        } else {
-            sound[0] = AtsSound::Continue as i32;
-        }
-        if self.get_enable_auto_brake() {
-            sound[1] = AtsSound::PlayLooping as i32;
-        } else {
-            sound[1] = AtsSound::Stop as i32;
-        }
-    }
-
-    fn elapse_atc_brake(&mut self, state: AtsVehicleState) -> AtsHandles {
+    fn elapse_atc_brake(&mut self, state: AtsVehicleState, sound: &mut [i32]) -> AtsHandles {
         let atc_none_brake_handle = AtsHandles { 
             brake: self.man_brake,
             power: self.man_power, 
@@ -158,7 +145,7 @@ impl YumekamomeATC {
             constant_speed: 0
         };
 
-        let enable_auto_brake = self.speed as i32 > self.now_signal.getSpeed();
+        let enable_auto_brake = self.get_enable_auto_brake();
         // ブレーキが掛かった瞬間
         if self.atc_brake_status == AtcBrakeStatus::Passing && enable_auto_brake {
             println!("[Brake] Passing -> StartHalfBraking");
@@ -200,6 +187,22 @@ impl YumekamomeATC {
         if self.now_signal == AtcSignal::Signal02 {
             println!("[Brake] EmergencyBraking!!!");
             self.atc_brake_status = AtcBrakeStatus::EmergencyBraking;
+        }
+
+        // ATC音関連
+        if self.is_change_signal_now {
+            sound[0] = AtsSound::Play as i32;
+            self.is_change_signal_now = false;
+        } else {
+            sound[0] = AtsSound::Continue as i32;
+        }
+        match self.atc_brake_status {
+            AtcBrakeStatus::Passing => {
+                sound[1] = AtsSound::Stop as i32;
+            },
+            _ => {
+                sound[1] = AtsSound::PlayLooping as i32;
+            }
         }
 
         match self.atc_brake_status {
@@ -245,8 +248,7 @@ impl BveAts for YumekamomeATC {
         self.speed = state.speed;
         self.time = state.time;
         self.set_panel(panel);
-        self.elapse_atc_sound(sound);
-        self.elapse_atc_brake(state)
+        self.elapse_atc_brake(state, sound)
     }
     fn set_power(&mut self, notch: i32) {
         println!("SetPower: {:?}", notch);
