@@ -1,0 +1,12 @@
+BveTs Map 2.02:UTF-8
+
+0;
+	Curve.SetGauge(1.435);
+	Curve.SetFunction(1);
+
+170.500;		Curve.Begin(287.0, 0.012);
+199.000;	Curve.End();
+219.000;		Curve.Begin(-287.0, 0.012);
+distance + 28.5;	Curve.End();
+
+300;	Gradient.BeginTransition();

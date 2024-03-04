@@ -1,0 +1,50 @@
+BveTs Map 2.02:utf-8
+
+# Track['K10_3L'].X
+0.000;
+Track['K10_3L'].X.Interpolate(0.000,0.000);
+170.500;
+Track['K10_3L'].X.Interpolate(0.000,297.428);
+198.953;
+Track['K10_3L'].X.Interpolate(1.414,-8829.754);
+218.855;
+Track['K10_3L'].X.Interpolate(3.396,-293.702);
+247.308;
+Track['K10_3L'].X.Interpolate(4.850,0.000);
+
+# Track['K10_3L'].Y
+0.000;
+Track['K10_3L'].Y.Interpolate(0.000,0.000);
+170.500;
+Track['K10_3L'].Y.Interpolate(0.000,0.000);
+198.953;
+Track['K10_3L'].Y.Interpolate(0.000,0.000);
+218.855;
+Track['K10_3L'].Y.Interpolate(0.000,0.000);
+247.308;
+Track['K10_3L'].Y.Interpolate(0.000,0.000);
+
+# Track['K10_3L'].Cant.Interpolate
+0.000;
+Track['K10_3L'].Cant.Interpolate(0.000);
+170.500;
+Track['K10_3L'].Cant.Interpolate(0.006);
+198.953;
+Track['K10_3L'].Cant.Interpolate(0.011);
+218.855;
+Track['K10_3L'].Cant.Interpolate(0.001);
+247.308;
+Track['K10_3L'].Cant.Interpolate(0.008);
+
+# Track['K10_3L'].Cant.SetFunction
+0.000;
+Track['K10_3L'].Cant.SetFunction(1);
+
+# Track['K10_3L'].Cant.SetCenter
+0.000;
+Track['K10_3L'].Cant.SetCenter(0.000);
+
+# Track['K10_3L'].Cant.SetGauge
+0.000;
+Track['K10_3L'].Cant.SetGauge(1.435);
+

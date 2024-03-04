@@ -5,49 +5,64 @@ BveTs Map 2.02:UTF-8
 # 他線
 $WatariK10 = 210.000;
 
-// 西行本線→1番線
-$WatariK10 - 40;
-	Track['K10_watari1'].X.Interpolate(0,288);
-	Repeater['K10_watari1_Track'].Begin0('K10_watari1', 3, 1.25, 1.25, 'Track');
-$WatariK10;
-	Track['K10_watari1'].X.Interpolate(2.5,-288);
-$WatariK10 + 40;
-	Track['K10_watari1'].X.Interpolate(5,0);
-	Repeater['K10_watari1_Track'].End();
+include './K10/K10_1R/K10_1R_converted.txt'; // ①番線→東行線 [自軌道]
+include './K10/K10_1R/K10_3L_converted.txt'; // 西行線→①番線
+include './K10/K10_1R/K10_4L_converted.txt'; // 西行線→②番線
+include './K10/K10_1R/K10_4R_converted.txt'; // ②番線→東行線
 
-// 2番線→東行本線
 0;
-	Track['K10_watari2'].X.Interpolate(10.7,0);
-	Repeater['K10_watari2_Track'].Begin0('K10_watari2', 3, 1.25, 1.25, 'Track');
-$WatariK10 - 90;
-	Track['K10_watari2'].X.Interpolate(10.7,-500);
-$WatariK10 - 30;
-	Track['K10_watari2'].X.Interpolate(6.25,0);
-$WatariK10;
-	Track['K10_watari2'].X.Interpolate(2.5,288);
-$WatariK10 + 40;
-	Track['K10_watari2'].X.Interpolate(0,0);
-400;
-	Repeater['K10_watari2_Track'].End();
+Repeater['K10_3L_Track'].Begin0('K10_3L', 3, 1.25, 1.25, 'Track');
+Repeater['K10_4L_Track'].Begin0('K10_4L', 3, 1.25, 1.25, 'Track');
+Repeater['K10_4R_Track'].Begin0('K10_4R', 3, 1.25, 1.25, 'Track');
 
-// 西行本線→2番線
-$WatariK10 - 36;
-	Track['K10_watari3'].X.Interpolate(7,288);
-	Repeater['K10_watari3_Track'].Begin0('K10_watari3', 3, 1.25, 1.25, 'Track');
-$WatariK10 - 0;
-	Track['K10_watari3'].X.Interpolate(5,0);
-400;
-	Repeater['K10_watari3_Track'].End();
+300;
+Repeater['K10_3L_Track'].End();
+Repeater['K10_4L_Track'].End();
+Repeater['K10_4R_Track'].End();
 
-400;
-	Track['WestMain'].X.Interpolate(5,0);
-	Repeater['K10_watari3_Track'].Begin0('WestMain', 3, 1.25, 1.25, 'Track');
+# // 西行本線→1番線
+# $WatariK10 - 40;
+# 	Track['K10_watari1'].X.Interpolate(0,288);
+# 	Repeater['K10_watari1_Track'].Begin0('K10_watari1', 3, 1.25, 1.25, 'Track');
+# $WatariK10;
+# 	Track['K10_watari1'].X.Interpolate(2.5,-288);
+# $WatariK10 + 40;
+# 	Track['K10_watari1'].X.Interpolate(5,0);
+# 	Repeater['K10_watari1_Track'].End();
+
+# // 2番線→東行本線
+# 0;
+# 	Track['K10_watari2'].X.Interpolate(10.7,0);
+# 	Repeater['K10_watari2_Track'].Begin0('K10_watari2', 3, 1.25, 1.25, 'Track');
+# $WatariK10 - 90;
+# 	Track['K10_watari2'].X.Interpolate(10.7,-500);
+# $WatariK10 - 30;
+# 	Track['K10_watari2'].X.Interpolate(6.25,0);
+# $WatariK10;
+# 	Track['K10_watari2'].X.Interpolate(2.5,288);
+# $WatariK10 + 40;
+# 	Track['K10_watari2'].X.Interpolate(0,0);
+# 400;
+# 	Repeater['K10_watari2_Track'].End();
+
+# // 西行本線→2番線
+# $WatariK10 - 36;
+# 	Track['K10_watari3'].X.Interpolate(7,288);
+# 	Repeater['K10_watari3_Track'].Begin0('K10_watari3', 3, 1.25, 1.25, 'Track');
+# $WatariK10 - 0;
+# 	Track['K10_watari3'].X.Interpolate(5,0);
+# 400;
+# 	Repeater['K10_watari3_Track'].End();
+
+# 400;
+# 	Track['WestMain'].X.Interpolate(5,0);
+# 	Repeater['K10_watari3_Track'].Begin0('WestMain', 3, 1.25, 1.25, 'Track');
 
   0.000;	
 	Repeater['K10_1_駅部_連続'].Begin0(0, 1, 5, 5, '駅部_連続');
 	Repeater['K10_1_駅部_6m'].Begin0(0, 1, 6, 6, '駅部_6m');
-	Repeater['K10_2_駅部_連続'].Begin('K10_watari2', 0, 0, -5, 0, 180, 0, 1, 5, 5, '駅部_連続');
-	Repeater['K10_2_駅部_6m'].Begin('K10_watari2', 0, 0, -5, 0, 180, 0, 1, 6, 6, '駅部_6m');
+	Repeater['K10_2_駅部_連続'].Begin('K10_4L', 0, 0, -5, 0, 180, 0, 1, 5, 5, '駅部_連続');
+	Repeater['K10_2_駅部_6m'].Begin('K10_4L', 0, 0, -5, 0, 180, 0, 1, 6, 6, '駅部_6m');
  30.000;	// ホーム始端
 	Repeater['K10_Wall_1'].Begin0(0, 1, 16, 16, 'K10_Wall');
 	Repeater['K10_Wall_2'].Begin(0, 11.7, 0, 0, 0, 180, 0, 1, 16, 16, 'K10_Wall');
@@ -61,8 +76,8 @@ $WatariK10 - 0;
 $WatariK10 - 36;
 	Repeater['K10_2_駅部_連続'].End();
 	Repeater['K10_2_駅部_6m'].End();
-	Repeater['K10_2_駅部_連続'].Begin('K10_watari3', 0, 0, -5, 0, 180, 0, 1, 5, 5, '駅部_連続');
-	Repeater['K10_2_駅部_6m'].Begin('K10_watari3', 0, 0, -5, 0, 180, 0, 1, 6, 6, '駅部_6m');
+	Repeater['K10_2_駅部_連続'].Begin('K10_4L', 0, 0, -5, 0, 180, 0, 1, 5, 5, '駅部_連続');
+	Repeater['K10_2_駅部_6m'].Begin('K10_4L', 0, 0, -5, 0, 180, 0, 1, 6, 6, '駅部_6m');
 250.000;
 	Repeater['K10_1_駅部_連続'].End();
 	Repeater['K10_1_駅部_6m'].End();

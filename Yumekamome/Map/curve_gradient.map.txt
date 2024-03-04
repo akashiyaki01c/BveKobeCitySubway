@@ -73,18 +73,25 @@ BveTs Map 2.02:UTF-8
 # 距離程	駅	曲線	勾配
 
  80.000;	// 新長田停車場 中心
+
+# 新長田西行線
+# 101.166;		Curve.BeginTransition();
+# 117.166;		Curve.Begin(-500, 0.012);
+# 151.004;		Curve.BeginTransition();
+# 166.933;		Curve.End();
+
 300.261;		Curve.BeginTransition();
 315.250;		Curve.Begin(1504.45, 0.023);
 400.778;		Curve.BeginTransition();
-415/767;		Curve.End();
+415.767;		Curve.End();
 
 473.273;		Curve.BeginTransition();
-488.284;		Curve.Begin(-1500, 0.027);
+488.284;		Curve.Begin(-1500, -0.027);
 518.380;		Curve.BeginTransition();
 533.391;		Curve.End();
 
 553.524;		Curve.BeginTransition();
-575.523;		Curve.Begin(-1000, 0.025);
+575.523;		Curve.Begin(-1000, -0.025);
 598.598;		Curve.BeginTransition();
 620.579;		Curve.End();
 
@@ -96,7 +103,7 @@ BveTs Map 2.02:UTF-8
 700.000;	// 駒ヶ林停留場 中心
 
 749.646;		Curve.BeginTransition();
-815.618;	Curve.Begin(-100, 0.155);
+815.618;	Curve.Begin(-100, -0.155);
 903.035;	Curve.BeginTransition();
 968.950;	Curve.End();
 
@@ -106,170 +113,158 @@ BveTs Map 2.02:UTF-8
 1421.286;		Curve.End();
 
 1480.000;	// 苅藻停留場 中心
-1586.322 - 0.138 * 600;		Curve.BeginTransition();
-1586.322;		Curve.Begin(400, 0.138);
+1531.673;		Curve.BeginTransition();
+1586.322;		Curve.Begin(400, 0.079);
 1685.922;		Curve.BeginTransition();
-1685.922 + 0.138 * 600;		Curve.End();
+1740.573;		Curve.End();
 
-1880.839 - 0.028 * 600;		Curve.BeginTransition();
-1880.839;		Curve.Begin(2000, 0.028);
+1869.839;		Curve.BeginTransition();
+1880.839;		Curve.Begin(2000, 0.025);
 1898.927;		Curve.BeginTransition();
-1898.927 + 0.028 * 600;		Curve.End();
+1909.926;		Curve.End();
 
-1949.590 - 0.028 * 600;		Curve.BeginTransition();
-1949.590;		Curve.Begin(-2000, -0.028);
+1936.591;		Curve.BeginTransition();
+1949.590;		Curve.Begin(-2000, -0.025);
 1967.679;		Curve.BeginTransition();
-// 1967.679 + 0.028 * 600;		Curve.End();
+1978.715;		Curve.End();
 
-2007.804;	Curve.End();	Curve.BeginTransition();
-
-// 2047.929 - 0.180 * 600;		Curve.BeginTransition();
-// 2047.929;		Curve.Begin(-300, -0.180);
-2047.929;		Curve.Begin(-300);
+1995.258;		Curve.BeginTransition();
+2047.929;		Curve.Begin(-300, -0.142);
 2078.571;		Curve.BeginTransition();
-2078.571 + 0.180 * 600;		Curve.End();
+2130.739;		Curve.End();
 
 2290.000;	// 御崎公園停車場 中心
-2292.721 - 0.092 * 600;		Curve.BeginTransition();
-2292.721;		Curve.Begin(600, 0.092);
+2267.722;		Curve.BeginTransition();
+2292.721;		Curve.Begin(600, 0.027);
 2374.575;		Curve.BeginTransition();
-2374.575 + 0.092 * 600;		Curve.End();
+2398.300;		Curve.End();
 
-2684.395 - 0.058 * 600;		Curve.BeginTransition();
-2684.395;		Curve.Begin(-700, -0.058);
+2624.224;		Curve.BeginTransition();
+2684.395;		Curve.Begin(-700, -0.073);
 2705.871;		Curve.BeginTransition();
-2705.871 + 0.058 * 600;		Curve.End();
+2766.106;		Curve.End();
 
-2878.965 - 0.090 * 600;		Curve.BeginTransition();
-2878.965;		Curve.Begin(-450, -0.090);
+2829.570;		Curve.BeginTransition();
+2878.965;		Curve.Begin(-450, -0.108);
 2911.413;		Curve.BeginTransition();
-2911.413 + 0.090 * 600;		Curve.End();
+2960.447;		Curve.End();
 
-3091.219 - 0.114 * 600;		Curve.BeginTransition();
-3091.219;		Curve.Begin(-200, -0.114);
+3026.938;		Curve.BeginTransition();
+3091.219;		Curve.Begin(-200, -0.160);
 3138.207;		Curve.BeginTransition();
-3138.207 + 0.114 * 600;		Curve.End();
+3203.173;		Curve.End();
 
 3380.000;	// 和田岬停留場 中心
 
-3521.158 - 0.180 * 600;		Curve.BeginTransition();
-3521.158;		Curve.Begin(-120, -0.180);
+3455.557;		Curve.BeginTransition();
+3521.158;		Curve.Begin(-120, -0.160);
 3584.333;		Curve.BeginTransition();
-3584.333 + 0.180 * 600;		Curve.End();
+3649.890;		Curve.End();
 
-3802.391 - 0.069 * 600;		Curve.BeginTransition();
-3802.391;		Curve.Begin(800, 0.069);
+3774.418;		Curve.BeginTransition();
+3802.391;		Curve.Begin(800, 0.056);
 4097.960;		Curve.BeginTransition();
-4097.960 + 0.069 * 600;		Curve.End();
+4125.066;		Curve.End();
 
 4320.000;	// 中央市場前停留場 中心
 
-4774.804 - 0.069 * 600;		Curve.BeginTransition();
-4774.804;		Curve.Begin(800, 0.069);
+4746.907;		Curve.BeginTransition();
+4774.804;		Curve.Begin(800, 0.063);
 4910.763;		Curve.BeginTransition();
-4910.763 + 0.069 * 600;		Curve.End();
+4938.722;		Curve.End();
 
-5000.998 - 0.018 * 600;		Curve.BeginTransition();
-5000.998;		Curve.Begin(3000, 0.018);
+4993.998;		Curve.BeginTransition();
+5000.998;		Curve.Begin(3000, 0.017);
 5016.998;		Curve.BeginTransition();
-5016.998 + 0.018 * 600;		Curve.End();
+5023.998;		Curve.End();
 
-5104.803 - 0.028 * 600;		Curve.BeginTransition();
-5104.803;		Curve.Begin(2000, 0.028);
+5093.616;		Curve.BeginTransition();
+5104.803;		Curve.Begin(2000, 0.025);
 5215.595 ;		Curve.BeginTransition();
-5215.595 + 0.028 * 600;		Curve.End();
+5226.582;		Curve.End();
 
-5476.272 - 0.055 * 600;		Curve.BeginTransition();
-5476.272;		Curve.Begin(-1000, 0.055);
+5454.194;		Curve.BeginTransition();
+5476.272;		Curve.Begin(-1000, -0.045);
 5551.744 ;		Curve.BeginTransition();
-5551.744 + 0.055 * 600;		Curve.End();
+5573.744;		Curve.End();
 
-5624.435 - 0.055 * 600;		Curve.BeginTransition();
-5624.435;		Curve.Begin(1000, 0.055);
+5602.470;		Curve.BeginTransition();
+5624.435;		Curve.Begin(1000, 0.015);
 5702.132;		Curve.BeginTransition();
-5702.132 + 0.055 * 600;		Curve.End();
+5724.132;		Curve.End();
 
 5710.000;	// ハーバーランド停留場 中心
 
-5802.120 - 0.022 * 600;		Curve.BeginTransition();
-5802.120;		Curve.Begin(2500, 0.022);
+5802.120;		Curve.BeginTransition();
+5802.120;		Curve.Begin(2500, 0.010);
 5824.547;		Curve.BeginTransition();
-// 5824.547 + 0.022 * 600;		Curve.End();
+5833.547;		Curve.End();
 
-5847.0465;	Curve.End();	Curve.BeginTransition();
-
-// 5869.546 - 0.055 * 600;		Curve.BeginTransition();
-5869.546;		Curve.Begin(-1000, -0.055);
+5849.547;		Curve.BeginTransition();
+5869.546;		Curve.Begin(-1000, -0.035);
 5919.982;		Curve.BeginTransition();
-// 5919.982 + 0.055 * 600;		Curve.End();
+5939.952;		Curve.End();
 
-5957.3645;	Curve.End();	Curve.BeginTransition();
-
-// 5994.747 - 0.180 * 600;		Curve.BeginTransition();
-5994.747;		Curve.Begin(300, 0.180);
+5939.952;		Curve.BeginTransition();
+5994.747;		Curve.Begin(300, 0.119);
 6031.981;		Curve.BeginTransition();
-6031.981 + 0.180 * 600;		Curve.End();
+6086.316;		Curve.End();
 
-6161.680 - 0.014 * 600;		Curve.BeginTransition();
-6161.680;		Curve.Begin(4000, 0.014);
+6155.681;		Curve.BeginTransition();
+6161.680;		Curve.Begin(4000, 0.010);
 6177.687;		Curve.BeginTransition();
-6177.687 + 0.014 * 600;		Curve.End();
+6183.587;		Curve.End();
 
-6221.720 - 0.055 * 600;		Curve.BeginTransition();
-6221.720;		Curve.Begin(-1000, -0.055);
+6199.585;		Curve.BeginTransition();
+6221.720;		Curve.Begin(-1000, -0.046);
 6253.101;		Curve.BeginTransition();
-6253.101 + 0.055 * 600;		Curve.End();
+6275.211;		Curve.End();
 
-6418.492 - 0.111 * 600;		Curve.BeginTransition();
-6418.492;		Curve.Begin(500, 0.111);
+6374.554;		Curve.BeginTransition();
+6418.492;		Curve.Begin(500, 0.102);
 6458.573;		Curve.BeginTransition();
-// 6458.573 + 0.111 * 600;		Curve.End();
+6502.332;		Curve.End();
 
-6525.3725;	Curve.End();	Curve.BeginTransition();
-
-// 6592.172 - 0.158 * 600;		Curve.BeginTransition();
-6592.172;		Curve.Begin(350, 0.158);
+6534.531;		Curve.BeginTransition();
+6592.172;		Curve.Begin(350, 0.060);
 6621.964;		Curve.BeginTransition();
-// 6621.964 + 0.158 * 600;		Curve.End();
+6679.670;		Curve.End();
 
 6700.000;	// みなと元町停留場 中心
 
-6707.987;	Curve.End();	Curve.BeginTransition();
-
-// 6794.010 - 0.136 * 600;		Curve.BeginTransition();
-6794.010;		Curve.Begin(300, 0.136);
+6730.435;		Curve.BeginTransition();
+6794.010;		Curve.Begin(300, 0.077);
 6813.181;		Curve.BeginTransition();
-6813.181 + 0.136 * 600;		Curve.End();
+6876.722;		Curve.End();
 
-7197.025 - 0.177 * 600;		Curve.BeginTransition();
-7197.025;		Curve.Begin(-160, -0.177);
+7131.913;		Curve.BeginTransition();
+7197.025;		Curve.Begin(-160, -0.155);
 7261.463;		Curve.BeginTransition();
-// 7261.463 + 0.136 * 600;		Curve.End();
+7326.576;		Curve.End();
 
-7331.459;	Curve.End();	Curve.BeginTransition();
-
-// 7401.455 - 0.180 * 600;		Curve.BeginTransition();
-7401.455;		Curve.Begin(100, 0.180);
+7359.397;		Curve.BeginTransition();
+7401.455;		Curve.Begin(100, 0.143);
 7416.853;		Curve.BeginTransition();
-7416.853 + 0.090 * 600;		Curve.End();
+7458.911;		Curve.End();
 
 7500.000;	// 旧居留地・大丸前停留場 中心
-7563.135 - 0.041 * 600;		Curve.BeginTransition();
-7563.135;		Curve.Begin(1000, 0.041);
-7686.505;		Curve.BeginTransition();
-7686.505 + 0.041 * 600;		Curve.End();
 
-7887.713 - 0.041 * 600;		Curve.BeginTransition();
-7887.713;		Curve.Begin(-1000, -0.041);
+7541.135;		Curve.BeginTransition();
+7563.135;		Curve.Begin(1000, 0.025);
+7686.505;		Curve.BeginTransition();
+7708.505;		Curve.End();
+
+7865.713;		Curve.BeginTransition();
+7887.713;		Curve.Begin(-1000, -0.012);
 7919.660;		Curve.BeginTransition();
-7919.660 + 0.041 * 600;		Curve.End();
+7941.632;		Curve.End();
 
 8000.000;	// 三宮・花時計前停車場 中心
 
-8032.694 - 0.003 * 600;		Curve.BeginTransition();
-8032.694;		Curve.Begin(6500, 0.003);
+8016.694;		Curve.BeginTransition();
+8032.694;		Curve.Begin(6500, 0.013);
 8049.742;		Curve.BeginTransition();
-8049.742 + 0.003 * 600;		Curve.End();
+8065.724;		Curve.End();
 
 815.618;		SpeedLimit.Begin(40);
 903.035;		SpeedLimit.End();
