@@ -1,0 +1,22 @@
+BveTs Map 2.02:UTF-8
+
+// 新長田
+
+62.8 +   79;	Sound['NextK09'].Play(); // 次駅 駒ヶ林
+62.8 +  383;	Sound['SoonK09'].Play(); // 到着 駒ヶ林
+62.8 +  723;	Sound['NextK08'].Play(); // 次駅 苅藻
+62.8 + 1348;	Sound['SoonK08'].Play(); // 到着 苅藻
+62.8 + 1526;	Sound['NextK07'].Play(); // 次駅 御崎公園
+62.8 + 2064;	Sound['SoonK07'].Play(); // 到着 御崎公園
+62.8 + 2310;	Sound['NextK06'].Play(); // 次駅 和田岬
+62.8 + 3253;	Sound['SoonK06'].Play(); // 到着 和田岬
+62.8 + 3425;	Sound['NextK05'].Play(); // 次駅 中央市場前
+62.8 + 4178;	Sound['SoonK05'].Play(); // 到着 中央市場前
+62.8 + 4363;	Sound['NextK04'].Play(); // 次駅 ハーバーランド
+62.8 + 5500;	Sound['SoonK04'].Play(); // 到着 ハーバーランド
+62.8 + 5758;	Sound['NextK03'].Play(); // 次駅 みなと元町
+62.8 + 6551;	Sound['SoonK03'].Play(); // 到着 みなと元町
+62.8 + 6729;	Sound['NextK02'].Play(); // 次駅 旧居留地・大丸前
+62.8 + 7340;	Sound['SoonK02'].Play(); // 到着 旧居留地・大丸前
+62.8 + 7510;	Sound['NextK01_LastStop'].Play(); // 次駅 三宮・花時計前
+62.8 + 7759;	Sound['SoonK01_LastStop'].Play(); // 到着 三宮・花時計前

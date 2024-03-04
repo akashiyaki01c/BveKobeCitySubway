@@ -27,7 +27,7 @@ ReferenceDeceleration = 5
 CurrentDecrease = 0
 CurrentIncrease = 0
 
-[Ecb]
+[Smee]
 MaximumPressure = 440000
 SapBcRatio = 0.94
 SapBcOffset = 30000
@@ -39,9 +39,15 @@ InitialPressure = 40000
 MaximumPressure = 440000
 ShoeFriction = 0.18
 
+[Bp]
+ApplySpeed = 2000
+ReleaseSpeed = 2000
+VolumeRatio = 20
+RapidReleaseSpeed = 1000
+
 [Bc]
-ApplySpeed = 500
-ReleaseSpeed = 500
+ApplySpeed = 2000
+ReleaseSpeed = 2000
 VolumeRatio = 20
 ApplyStart = 20000
 ApplyStop = 0

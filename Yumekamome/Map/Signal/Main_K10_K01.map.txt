@@ -10,31 +10,105 @@ Section.SetSpeedLimit(0, 0, 15, 25, 30, 40, 45, 50, 60, 65, 70);
 112.500;	Section.Begin(0, 1, 5);
 
 // 新長田→駒ヶ林 第3閉塞
-450.000;	Section.Begin(0, 1, 8);
+450.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 8); Beacon.Put(1,1,0);
 // 新長田→駒ヶ林 第2閉塞
-565.000;	Section.Begin(0, 1, 5);
+565.000 + rand(10) - 5;	Section.Begin(0, 1, 5); Beacon.Put(1,1,0);
 // 新長田→駒ヶ林 第1閉塞
-635.000;	Section.Begin(0, 1, 5);
+635.000 + rand(10) - 5;	Section.Begin(0, 1, 5); Beacon.Put(1,1,0);
 
 // 駒ヶ林→苅藻 第4閉塞
-815.000;	Section.Begin(0, 1, 5);
+815.000 + rand(10) - 5;	Section.Begin(0, 1, 5); Beacon.Put(1,1,0);
 // 駒ヶ林→苅藻 第3閉塞
-950.000;	Section.Begin(0, 1, 10);
+950.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
 // 駒ヶ林→苅藻 第2閉塞
-1150.000;	Section.Begin(0, 1, 10);
+1150.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
 // 駒ヶ林→苅藻 第1閉塞
-1350.000;	Section.Begin(0, 1, 10);
+1350.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
 
 // 苅藻→御崎公園 第3閉塞
-1555.000;	Section.Begin(0, 1, 10);
+1555.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
 // 苅藻→御崎公園 第2閉塞
-1700.000;	Section.Begin(0, 1, 10);
+1700.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
 // 苅藻→御崎公園 第1閉塞
-1850.000;	Section.Begin(0, 1, 10);
+1850.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
 
 // 御崎公園場内 1R/2R
-;	Section.Begin(0, 1, 10);
+2150.000;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
 // 御崎公園 1AT
-;	Section.Begin(0, 1, 8);
+2170.000;	Section.Begin(0, 1, 6, 8); Beacon.Put(1,1,0);
 // 御崎公園出発 5R
-;	Section.Begin(0, 1, 8);
+2350.000;	Section.Begin(0, 1, 6, 8); Beacon.Put(1,1,0);
+// 御崎公園 ??
+2520.000;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+
+// 御崎公園→和田岬 第4閉塞
+2650.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// 御崎公園→和田岬 第3閉塞
+2850.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 8); Beacon.Put(1,1,0);
+// 御崎公園→和田岬 第2閉塞
+3100.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 8); Beacon.Put(1,1,0);
+// 御崎公園→和田岬 第1閉塞
+3300.000 + rand(10) - 5;	Section.Begin(0, 1, 6); Beacon.Put(1,1,0);
+
+// 和田岬→中央市場前 第6閉塞
+3520.000 + rand(10) - 5;	Section.Begin(0, 1, 6); Beacon.Put(1,1,0);
+// 和田岬→中央市場前 第5閉塞
+3600.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// 和田岬→中央市場前 第4閉塞
+3750.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// 和田岬→中央市場前 第3閉塞
+3875.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// 和田岬→中央市場前 第2閉塞
+4000.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// 和田岬→中央市場前 第1閉塞
+4250.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+
+// 中央市場前→ハーバーランド 第7閉塞
+4400.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// 中央市場前→ハーバーランド 第6閉塞
+4575.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// 中央市場前→ハーバーランド 第5閉塞
+4850.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// 中央市場前→ハーバーランド 第4閉塞
+5150.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// 中央市場前→ハーバーランド 第3閉塞
+5300.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// 中央市場前→ハーバーランド 第2閉塞
+5500.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// 中央市場前→ハーバーランド 第1閉塞
+5650.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+
+// ハーバーランド→みなと元町 第5閉塞
+5800.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// ハーバーランド→みなと元町 第4閉塞
+6000.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// ハーバーランド→みなと元町 第3閉塞
+6200.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// ハーバーランド→みなと元町 第2閉塞
+6400.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 10); Beacon.Put(1,1,0);
+// ハーバーランド→みなと元町 第1閉塞
+6600.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 8); Beacon.Put(1,1,0);
+
+// みなと元町→旧居留地・大丸前 第5閉塞
+6800.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 8); Beacon.Put(1,1,0);
+// みなと元町→旧居留地・大丸前 第4閉塞
+6950.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 7); Beacon.Put(1,1,0);
+// みなと元町→旧居留地・大丸前 第3閉塞
+7150.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 7); Beacon.Put(1,1,0);
+// みなと元町→旧居留地・大丸前 第2閉塞
+7250.000 + rand(10) - 5;	Section.Begin(0, 1, 5); Beacon.Put(1,1,0);
+// みなと元町→旧居留地・大丸前 第1閉塞
+7400.000 + rand(10) - 5;	Section.Begin(0, 1, 5); Beacon.Put(1,1,0);
+
+// 旧居留地・大丸前→三宮・花時計前 第1閉塞
+7600.000 + rand(10) - 5;	Section.Begin(0, 1, 6, 8); Beacon.Put(1,1,0);
+
+// 三宮・花時計前場内 1R/2R
+7780.000;	Section.Begin(0, 1, 5);
+// 三宮・花時計前場内 ?
+8000.000;	Section.Begin(0, 1, 3);
+// 三宮・花時計前場内 ?
+8030.000;	Section.Begin(0, 1, 2);
+
+// 車止め
+8090.000;	Section.Begin(0);

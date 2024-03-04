@@ -8,7 +8,7 @@ BveTs Vehicle Sound 3.01:UTF-8
 
 
 [Run]
-0 = ./Sound/Run/0.wav
+0 = ./Sound/Run/1.wav
 
 [Compressor]
 Attack = ./Sound/Compressor/Attack.wav
@@ -24,10 +24,11 @@ CloseRight = ./Sound/Door/CloseR.wav
 Noise = ./Sound/Noise.wav
 
 [Ats]
-0 = ./Sound/Ats/0.wav
+0 = ./Sound/Ats/1.wav
+1 = ./Sound/Ats/0.wav
 
 [Flange]
-0 = ./Sound/Flange/0.wav
+0 = ./Sound/Flange/1.wav
 
 [BrakeHandle]
 Apply = ./Sound/MasterController/Notch.wav
@@ -40,3 +41,11 @@ Up = ./Sound/MasterController/Notch.wav
 Down = ./Sound/MasterController/Notch.wav
 Min = ./Sound/MasterController/NotchMax.wav
 Max = ./Sound/MasterController/NotchMax.wav
+
+[Reverser]
+On = ./Sound/MasterController/Reverser.wav
+Off = ./Sound/MasterController/Reverser.wav
+
+[Brake]
+BcRelease = ./Sound/Brake/Release.wav
+BcReleaseFull = ./Sound/Brake/Release.wav
